@@ -1,4 +1,4 @@
-# NASA OSDR Dashboard JSON Generator
+# OSDR Filter Categories JSON Generator
 
 A Python script that regenerates the OSDR (Open Science Data Repository) filter-options JSON file by fetching all data in real-time from the OSDR API. **No input files required!**
 
@@ -13,6 +13,8 @@ This script:
 - ✅ Handles misspellings and capitalization differences
 - ✅ Generates verification and tracking reports
 - ✅ Validates that no original data is lost
+
+<br>
 
 ## Requirements
 
@@ -31,12 +33,20 @@ Or if you have permission issues:
 pip install requests --user
 ```
 
+<br>
+
 ## Usage
 
-### Simple - Just Run It!
+### Download the python script
 
 ```bash
-python3 osdr_generator.py
+curl -LO https://raw.githubusercontent.com/asaravia-butler/OSDR_Filter_Categorization/refs/heads/main/osdr_filter_options_generator.py
+```
+
+### Run the script
+
+```bash
+python3 osdr_filter_options_generator.py
 ```
 
 That's it! No arguments, no input files needed.
@@ -49,6 +59,8 @@ The script automatically:
 3. Processes and merges the data
 4. Generates output files in your current directory
 
+<br>
+
 ## Output Files
 
 After running, three files are created in your **current working directory**:
@@ -56,6 +68,10 @@ After running, three files are created in your **current working directory**:
 1. **filter-options-new.json** - Complete regenerated JSON with preserved + new values
 2. **additions-report.txt** - List of all new values added from API
 3. **unmapped-report.txt** - Items that need manual categorization
+
+Example output files are available in the [Example_Outputs](Example_Outputs) directory.
+
+<br>
 
 ## What the Script Does
 
@@ -71,6 +87,8 @@ After running, three files are created in your **current working directory**:
 5. **Creates** new Mission grouping with 10 categories
 6. **Verifies** no data loss
 7. **Generates** comprehensive reports
+
+<br>
 
 ## Data Sources
 
@@ -95,10 +113,12 @@ After running, three files are created in your **current working directory**:
 5. **Missions**  
    `https://visualization.osdr.nasa.gov/biodata/api/v2/query/assays/?investigation.study%20assays.study%20assay%20technology%20type=//&investigation.study.comment.Project%20Identifier=//&format=json.split`
 
+<br>
+
 ## Example Output
 
 ```bash
-$ python3 osdr_generator.py
+$ python3 osdr_filter_options_generator.py
 ================================================================================
 NASA OSDR Dashboard JSON Generator (Real-time API)
 ================================================================================
@@ -162,6 +182,8 @@ Saving outputs
 ================================================================================
 ```
 
+<br>
+
 ## Mission Categories
 
 The script creates these 10 mission categories:
@@ -178,6 +200,8 @@ The script creates these 10 mission categories:
 | **Simulated Conditions** | Contains simulation-related terms |
 | **Commercial Spaceflight** | Contains "inspiration4", "axiom", "ax-", "spacex" |
 | **Other Missions** | Doesn't match any above criteria |
+
+<br>
 
 ## Error Handling
 
@@ -199,10 +223,14 @@ The script creates these 10 mission categories:
 ```
 **Solution:** This indicates a bug - contact the developer
 
+<br>
+
 ## Exit Codes
 
 - **0**: Success - all original values preserved and new values added
 - **1**: Error - download failed, API connection failed, missing values, etc.
+
+<br>
 
 ## Network Requirements
 
@@ -212,6 +240,8 @@ Requires internet access to:
 
 If you're behind a firewall or proxy, ensure these domains are accessible.
 
+<br>
+
 ## Automation & Scheduling
 
 Since the script requires no input files, it's perfect for automation:
@@ -219,13 +249,13 @@ Since the script requires no input files, it's perfect for automation:
 ### Cron Job (Linux/Mac)
 ```bash
 # Run daily at 2 AM
-0 2 * * * cd /path/to/output/dir && python3 /path/to/osdr_generator.py
+0 2 * * * cd /path/to/output/dir && python3 /path/to/osdr_filter_options_generator.py
 ```
 
 ### Task Scheduler (Windows)
 Create a scheduled task that runs:
 ```
-python3 C:\path\to\osdr_generator.py
+python3 C:\path\to\osdr_filter_options_generator.py
 ```
 
 ### GitHub Actions
@@ -246,7 +276,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
       - name: Run generator
-        run: python3 osdr_generator.py
+        run: python3 osdr_filter_options_generator.py
       - name: Commit results
         run: |
           git config --local user.email "action@github.com"
@@ -256,6 +286,8 @@ jobs:
           git push
 ```
 
+<br>
+
 ## Notes
 
 - **No setup required** - Just install `requests` and run
@@ -264,6 +296,8 @@ jobs:
 - **API calls take 30-60 seconds** depending on network speed
 - **Category names preserved** from original OSDR filter-options
 - **Always uses latest data** from OSDR
+
+<br>
 
 ## Troubleshooting
 
@@ -277,8 +311,10 @@ Check internet connection and ensure you can access `https://osdr.nasa.gov` and 
 Outputs are always in your current working directory (`pwd`). Change directory before running:
 ```bash
 cd /desired/output/directory
-python3 /path/to/osdr_generator.py
+python3 /path/to/osdr_filter_options_generator.py
 ```
+
+<br>
 
 ## Advantages
 
@@ -288,9 +324,11 @@ python3 /path/to/osdr_generator.py
 ✅ **Perfect for automation** - No manual steps required  
 ✅ **Self-contained** - Everything fetched automatically  
 
+<br>
+
 ## Version
 
-**Version:** 3.0 (Standalone with Auto-download)  
+**Version:** 1.0  
 **Last Updated:** January 2026  
 **API Documentation:** https://visualization.osdr.nasa.gov/biodata/api/  
 **Filter Options:** https://osdr.nasa.gov/geode-py/ws/repo/filter-options
