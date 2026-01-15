@@ -1,0 +1,770 @@
+ADDITIONS REPORT
+================================================================================
+
+Total new values added: 261
+================================================================================
+
+
+Assay technology type:
+--------------------------------------------------------------------------------
+
+  Behavior:
+    + Elevated Plus Maze
+    + Novel Object Recognition
+
+  Behavior (Gait):
+    + Gait
+
+  Behavior (Locomotion):
+    + Locomotory Behavior
+
+  ChIP-Seq:
+    + ChIP-seq
+
+  Light/Fluorescence Microscopy:
+    + Immunohistochemistry
+    + Immunostaining
+    + Microscopy
+
+  Mechanical Testing:
+    + Bone biomechanical measurement
+
+  Micro-Computed Tomography:
+    + Micro-Computed Tomography
+
+  Morphometric Photography:
+    + Image analysis
+
+  RNA Sequencing (RNA-Seq):
+    + RNA Sequencing (RNA-Seq)
+
+  Real Time PCR:
+    + real time PCR
+
+  Single-Cell RNA Sequencing:
+    + single-cell RNA Sequencing
+    + single-cell RNA sequencing
+
+  Ultrasonography:
+    + Ultrasonography
+
+  bisulfite sequencing:
+    + Bisulfite sequencing
+
+  histomorphometry:
+    + Histomorphometry
+
+  microarray:
+    + DNA Microarray
+    + DNA microarray
+
+  nucleotide sequencing:
+    + Nucleotide Sequencing
+
+  peripheral quantitative computed tomography:
+    + Peripheral Quantitative Computed Tomography
+
+  spectrofluorimetric assay:
+    + Spectrofluorimetric Assay
+
+  tonometry:
+    + Tonometry
+
+  western blot:
+    + Western Blot
+
+  whole genome shotgun sequencing:
+    + Whole-Genome Shotgun Sequencing
+
+Material type:
+--------------------------------------------------------------------------------
+
+  3D Co-Culture:
+    + 3D co-culture
+
+  Adrenal Glands - Both Sides:
+    + Adrenal glands- both sides
+
+  Extensor Digitorum Longus - Both Sides:
+    + Extensor Digitorum Longus
+    + Extensor digitorum longus
+    + Extensor digitorum longus- both sides
+
+  Vegetative Cell (Sensu Fungi):
+    + vegetative cell (sensu Fungi)
+
+  adrenal gland:
+    + Adrenal gland
+
+  bacteria:
+    + Bacteria
+
+  blood:
+    + Blood
+
+  blood|Human Peripheral Blood Lymphocytes (PBL):
+    + Human Peripheral blood lymphocytes (PBL)
+
+  blood|blood plasma:
+    + Plasma
+
+  blood|peripheral blood mononuclear cell:
+    + Peripheral Blood Mononuclear Cell
+
+  blood|whole blood:
+    + Whole Blood
+    + Whole blood
+
+  bone marrow:
+    + Bone Marrow
+
+  bone marrow of humerus:
+    + Bone marrow of humerus
+
+  brain:
+    + Brain
+
+  brain|cerebellum:
+    + Cerebellum
+
+  brain|cerebrum:
+    + Cerebrum
+
+  brain|hippocampus:
+    + Hippocampus
+
+  callus:
+    + Callus
+
+  cells:
+    + Cells
+
+  cortical bone:
+    + Cortical Bone
+
+  cotyledon:
+    + Cotyledon
+
+  dust:
+    + Dust
+
+  exhaled breath condensate:
+    + Exhaled Breath Condensate
+
+  eye:
+    + Eye
+
+  feces:
+    + Feces
+
+  femur:
+    + Femur
+
+  femur|bone marrow of femur:
+    + Bone marrow of femur
+
+  femur|right femur:
+    + Right Femur
+    + Right femur
+
+  hair follicle:
+    + Hair follicle
+
+  head:
+    + Head
+
+  heart:
+    + Heart
+
+  hypocotyl:
+    + Hypocotyl
+
+  intestines:
+    + Intestines
+
+  kidney:
+    + Kidney
+
+  kidney|left kidney:
+    + Left kidney
+
+  light organ:
+    + Light Organ
+    + Light organ
+
+  liver:
+    + Liver
+
+  liver|liver left lateral lobe:
+    + Left Lobe of the Liver
+    + Left lobe of liver
+
+  lung:
+    + Lung
+
+  lung|left lung:
+    + Left Lung
+
+  lymphoma:
+    + Lymphoma
+
+  mandible:
+    + Mandible
+
+  medial collateral ligament:
+    + Medial collateral ligament
+
+  muscle|gastrocnemius:
+    + Gastrocnemius
+
+  muscle|quadriceps muscle:
+    + Quadriceps Muscle
+    + Quadriceps femoris
+
+  muscle|soleus:
+    + Soleus
+    + Soleus-both sides
+
+  muscle|vastus lateralis:
+    + Vastus Lateralis
+    + Vastus lateralis
+
+  mycelia:
+    + Mycelium
+
+  ovary:
+    + Ovary
+
+  pharyngeal:
+    + Pharyngeal
+
+  retina:
+    + Retina
+
+  retina|left retina:
+    + Left retina
+
+  retina|right retina:
+    + Right retina
+
+  root|plant roots:
+    + Plant Roots
+
+  saliva:
+    + Saliva
+
+  seedlings:
+    + Seedlings
+
+  seeds:
+    + Seeds
+
+  serum:
+    + Serum
+
+  skin:
+    + Skin
+
+  soil:
+    + Soil
+
+  spleen:
+    + Spleen
+
+  spleen|spleen-distal:
+    + Spleen-distal
+
+  spores:
+    + Spores
+
+  swab:
+    + Swab
+
+  temporal bone:
+    + Temporal Bone
+
+  testis:
+    + Testis
+
+  thymus:
+    + Thymus
+
+  tumor|4T1 Tumor:
+    + 4T1 tumor
+
+  tumor|trp53 null mammary tumor:
+    + Trp53 null Mammary Tumor
+
+  whole organism:
+    + Whole Organism
+
+  wipes:
+    + Wipes
+
+Organism:
+--------------------------------------------------------------------------------
+
+  Human (Homo sapiens):
+    + Homo sapiens
+
+  algae|Chlamydomonas reinhardtii:
+    + Chlamydomonas reinhardtii
+
+  algae|Euglena gracilis:
+    + Euglena gracilis
+
+  algae|Pseudopyrenochaeta terrestris:
+    + Pseudopyrenochaeta terrestris
+
+  bacteria|Acinetobacter pittii:
+    + Acinetobacter pittii
+
+  bacteria|Acinetobacter radioresistens:
+    + Acinetobacter radioresistens
+
+  bacteria|Alkalihalobacillus clausii:
+    + Alkalihalobacillus clausii
+
+  bacteria|Alkalihalobacillus gibsonii:
+    + Alkalihalobacillus gibsonii
+
+  bacteria|Aranicola proteolyticus:
+    + Aranicola proteolyticus
+
+  bacteria|Bacillus:
+    + Bacillus
+
+  bacteria|Bacillus altitudinis:
+    + Bacillus altitudinis
+
+  bacteria|Bacillus amyloliquefaciens:
+    + Bacillus amyloliquefaciens
+
+  bacteria|Bacillus atrophaeus:
+    + Bacillus atrophaeus
+
+  bacteria|Bacillus cereus thuringiensis:
+    + Bacillus cereus thuringiensis
+
+  bacteria|Bacillus firmus:
+    + Bacillus firmus
+
+  bacteria|Bacillus glycinifermentans:
+    + Bacillus glycinifermentans
+
+  bacteria|Bacillus haynesii:
+    + Bacillus haynesii
+
+  bacteria|Bacillus horneckiae:
+    + Bacillus horneckiae
+
+  bacteria|Bacillus licheniformis:
+    + Bacillus licheniformis
+
+  bacteria|Bacillus nealsonii:
+    + Bacillus nealsonii
+
+  bacteria|Bacillus paralicheniformis:
+    + Bacillus paralicheniformis
+
+  bacteria|Bacillus pumilus:
+    + Bacillus pumilus
+
+  bacteria|Bacillus safensis:
+    + Bacillus safensis
+
+  bacteria|Bacillus subtilis:
+    + Bacillus subtilis
+
+  bacteria|Brevibacillus parabrevis:
+    + Brevibacillus parabrevis
+
+  bacteria|Brevibacterium luteolum:
+    + Brevibacterium luteolum
+
+  bacteria|Burkholderia cepacia:
+    + Burkholderia cepacia
+
+  bacteria|Burkholderia contaminans:
+    + Burkholderia contaminans
+
+  bacteria|Cytobacillus oceanisediminis:
+    + Cytobacillus oceanisediminis
+
+  bacteria|Enterobacter:
+    + Enterobacter
+
+  bacteria|Enterobacter bugandensis:
+    + Enterobacter bugandensis
+
+  bacteria|Enterobacteria phage lambda:
+    + Enterobacteria phage lambda
+
+  bacteria|Escherichia coli:
+    + Escherichia coli
+
+  bacteria|Kalamiella piersonii:
+    + Kalamiella piersonii
+
+  bacteria|Klebsiella:
+    + Klebsiella
+
+  bacteria|Klebsiella quasipneumoniae:
+    + Klebsiella quasipneumoniae
+
+  bacteria|Klebsiella quasipneumoniae subsp. similipneumoniae:
+    + Klebsiella quasipneumoniae subsp. similipneumoniae
+
+  bacteria|Kocuria indica:
+    + Kocuria indica
+
+  bacteria|Kocuria palustris:
+    + Kocuria palustris
+
+  bacteria|Lactobacillus acidophilus:
+    + Lactobacillus acidophilus
+
+  bacteria|Methylobacterium organophilum:
+    + Methylobacterium organophilum
+
+  bacteria|Methylobacterium sp.:
+    + Methylobacterium sp.
+
+  bacteria|Methylorubrum rhodesianum:
+    + Methylorubrum rhodesianum
+
+  bacteria|Micrococcus luteus:
+    + Micrococcus luteus
+
+  bacteria|Mycobacterium marinum:
+    + Mycobacterium marinum
+
+  bacteria|Oceanobacillus caeni:
+    + Oceanobacillus caeni
+
+  bacteria|Paenibacillus polymyxa:
+    + Paenibacillus polymyxa
+
+  bacteria|Pantoea agglomerans:
+    + Pantoea agglomerans
+
+  bacteria|Pantoea brenneri:
+    + Pantoea brenneri
+
+  bacteria|Pantoea conspicua:
+    + Pantoea conspicua
+
+  bacteria|Priestia megaterium:
+    + Priestia megaterium
+
+  bacteria|Pseudoclavibacter alba:
+    + Pseudoclavibacter alba
+
+  bacteria|Pseudomonas aeruginosa:
+    + Pseudomonas aeruginosa
+
+  bacteria|Pseudomonas fulva:
+    + Pseudomonas fulva
+
+  bacteria|Pseudomonas granadensis:
+    + Pseudomonas granadensis
+
+  bacteria|Ralstonia insidiosa:
+    + Ralstonia insidiosa
+
+  bacteria|Ralstonia pickettii:
+    + Ralstonia pickettii
+
+  bacteria|Rhodospirillum rubrum:
+    + Rhodospirillum rubrum
+
+  bacteria|Rubinsicoccus jepli:
+    + Rubinsicoccus jepli
+
+  bacteria|Salmonella enterica:
+    + Salmonella enterica
+
+  bacteria|Salmonella enterica subsp. enterica serovar typhimurium:
+    + Salmonella enterica subsp. enterica serovar Typhimurium
+
+  bacteria|Solibacillus kalamii:
+    + Solibacillus kalamii
+
+  bacteria|Sphingobacterium paucimobilis:
+    + Sphingobacterium paucimobilis
+
+  bacteria|Sphingomonas sanguinis:
+    + Sphingomonas sanguinis
+
+  bacteria|Staphylococcus:
+    + Staphylococcus
+
+  bacteria|Staphylococcus aureus:
+    + Staphylococcus aureus
+
+  bacteria|Staphylococcus auricularis:
+    + Staphylococcus auricularis
+
+  bacteria|Staphylococcus capitis:
+    + Staphylococcus capitis
+
+  bacteria|Staphylococcus caprae:
+    + Staphylococcus caprae
+
+  bacteria|Staphylococcus epidermidis:
+    + Staphylococcus epidermidis
+
+  bacteria|Staphylococcus lugdunensis:
+    + Staphylococcus lugdunensis
+
+  bacteria|Staphylococcus saprophyticus:
+    + Staphylococcus saprophyticus
+
+  bacteria|Staphylococcus warneri:
+    + Staphylococcus warneri
+
+  bacteria|Streptococcus mutans:
+    + Streptococcus mutans
+
+  bacteria|Thermus amyloliquefaciens:
+    + Thermus amyloliquefaciens
+
+  bacteria|Virgibacillus pantothenticus:
+    + Virgibacillus pantothenticus
+
+  fish|Danio rerio:
+    + Danio rerio
+
+  fish|Oryzias latipes:
+    + Oryzias latipes
+
+  fruit fly|Drosophila melanogaster:
+    + Drosophila melanogaster
+
+  fungus|Acremonium citrinum:
+    + Acremonium citrinum
+
+  fungus|Alternaria angustiovoidea:
+    + Alternaria angustiovoidea
+
+  fungus|Aspergillus calidoustus:
+    + Aspergillus calidoustus
+
+  fungus|Aspergillus costaricaensis:
+    + Aspergillus costaricaensis
+
+  fungus|Aspergillus fumigatus:
+    + Aspergillus fumigatus
+
+  fungus|Aspergillus nidulans:
+    + Aspergillus nidulans
+
+  fungus|Aspergillus niger:
+    + Aspergillus niger
+
+  fungus|Aspergillus pseudoglaucus:
+    + Aspergillus pseudoglaucus
+
+  fungus|Aspergillus quadricinctus:
+    + Aspergillus quadricinctus
+
+  fungus|Aspergillus terreus:
+    + Aspergillus terreus
+
+  fungus|Aspergillus unguis:
+    + Aspergillus unguis
+
+  fungus|Aureobasidium lini:
+    + Aureobasidium lini
+
+  fungus|Aureobasidium melanogenum:
+    + Aureobasidium melanogenum
+
+  fungus|Aureobasidium pullulans:
+    + Aureobasidium pullulans
+
+  fungus|Barbatosphaeria neglecta:
+    + Barbatosphaeria neglecta
+
+  fungus|Beauveria bassiana:
+    + Beauveria bassiana
+
+  fungus|Botryosphaeria agaves:
+    + Botryosphaeria agaves
+
+  fungus|Candida albicans:
+    + Candida albicans
+
+  fungus|Cladosporium austrohemisphaericum:
+    + Cladosporium austrohemisphaericum
+
+  fungus|Cladosporium cladosporioides:
+    + Cladosporium cladosporioides
+
+  fungus|Cladosporium colombiae:
+    + Cladosporium colombiae
+
+  fungus|Cladosporium endophytica:
+    + Cladosporium endophytica
+
+  fungus|Cladosporium sphaerospermum:
+    + Cladosporium sphaerospermum
+
+  fungus|Cystobasidium benthicum:
+    + Cystobasidium benthicum
+
+  fungus|Exophiala oligosperma:
+    + Exophiala oligosperma
+
+  fungus|Fusarium annulatum:
+    + Fusarium annulatum
+
+  fungus|Fusarium nygamai:
+    + Fusarium nygamai
+
+  fungus|Fusarium solani:
+    + Fusarium solani
+
+  fungus|Fusarium veterinarium:
+    + Fusarium veterinarium
+
+  fungus|Gamszarea kalimantanensis:
+    + Gamszarea kalimantanensis
+
+  fungus|Ganoderma meredithae:
+    + Ganoderma meredithae
+
+  fungus|Naganishia adeliensis:
+    + Naganishia adeliensis
+
+  fungus|Naganishia albida:
+    + Naganishia albida
+
+  fungus|Naganishia sp.:
+    + Naganishia sp.
+
+  fungus|Neocatenulostroma microsporum:
+    + Neocatenulostroma microsporum
+
+  fungus|Neophaeococcomyces aloes:
+    + Neophaeococcomyces aloes
+
+  fungus|Papiliotrema laurentii:
+    + Papiliotrema laurentii
+
+  fungus|Penicillium brevicompactum:
+    + Penicillium brevicompactum
+
+  fungus|Penicillium camemberti:
+    + Penicillium camemberti
+
+  fungus|Penicillium caseifulvum:
+    + Penicillium caseifulvum
+
+  fungus|Penicillium chrysogenum:
+    + Penicillium chrysogenum
+
+  fungus|Penicillium citrinum:
+    + Penicillium citrinum
+
+  fungus|Penicillium corylophilum:
+    + Penicillium corylophilum
+
+  fungus|Penicillium decumbens:
+    + Penicillium decumbens
+
+  fungus|Penicillium dipodomyicola:
+    + Penicillium dipodomyicola
+
+  fungus|Penicillium fuscoglaucum:
+    + Penicillium fuscoglaucum
+
+  fungus|Penicillium griseoroseum:
+    + Penicillium griseoroseum
+
+  fungus|Penicillium palitans:
+    + Penicillium palitans
+
+  fungus|Penicillium polonicum:
+    + Penicillium polonicum
+
+  fungus|Penicillium rubens:
+    + Penicillium rubens
+
+  fungus|Penicillium sumatraense:
+    + Penicillium sumatraense
+
+  fungus|Phaeophleospora eucalypticola:
+    + Phaeophleospora eucalypticola
+
+  fungus|Phialocephala fluminis:
+    + Phialocephala fluminis
+
+  fungus|Rhodotorula mucilaginosa:
+    + Rhodotorula mucilaginosa
+
+  fungus|Roussoella neopustulans:
+    + Roussoella neopustulans
+
+  fungus|Saccharomyces cerevisiae:
+    + Saccharomyces cerevisiae
+
+  fungus|Septoriella neoarundinis:
+    + Septoriella neoarundinis
+
+  fungus|Talaromyces liani:
+    + Talaromyces liani
+
+  fungus|Talaromyces ruber:
+    + Talaromyces ruber
+
+  fungus|Trichoderma citrinoviride:
+    + Trichoderma citrinoviride
+
+  fungus|Trichoderma virens:
+    + Trichoderma virens
+
+  fungus|Xylona heveae:
+    + Xylona heveae
+
+  fungus|Zalaria obscura:
+    + Zalaria obscura
+
+  microbiota:
+    + Microbiota
+
+  plant|Arabidopsis thaliana:
+    + Arabidopsis thaliana
+
+  plant|Brachypodium distachyon:
+    + Brachypodium distachyon
+
+  plant|Brassica rapa:
+    + Brassica rapa
+
+  plant|Ceratopteris richardii:
+    + Ceratopteris richardii
+
+  plant|Eruca vesicaria:
+    + Eruca vesicaria
+
+  plant|Oryza sativa:
+    + Oryza sativa
+
+  rodent|Mus musculus:
+    + Mus musculus
+
+  rodent|Rattus norvegicus:
+    + Rattus norvegicus
+
+  snail|Helix lucorum:
+    + Helix lucorum
+
+  squid|Euprymna scolopes:
+    + Euprymna scolopes
+
+  squirrel|Urocitellus parryii:
+    + Urocitellus parryii
+
+  worm|Caenorhabditis elegans:
+    + Caenorhabditis elegans

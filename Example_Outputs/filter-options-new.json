@@ -1,0 +1,2054 @@
+{
+  "Project Type": {
+    "ground": [
+      "ground"
+    ],
+    "high altitude": [
+      "high altitude",
+      "parabolic"
+    ],
+    "spaceflight": [
+      "flight",
+      "flight study",
+      "spaceflight",
+      "spaceflight project",
+      "spaceflight study"
+    ]
+  },
+  "Assay technology type": {
+    "Behavior": [
+      "Elevated Plus Maze",
+      "Novel Object Recognition",
+      "elevated plus maze",
+      "epm",
+      "nor",
+      "novel object recognition"
+    ],
+    "Behavior (Gait)": [
+      "Gait",
+      "gait"
+    ],
+    "Behavior (Locomotion)": [
+      "Locomotory Behavior",
+      "climbing",
+      "locomotory behavior"
+    ],
+    "Behavioral Video Recording": [
+      "animal video",
+      "drosophila video",
+      "in-flight video",
+      "video"
+    ],
+    "ChIP-Seq": [
+      "ChIP-seq",
+      "chip-seq"
+    ],
+    "Genome-wide Association Study": [
+      "snp analysis"
+    ],
+    "Light/Fluorescence Microscopy": [
+      "Immunohistochemistry",
+      "Immunostaining",
+      "Microscopy",
+      "immunohistochemistry",
+      "immunostaining",
+      "microscopy"
+    ],
+    "Mechanical Testing": [
+      "3-pt bending",
+      "3pt bending",
+      "Bone biomechanical measurement",
+      "bone biomechanical measurement",
+      "three point bend"
+    ],
+    "Micro-Computed Tomography": [
+      "Micro-Computed Tomography",
+      "micro-computed tomography"
+    ],
+    "Morphometric Photography": [
+      "Image analysis",
+      "image analysis"
+    ],
+    "Other Assay Types": [
+      "16S",
+      "16S and ITS",
+      "Anhedonia",
+      "Anthocyanin Content",
+      "Atomic Absorption Spectroscopy",
+      "Atomic Force Microscopy",
+      "Balance",
+      "Biotelemetry",
+      "CCS long read DNA Enzymatic Methyl Sequencing",
+      "ChIC-seq (Chromatin Immunocleavage Sequencing)",
+      "Comprehensive Metabolic Panel",
+      "Confocal",
+      "Contractility",
+      "Cytology",
+      "DIP-Seq",
+      "DIP-seq",
+      "Dual-Energy X-Ray Absorptiometry",
+      "ECLIA",
+      "ELISA",
+      "Flow Cytometry",
+      "Force Plate",
+      "Force Transducer",
+      "Forced Swim Test",
+      "Hematology Analyzer",
+      "ITS",
+      "Inductively Coupled Plasma Optical Emission Spectroscopy",
+      "Light Microscopy",
+      "Magnetic Resonance Imaging",
+      "Multiplex",
+      "Open Field",
+      "Optical Coherence Tomography",
+      "Optical Emission Spectroscopy",
+      "Oxygen Radical Absorbance Capacity",
+      "Phenolic Compound Content",
+      "Photography",
+      "Plant Material Biomass",
+      "Plate Count Assay",
+      "Psychomotor Vigilance Test",
+      "RAWM",
+      "Reduced-Representation Bisulfite Sequencing",
+      "Spectrophotometry",
+      "Three Chamber Social Isolation",
+      "Video Recording",
+      "Whole Genome Bisulfite Sequencing",
+      "Whole Transcriptome Bisulfite Sequencing",
+      "long read DNA Sequencing",
+      "long read RNA Sequencing",
+      "long read low-biomass DNA Sequencing",
+      "miRNA Microarray",
+      "miRNA Sequencing",
+      "miRNA sequencing",
+      "single-cell ATAC-seq"
+    ],
+    "RNA Sequencing (RNA-Seq)": [
+      "RNA Sequencing (RNA-Seq)",
+      "rna sequencing (rna-seq)"
+    ],
+    "Real Time PCR": [
+      "real time PCR",
+      "real time pcr"
+    ],
+    "Single-Cell RNA Sequencing": [
+      "single-cell RNA Sequencing",
+      "single-cell RNA sequencing",
+      "single-cell rna sequencing"
+    ],
+    "Ultrasonography": [
+      "Ultrasonography",
+      "echocardiogram",
+      "ultrasonography",
+      "ultrasound"
+    ],
+    "amplicon sequencing assay": [
+      "amplicon sequencing assay"
+    ],
+    "bisulfite sequencing": [
+      "Bisulfite sequencing",
+      "bisulfite sequencing"
+    ],
+    "gel electrophoresis": [
+      "gel electrophoresis"
+    ],
+    "histomorphometry": [
+      "Histomorphometry",
+      "bone histomorphometry",
+      "histomorphometry",
+      "muscle histomorphometry"
+    ],
+    "mass spectrometry": [
+      "mass spectrometry"
+    ],
+    "miRNA Sequencing (miRNA-Seq)": [
+      "mirna sequencing (mirna-seq)"
+    ],
+    "microarray": [
+      "DNA Microarray",
+      "DNA microarray",
+      "dna microarray",
+      "microarray"
+    ],
+    "nucleotide sequencing": [
+      "Nucleotide Sequencing",
+      "nucleotide sequencing"
+    ],
+    "peripheral quantitative computed tomography": [
+      "Peripheral Quantitative Computed Tomography",
+      "peripheral quantitative computed tomography",
+      "pqct"
+    ],
+    "protein microarray": [
+      "protein microarray"
+    ],
+    "spatial transcriptomics": [
+      "spatial transcriptomics"
+    ],
+    "spectrofluorimetric assay": [
+      "Spectrofluorimetric Assay",
+      "spectrofluorimetric assay"
+    ],
+    "tonometry": [
+      "Tonometry",
+      "tonometry"
+    ],
+    "western blot": [
+      "Western Blot",
+      "western blot"
+    ],
+    "whole genome shotgun sequencing": [
+      "Whole-Genome Shotgun Sequencing",
+      "whole genome shotgun sequencing",
+      "whole-genome shotgun sequencing"
+    ]
+  },
+  "Factor": {
+    "age": [
+      "age"
+    ],
+    "altered gravity": [
+      "altered gravity"
+    ],
+    "altered gravity simulator": [
+      "altered gravity simulator"
+    ],
+    "bed rest": [
+      "bed rest"
+    ],
+    "diet": [
+      "diet"
+    ],
+    "dissection condition": [
+      "dissection condition"
+    ],
+    "duration": [
+      "duration"
+    ],
+    "duration|exposure duration": [
+      "exposure duration"
+    ],
+    "duration|treatment duration": [
+      "treatment duration"
+    ],
+    "ecotype": [
+      "ecotype"
+    ],
+    "euthanasia location": [
+      "euthanasia location"
+    ],
+    "generation": [
+      "generation"
+    ],
+    "genotype": [
+      "genotype"
+    ],
+    "gravity": [
+      "gravity"
+    ],
+    "hypergravity": [
+      "hypergravity"
+    ],
+    "ionizing radiation": [
+      "hze",
+      "ionizing radiation",
+      "ionzing radiation",
+      "irradiation",
+      "radiation"
+    ],
+    "ionizing radiation|absorbed radiation dose": [
+      "absorbed radiation dose",
+      "dose",
+      "radiation dose"
+    ],
+    "ionizing radiation|particle charge": [
+      "particle charge"
+    ],
+    "ionizing radiation|radiation distance": [
+      "radiation distance"
+    ],
+    "ionizing radiation|radiation type": [
+      "radiation type"
+    ],
+    "light": [
+      "light"
+    ],
+    "light cycle": [
+      "light cycle"
+    ],
+    "organism part": [
+      "organism part"
+    ],
+    "other": [
+      "age at sample collection",
+      "age at sample harvest",
+      "age at start of experiment",
+      "antibody",
+      "assay time post-irradiation",
+      "atmospheric composition",
+      "carbon dioxide treatment",
+      "cleaning treatment",
+      "co-culture",
+      "disease state",
+      "donor age",
+      "donor medical history",
+      "gravity environment at imbibition",
+      "growth environment",
+      "growth medium",
+      "growth medium provenance",
+      "harvest",
+      "hindlimb reloading duration",
+      "hindlimb unloading duration",
+      "histone modification target",
+      "housing condition",
+      "input cell count",
+      "input dna mass",
+      "ionizing radiation device or source",
+      "lambda spike-in",
+      "library construction protocol",
+      "magnetic field",
+      "micronucleus index",
+      "number of radiation doses",
+      "o2 level",
+      "organism distribution",
+      "other",
+      "payload",
+      "relative humidity",
+      "sample condition",
+      "seed sanitization",
+      "soil environment exposure",
+      "substrate type",
+      "time of sample collection after euthanasia",
+      "time of sample collection after irradiation",
+      "time post-irradiation",
+      "tissue segment",
+      "vendor"
+    ],
+    "other|accession": [
+      "accession"
+    ],
+    "other|altitude": [
+      "altitude"
+    ],
+    "other|animal housing": [
+      "animal housing"
+    ],
+    "other|antibiotic concentration": [
+      "antibiotic concentration"
+    ],
+    "other|atmospheric pressure": [
+      "atmospheric pressure"
+    ],
+    "other|cage": [
+      "cage"
+    ],
+    "other|cell cycle phase": [
+      "cell cycle phase"
+    ],
+    "other|cell line": [
+      "cell line"
+    ],
+    "other|clinical treatment": [
+      "clinical treatment"
+    ],
+    "other|collection date": [
+      "collection date"
+    ],
+    "other|collection set": [
+      "collection set"
+    ],
+    "other|cultivar": [
+      "cultivar"
+    ],
+    "other|culture condition": [
+      "culture condition"
+    ],
+    "other|culture media": [
+      "culture media"
+    ],
+    "other|developmental condition": [
+      "developmental condition"
+    ],
+    "other|developmental stage": [
+      "developmental stage"
+    ],
+    "other|donor": [
+      "donor"
+    ],
+    "other|dry immersion": [
+      "dry immersion"
+    ],
+    "other|electromagnetic fields": [
+      "electromagnetic fields"
+    ],
+    "other|euthanasia": [
+      "euthanasia"
+    ],
+    "other|euthanasia method": [
+      "euthanasia method"
+    ],
+    "other|experiment": [
+      "experiment"
+    ],
+    "other|experimental campaign": [
+      "experimental campaign"
+    ],
+    "other|food deprivation": [
+      "food deprivation"
+    ],
+    "other|generation number": [
+      "generation number"
+    ],
+    "other|ground based facilities": [
+      "ground based facilities"
+    ],
+    "other|growth cycle": [
+      "growth cycle"
+    ],
+    "other|individual": [
+      "individual"
+    ],
+    "other|intracranial pressure": [
+      "intracranial pressure"
+    ],
+    "other|location": [
+      "location"
+    ],
+    "other|mitochondrial status": [
+      "mitochondrial status"
+    ],
+    "other|neoplasm": [
+      "neoplasm"
+    ],
+    "other|oxygen gas": [
+      "oxygen gas"
+    ],
+    "other|parabola": [
+      "parabola"
+    ],
+    "other|part": [
+      "part"
+    ],
+    "other|pressure": [
+      "pressure"
+    ],
+    "other|rad9 status": [
+      "rad9 status"
+    ],
+    "other|root zone": [
+      "root zone"
+    ],
+    "other|sample collection protocol": [
+      "sample collection protocol"
+    ],
+    "other|sample storage": [
+      "sample storage"
+    ],
+    "other|sample type": [
+      "sample type"
+    ],
+    "other|sieve size": [
+      "sieve size"
+    ],
+    "other|smoking status": [
+      "smoking status"
+    ],
+    "other|spike-in quality control": [
+      "spike-in quality control"
+    ],
+    "other|stress": [
+      "stress"
+    ],
+    "other|tetanus toxoid": [
+      "tetanus toxoid"
+    ],
+    "other|treatment group": [
+      "treatment group"
+    ],
+    "other|uv mutagenesis": [
+      "uv mutagenesis"
+    ],
+    "other|vaccine adjuvant": [
+      "vaccine adjuvant"
+    ],
+    "other|variation": [
+      "variation"
+    ],
+    "other|water deprivation": [
+      "water deprivation"
+    ],
+    "other|zygosity": [
+      "zygosity"
+    ],
+    "preservation method": [
+      "preservation method"
+    ],
+    "preservation method|carcass preservation method": [
+      "carcass preservation method"
+    ],
+    "preservation method|freezing": [
+      "freezing"
+    ],
+    "preservation method|freezing profile": [
+      "freezing profile"
+    ],
+    "preservation method|order of preservation": [
+      "order of preservation"
+    ],
+    "preservation method|sample preservation method": [
+      "sample preservation method"
+    ],
+    "preservation method|tissue homogenate preservation time at -80c in rlt buffer": [
+      "tissue homogenate preservation time at -80c in rlt buffer"
+    ],
+    "preservation method|tissue preservation method": [
+      "tissue preservation method"
+    ],
+    "sample location": [
+      "sample location"
+    ],
+    "sex": [
+      "gender",
+      "sex"
+    ],
+    "spaceflight": [
+      "microgravity",
+      "space flight",
+      "space mission",
+      "spacecraft",
+      "spaceflight",
+      "weightlessness"
+    ],
+    "strain": [
+      "mouse strain",
+      "strain"
+    ],
+    "study subject": [
+      "study subject"
+    ],
+    "temperature": [
+      "temperature"
+    ],
+    "time": [
+      "tiime",
+      "time"
+    ],
+    "time|dissection timeline": [
+      "dissection timeline"
+    ],
+    "time|growth time": [
+      "growth time"
+    ],
+    "time|post radiation timepoint": [
+      "post radiation timepoint"
+    ],
+    "time|sample storage time": [
+      "sample storage time"
+    ],
+    "time|sampling time": [
+      "sampling time"
+    ],
+    "time|time after treatment": [
+      "time after treatment"
+    ],
+    "time|time of sample collection after treatment": [
+      "time of sample collection after treatment"
+    ],
+    "time|timepoint": [
+      "timepoint"
+    ],
+    "time|treatment time": [
+      "treatment time"
+    ],
+    "tissue": [
+      "muscle",
+      "tissue"
+    ],
+    "tissue|tissue type": [
+      "tissue type"
+    ],
+    "treatment": [
+      "treatment"
+    ],
+    "treatment|bleomycin treatment": [
+      "bleomycin treatment"
+    ],
+    "treatment|infection": [
+      "infection"
+    ],
+    "weightlessness simulation": [
+      "environmentalstress",
+      "microgravity simulation",
+      "simulated microgravity",
+      "weightlessness simulation"
+    ],
+    "weightlessness simulation|hindlimb unloading": [
+      "hindlimb unloading"
+    ],
+    "weightlessness simulation|partial weight bearing": [
+      "partial weight bearing"
+    ]
+  },
+  "Organism": {
+    "Human (Homo sapiens)": [
+      "Homo sapiens",
+      "homo sapiens",
+      "human"
+    ],
+    "Other Organisms": [
+      "Adineta vaga",
+      "Agrobacterium genomosp. 3",
+      "Brassica oleracea",
+      "Capsicum annuum",
+      "Citrus limonia",
+      "Daphnia magna",
+      "Daucus carota",
+      "Enterobacter cloacae",
+      "Fusarium oxysporum",
+      "Glycine max",
+      "Klebsiella aerogenes",
+      "Klebsiella pneumoniae",
+      "Lactuca sativa",
+      "Leptopilina boulardi",
+      "Leptopilina heterotoma",
+      "Lolium multiflorum",
+      "Marchantia",
+      "Not Applicable",
+      "Paraburkholderia phymatum",
+      "Raphanus sativus",
+      "Serratia liquefaciens",
+      "Triticum aestivum",
+      "Vibrio fischeri"
+    ],
+    "algae": [
+      "algae"
+    ],
+    "algae|Chlamydomonas reinhardtii": [
+      "Chlamydomonas reinhardtii",
+      "chlamydomonas reinhardtii"
+    ],
+    "algae|Euglena gracilis": [
+      "Euglena gracilis",
+      "euglena gracilis"
+    ],
+    "algae|Pseudopyrenochaeta terrestris": [
+      "Pseudopyrenochaeta terrestris",
+      "pseudopyrenochaeta terrestris"
+    ],
+    "bacteria": [
+      "bacteria"
+    ],
+    "bacteria|Acinetobacter pittii": [
+      "Acinetobacter pittii",
+      "acinetobacter pittii"
+    ],
+    "bacteria|Acinetobacter radioresistens": [
+      "Acinetobacter radioresistens",
+      "acinetobacter radioresistens"
+    ],
+    "bacteria|Alkalihalobacillus clausii": [
+      "Alkalihalobacillus clausii",
+      "alkalihalobacillus clausii"
+    ],
+    "bacteria|Alkalihalobacillus gibsonii": [
+      "Alkalihalobacillus gibsonii",
+      "alkalihalobacillus gibsonii"
+    ],
+    "bacteria|Aranicola proteolyticus": [
+      "Aranicola proteolyticus",
+      "aranicola proteolyticus"
+    ],
+    "bacteria|Bacillus": [
+      "Bacillus",
+      "bacillus"
+    ],
+    "bacteria|Bacillus altitudinis": [
+      "Bacillus altitudinis",
+      "bacillus altitudinis"
+    ],
+    "bacteria|Bacillus amyloliquefaciens": [
+      "Bacillus amyloliquefaciens",
+      "bacillus amyloliquefaciens"
+    ],
+    "bacteria|Bacillus atrophaeus": [
+      "Bacillus atrophaeus",
+      "bacillus atrophaeus"
+    ],
+    "bacteria|Bacillus cereus thuringiensis": [
+      "Bacillus cereus thuringiensis",
+      "bacillus cereus thuringiensis"
+    ],
+    "bacteria|Bacillus firmus": [
+      "Bacillus firmus",
+      "bacillus firmus"
+    ],
+    "bacteria|Bacillus glycinifermentans": [
+      "Bacillus glycinifermentans",
+      "bacillus glycinifermentans"
+    ],
+    "bacteria|Bacillus haynesii": [
+      "Bacillus haynesii",
+      "bacillus haynesii"
+    ],
+    "bacteria|Bacillus horneckiae": [
+      "Bacillus horneckiae",
+      "bacillus horneckiae"
+    ],
+    "bacteria|Bacillus licheniformis": [
+      "Bacillus licheniformis",
+      "bacillus licheniformis"
+    ],
+    "bacteria|Bacillus nealsonii": [
+      "Bacillus nealsonii",
+      "bacillus nealsonii"
+    ],
+    "bacteria|Bacillus paralicheniformis": [
+      "Bacillus paralicheniformis",
+      "bacillus paralicheniformis"
+    ],
+    "bacteria|Bacillus pumilus": [
+      "Bacillus pumilus",
+      "bacillus pumilus"
+    ],
+    "bacteria|Bacillus pumilus safr-032": [
+      "bacillus pumilus safr-032"
+    ],
+    "bacteria|Bacillus safensis": [
+      "Bacillus safensis",
+      "bacillus safensis"
+    ],
+    "bacteria|Bacillus subtilis": [
+      "Bacillus subtilis",
+      "bacillus subtilis"
+    ],
+    "bacteria|Brevibacillus parabrevis": [
+      "Brevibacillus parabrevis",
+      "brevibacillus parabrevis"
+    ],
+    "bacteria|Brevibacterium luteolum": [
+      "Brevibacterium luteolum",
+      "brevibacterium luteolum"
+    ],
+    "bacteria|Burkholderia cepacia": [
+      "Burkholderia cepacia",
+      "burkholderia cepacia"
+    ],
+    "bacteria|Burkholderia contaminans": [
+      "Burkholderia contaminans",
+      "burkholderia contaminans"
+    ],
+    "bacteria|Cytobacillus oceanisediminis": [
+      "Cytobacillus oceanisediminis",
+      "cytobacillus oceanisediminis"
+    ],
+    "bacteria|Enterobacter": [
+      "Enterobacter",
+      "enterobacter"
+    ],
+    "bacteria|Enterobacter bugandensis": [
+      "Enterobacter bugandensis",
+      "enterobacter bugandensis"
+    ],
+    "bacteria|Enterobacteria phage lambda": [
+      "Enterobacteria phage lambda",
+      "enterobacteria phage lambda"
+    ],
+    "bacteria|Escherichia coli": [
+      "Escherichia coli",
+      "escherichia coli"
+    ],
+    "bacteria|Kalamiella piersonii": [
+      "Kalamiella piersonii",
+      "kalamiella piersonii"
+    ],
+    "bacteria|Klebsiella": [
+      "Klebsiella",
+      "klebsiella"
+    ],
+    "bacteria|Klebsiella quasipneumoniae": [
+      "Klebsiella quasipneumoniae",
+      "klebsiella quasipneumoniae"
+    ],
+    "bacteria|Klebsiella quasipneumoniae subsp. similipneumoniae": [
+      "Klebsiella quasipneumoniae subsp. similipneumoniae",
+      "klebsiella quasipneumoniae subsp. similipneumoniae"
+    ],
+    "bacteria|Kocuria indica": [
+      "Kocuria indica",
+      "kocuria indica"
+    ],
+    "bacteria|Kocuria palustris": [
+      "Kocuria palustris",
+      "kocuria palustris"
+    ],
+    "bacteria|Lactobacillus acidophilus": [
+      "Lactobacillus acidophilus",
+      "lactobacillus acidophilus"
+    ],
+    "bacteria|Methylobacterium organophilum": [
+      "Methylobacterium organophilum",
+      "methylobacterium organophilum"
+    ],
+    "bacteria|Methylobacterium sp.": [
+      "Methylobacterium sp.",
+      "methylobacterium sp."
+    ],
+    "bacteria|Methylorubrum rhodesianum": [
+      "Methylorubrum rhodesianum",
+      "methylorubrum rhodesianum"
+    ],
+    "bacteria|Micrococcus luteus": [
+      "Micrococcus luteus",
+      "micrococcus luteus"
+    ],
+    "bacteria|Mycobacterium marinum": [
+      "Mycobacterium marinum",
+      "mycobacterium marinum"
+    ],
+    "bacteria|Oceanobacillus caeni": [
+      "Oceanobacillus caeni",
+      "oceanobacillus caeni"
+    ],
+    "bacteria|Paenibacillus polymyxa": [
+      "Paenibacillus polymyxa",
+      "paenibacillus polymyxa"
+    ],
+    "bacteria|Pantoea agglomerans": [
+      "Pantoea agglomerans",
+      "pantoea agglomerans"
+    ],
+    "bacteria|Pantoea brenneri": [
+      "Pantoea brenneri",
+      "pantoea brenneri"
+    ],
+    "bacteria|Pantoea conspicua": [
+      "Pantoea conspicua",
+      "pantoea conspicua"
+    ],
+    "bacteria|Priestia megaterium": [
+      "Priestia megaterium",
+      "priestia megaterium"
+    ],
+    "bacteria|Pseudoclavibacter alba": [
+      "Pseudoclavibacter alba",
+      "pseudoclavibacter alba"
+    ],
+    "bacteria|Pseudomonas aeruginosa": [
+      "Pseudomonas aeruginosa",
+      "pseudomonas aeruginosa"
+    ],
+    "bacteria|Pseudomonas fulva": [
+      "Pseudomonas fulva",
+      "pseudomonas fulva"
+    ],
+    "bacteria|Pseudomonas granadensis": [
+      "Pseudomonas granadensis",
+      "pseudomonas granadensis"
+    ],
+    "bacteria|Ralstonia insidiosa": [
+      "Ralstonia insidiosa",
+      "ralstonia insidiosa"
+    ],
+    "bacteria|Ralstonia pickettii": [
+      "Ralstonia pickettii",
+      "ralstonia pickettii"
+    ],
+    "bacteria|Rhodospirillum rubrum": [
+      "Rhodospirillum rubrum",
+      "rhodospirillum rubrum"
+    ],
+    "bacteria|Rubinsicoccus jepli": [
+      "Rubinsicoccus jepli",
+      "rubinsicoccus jepli"
+    ],
+    "bacteria|Salmonella enterica": [
+      "Salmonella enterica",
+      "salmonella enterica"
+    ],
+    "bacteria|Salmonella enterica subsp. enterica serovar typhimurium": [
+      "Salmonella enterica subsp. enterica serovar Typhimurium",
+      "salmonella enterica subsp. enterica serovar typhimurium"
+    ],
+    "bacteria|Solibacillus kalamii": [
+      "Solibacillus kalamii",
+      "solibacillus kalamii"
+    ],
+    "bacteria|Sphingobacterium paucimobilis": [
+      "Sphingobacterium paucimobilis",
+      "sphingobacterium paucimobilis"
+    ],
+    "bacteria|Sphingomonas sanguinis": [
+      "Sphingomonas sanguinis",
+      "sphingomonas sanguinis"
+    ],
+    "bacteria|Staphylococcus": [
+      "Staphylococcus",
+      "staphylococcus"
+    ],
+    "bacteria|Staphylococcus aureus": [
+      "Staphylococcus aureus",
+      "staphylococcus aureus"
+    ],
+    "bacteria|Staphylococcus auricularis": [
+      "Staphylococcus auricularis",
+      "staphylococcus auricularis"
+    ],
+    "bacteria|Staphylococcus capitis": [
+      "Staphylococcus capitis",
+      "staphylococcus capitis"
+    ],
+    "bacteria|Staphylococcus caprae": [
+      "Staphylococcus caprae",
+      "staphylococcus caprae"
+    ],
+    "bacteria|Staphylococcus epidermidis": [
+      "Staphylococcus epidermidis",
+      "staphylococcus epidermidis"
+    ],
+    "bacteria|Staphylococcus lugdunensis": [
+      "Staphylococcus lugdunensis",
+      "staphylococcus lugdunensis"
+    ],
+    "bacteria|Staphylococcus saprophyticus": [
+      "Staphylococcus saprophyticus",
+      "staphylococcus saprophyticus"
+    ],
+    "bacteria|Staphylococcus warneri": [
+      "Staphylococcus warneri",
+      "staphylococcus warneri"
+    ],
+    "bacteria|Streptococcus mutans": [
+      "Streptococcus mutans",
+      "streptococcus mutans"
+    ],
+    "bacteria|Thermus amyloliquefaciens": [
+      "Thermus amyloliquefaciens",
+      "thermus amyloliquefaciens"
+    ],
+    "bacteria|Virgibacillus pantothenticus": [
+      "Virgibacillus pantothenticus",
+      "virgibacillus pantothenticus"
+    ],
+    "cellular organisms": [
+      "cellular organisms"
+    ],
+    "fish": [
+      "fish"
+    ],
+    "fish|Danio rerio": [
+      "Danio rerio",
+      "danio rerio"
+    ],
+    "fish|Oryzias latipes": [
+      "Oryzias latipes",
+      "oryzias latipes"
+    ],
+    "fruit fly": [
+      "fruit fly"
+    ],
+    "fruit fly|Drosophila melanogaster": [
+      "Drosophila melanogaster",
+      "drosophila melanogaster"
+    ],
+    "fungus": [
+      "fungus"
+    ],
+    "fungus|Acremonium citrinum": [
+      "Acremonium citrinum",
+      "acremonium citrinum"
+    ],
+    "fungus|Alternaria angustiovoidea": [
+      "Alternaria angustiovoidea",
+      "alternaria angustiovoidea"
+    ],
+    "fungus|Aspergillus calidoustus": [
+      "Aspergillus calidoustus",
+      "aspergillus calidoustus"
+    ],
+    "fungus|Aspergillus costaricaensis": [
+      "Aspergillus costaricaensis",
+      "aspergillus costaricaensis"
+    ],
+    "fungus|Aspergillus fumigatus": [
+      "Aspergillus fumigatus",
+      "aspergillus fumigatus"
+    ],
+    "fungus|Aspergillus nidulans": [
+      "Aspergillus nidulans",
+      "aspergillus nidulans"
+    ],
+    "fungus|Aspergillus niger": [
+      "Aspergillus niger",
+      "aspergillus niger"
+    ],
+    "fungus|Aspergillus pseudoglaucus": [
+      "Aspergillus pseudoglaucus",
+      "aspergillus pseudoglaucus"
+    ],
+    "fungus|Aspergillus quadricinctus": [
+      "Aspergillus quadricinctus",
+      "aspergillus quadricinctus"
+    ],
+    "fungus|Aspergillus terreus": [
+      "Aspergillus terreus",
+      "aspergillus terreus"
+    ],
+    "fungus|Aspergillus unguis": [
+      "Aspergillus unguis",
+      "aspergillus unguis"
+    ],
+    "fungus|Aureobasidium lini": [
+      "Aureobasidium lini",
+      "aureobasidium lini"
+    ],
+    "fungus|Aureobasidium melanogenum": [
+      "Aureobasidium melanogenum",
+      "aureobasidium melanogenum"
+    ],
+    "fungus|Aureobasidium pullulans": [
+      "Aureobasidium pullulans",
+      "aureobasidium pullulans"
+    ],
+    "fungus|Barbatosphaeria neglecta": [
+      "Barbatosphaeria neglecta",
+      "barbatosphaeria neglecta"
+    ],
+    "fungus|Beauveria bassiana": [
+      "Beauveria bassiana",
+      "beauveria bassiana"
+    ],
+    "fungus|Botryosphaeria agaves": [
+      "Botryosphaeria agaves",
+      "botryosphaeria agaves"
+    ],
+    "fungus|Candida albicans": [
+      "Candida albicans",
+      "candida albicans"
+    ],
+    "fungus|Cladosporium austrohemisphaericum": [
+      "Cladosporium austrohemisphaericum",
+      "cladosporium austrohemisphaericum"
+    ],
+    "fungus|Cladosporium cladosporioides": [
+      "Cladosporium cladosporioides",
+      "cladosporium cladosporioides"
+    ],
+    "fungus|Cladosporium colombiae": [
+      "Cladosporium colombiae",
+      "cladosporium colombiae"
+    ],
+    "fungus|Cladosporium endophytica": [
+      "Cladosporium endophytica",
+      "cladosporium endophytica"
+    ],
+    "fungus|Cladosporium sphaerospermum": [
+      "Cladosporium sphaerospermum",
+      "cladosporium sphaerospermum"
+    ],
+    "fungus|Cystobasidium benthicum": [
+      "Cystobasidium benthicum",
+      "cystobasidium benthicum"
+    ],
+    "fungus|Exophiala oligosperma": [
+      "Exophiala oligosperma",
+      "exophiala oligosperma"
+    ],
+    "fungus|Fungal sp.": [
+      "fungal sp."
+    ],
+    "fungus|Fusarium annulatum": [
+      "Fusarium annulatum",
+      "fusarium annulatum"
+    ],
+    "fungus|Fusarium nygamai": [
+      "Fusarium nygamai",
+      "fusarium nygamai"
+    ],
+    "fungus|Fusarium solani": [
+      "Fusarium solani",
+      "fusarium solani"
+    ],
+    "fungus|Fusarium veterinarium": [
+      "Fusarium veterinarium",
+      "fusarium veterinarium"
+    ],
+    "fungus|Gamszarea kalimantanensis": [
+      "Gamszarea kalimantanensis",
+      "gamszarea kalimantanensis"
+    ],
+    "fungus|Ganoderma meredithae": [
+      "Ganoderma meredithae",
+      "ganoderma meredithae"
+    ],
+    "fungus|Naganishia adeliensis": [
+      "Naganishia adeliensis",
+      "naganishia adeliensis"
+    ],
+    "fungus|Naganishia albida": [
+      "Naganishia albida",
+      "naganishia albida"
+    ],
+    "fungus|Naganishia sp.": [
+      "Naganishia sp.",
+      "naganishia sp."
+    ],
+    "fungus|Neocatenulostroma microsporum": [
+      "Neocatenulostroma microsporum",
+      "neocatenulostroma microsporum"
+    ],
+    "fungus|Neophaeococcomyces aloes": [
+      "Neophaeococcomyces aloes",
+      "neophaeococcomyces aloes"
+    ],
+    "fungus|Papiliotrema laurentii": [
+      "Papiliotrema laurentii",
+      "papiliotrema laurentii"
+    ],
+    "fungus|Penicillium brevicompactum": [
+      "Penicillium brevicompactum",
+      "penicillium brevicompactum"
+    ],
+    "fungus|Penicillium camemberti": [
+      "Penicillium camemberti",
+      "penicillium camemberti"
+    ],
+    "fungus|Penicillium caseifulvum": [
+      "Penicillium caseifulvum",
+      "penicillium caseifulvum"
+    ],
+    "fungus|Penicillium chrysogenum": [
+      "Penicillium chrysogenum",
+      "penicillium chrysogenum"
+    ],
+    "fungus|Penicillium citrinum": [
+      "Penicillium citrinum",
+      "penicillium citrinum"
+    ],
+    "fungus|Penicillium corylophilum": [
+      "Penicillium corylophilum",
+      "penicillium corylophilum"
+    ],
+    "fungus|Penicillium decumbens": [
+      "Penicillium decumbens",
+      "penicillium decumbens"
+    ],
+    "fungus|Penicillium dipodomyicola": [
+      "Penicillium dipodomyicola",
+      "penicillium dipodomyicola"
+    ],
+    "fungus|Penicillium fuscoglaucum": [
+      "Penicillium fuscoglaucum",
+      "penicillium fuscoglaucum"
+    ],
+    "fungus|Penicillium griseoroseum": [
+      "Penicillium griseoroseum",
+      "penicillium griseoroseum"
+    ],
+    "fungus|Penicillium palitans": [
+      "Penicillium palitans",
+      "penicillium palitans"
+    ],
+    "fungus|Penicillium polonicum": [
+      "Penicillium polonicum",
+      "penicillium polonicum"
+    ],
+    "fungus|Penicillium rubens": [
+      "Penicillium rubens",
+      "penicillium rubens"
+    ],
+    "fungus|Penicillium sumatraense": [
+      "Penicillium sumatraense",
+      "penicillium sumatraense"
+    ],
+    "fungus|Phaeophleospora eucalypticola": [
+      "Phaeophleospora eucalypticola",
+      "phaeophleospora eucalypticola"
+    ],
+    "fungus|Phialocephala fluminis": [
+      "Phialocephala fluminis",
+      "phialocephala fluminis"
+    ],
+    "fungus|Rhodotorula mucilaginosa": [
+      "Rhodotorula mucilaginosa",
+      "rhodotorula mucilaginosa"
+    ],
+    "fungus|Roussoella neopustulans": [
+      "Roussoella neopustulans",
+      "roussoella neopustulans"
+    ],
+    "fungus|Saccharomyces cerevisiae": [
+      "Saccharomyces cerevisiae",
+      "saccharomyces cerevisiae"
+    ],
+    "fungus|Septoriella neoarundinis": [
+      "Septoriella neoarundinis",
+      "septoriella neoarundinis"
+    ],
+    "fungus|Talaromyces liani": [
+      "Talaromyces liani",
+      "talaromyces liani"
+    ],
+    "fungus|Talaromyces ruber": [
+      "Talaromyces ruber",
+      "talaromyces ruber"
+    ],
+    "fungus|Trichoderma citrinoviride": [
+      "Trichoderma citrinoviride",
+      "trichoderma citrinoviride"
+    ],
+    "fungus|Trichoderma virens": [
+      "Trichoderma virens",
+      "trichoderma virens"
+    ],
+    "fungus|Xylona heveae": [
+      "Xylona heveae",
+      "xylona heveae"
+    ],
+    "fungus|Zalaria obscura": [
+      "Zalaria obscura",
+      "zalaria obscura"
+    ],
+    "microbiota": [
+      "Microbiota",
+      "microbiota"
+    ],
+    "plant": [
+      "plant"
+    ],
+    "plant|Arabidopsis thaliana": [
+      "Arabidopsis thaliana",
+      "arabidopsis thaliana"
+    ],
+    "plant|Brachypodium distachyon": [
+      "Brachypodium distachyon",
+      "brachypodium distachyon"
+    ],
+    "plant|Brassica rapa": [
+      "Brassica rapa",
+      "brassica rapa"
+    ],
+    "plant|Ceratopteris richardii": [
+      "Ceratopteris richardii",
+      "ceratopteris richardii"
+    ],
+    "plant|Eruca vesicaria": [
+      "Eruca vesicaria",
+      "eruca vesicaria"
+    ],
+    "plant|Oryza sativa": [
+      "Oryza sativa",
+      "oryza sativa"
+    ],
+    "rodent": [
+      "rodent"
+    ],
+    "rodent|Mus musculus": [
+      "Mus musculus",
+      "mus musculus"
+    ],
+    "rodent|Rattus norvegicus": [
+      "Rattus norvegicus",
+      "rattus norvegicus"
+    ],
+    "snail": [
+      "snail"
+    ],
+    "snail|Helix lucorum": [
+      "Helix lucorum",
+      "helix lucorum"
+    ],
+    "squid": [
+      "squid"
+    ],
+    "squid|Euprymna scolopes": [
+      "Euprymna scolopes",
+      "euprymna scolopes"
+    ],
+    "squirrel": [
+      "squirrel"
+    ],
+    "squirrel|Urocitellus parryii": [
+      "Urocitellus parryii",
+      "urocitellus parryii"
+    ],
+    "worm": [
+      "worm"
+    ],
+    "worm|Caenorhabditis elegans": [
+      "Caenorhabditis elegans",
+      "caenorhabditis elegans"
+    ]
+  },
+  "Material type": {
+    "3D Co-Culture": [
+      "3D co-culture",
+      "3d co-culture"
+    ],
+    "4 pooled whole pupae": [
+      "4 pooled whole pupae"
+    ],
+    "Adrenal Glands - Both Sides": [
+      "Adrenal glands- both sides",
+      "adrenal glands- both sides"
+    ],
+    "Extensor Digitorum Longus - Both Sides": [
+      "Extensor Digitorum Longus",
+      "Extensor digitorum longus",
+      "Extensor digitorum longus- both sides",
+      "extensor digitorum longus",
+      "extensor digitorum longus- both sides"
+    ],
+    "Extracted DNA": [
+      "extracted dna"
+    ],
+    "HARV culture": [
+      "harv culture"
+    ],
+    "Human Induced Pluripotent Stem Cell-Derived Cardiomyocytes": [
+      "human induced pluripotent stem cell-derived cardiomyocytes"
+    ],
+    "Lewis Lung Carcinoma (LLC) Tumor": [
+      "lewis lung carcinoma (llc) tumor"
+    ],
+    "Mat-Tek EPI-200 3-Dimensional Skin Model": [
+      "mat-tek epi-200 3-dimensional skin model"
+    ],
+    "Non-Small Cell Lung Carcinoma": [
+      "non-small cell lung carcinoma"
+    ],
+    "OPM Chamber Culture": [
+      "opm chamber culture"
+    ],
+    "Other Materials": [
+      "3D Cells",
+      "3D cells",
+      "Attached Biofilms",
+      "Biofilms",
+      "Blood Cells",
+      "Both Eyes",
+      "Both eyes",
+      "CA1 field of hippocampus",
+      "Calvariae",
+      "Caudal Vertebrae 3-4",
+      "Cecum",
+      "Cells, Cultured",
+      "Cerebral Cortex",
+      "Colon",
+      "Cortex",
+      "DNA",
+      "Gastrocnemius \u2013 left",
+      "Heart and Abdominal Aorta",
+      "Hippocampus and Cortex",
+      "Inflorescence stems",
+      "Left Eye",
+      "Left Femur",
+      "Left Fore Limb",
+      "Left Hind Limb",
+      "Left Optic Nerve",
+      "Left cerebral hemisphere",
+      "Left extensor digitorum longus",
+      "Left eye",
+      "Left gastrocnemius",
+      "Left quadriceps femoris",
+      "Left soleus",
+      "Left tibialis anterior",
+      "Left ventricle",
+      "Lewis lung carcinoma (LLC)  tumor",
+      "Lumbar Spine",
+      "Microglia",
+      "Myoblasts",
+      "Not Applicable",
+      "Not Available",
+      "Not applicable",
+      "Peripheral Blood",
+      "Peripheral blood cell",
+      "Placenta",
+      "Plants",
+      "Positive Control",
+      "Primary T Cells",
+      "RBC pellet",
+      "Rear Paw",
+      "Right Eye",
+      "Right Lung",
+      "Right Optic Nerve",
+      "Right Tibia",
+      "Right extensor digitorum longus",
+      "Right gastrocnemius",
+      "Right hippocampus",
+      "Right kidney",
+      "Right quadriceps femoris",
+      "Right soleus",
+      "Right tibialis anterior",
+      "Right ventricle",
+      "Second Lumbar Vertebrae",
+      "Skeletal Muscle Tissue",
+      "Skin Biopsy",
+      "Skin Tissue",
+      "Skin swab",
+      "Stool Sample",
+      "Subcutaneous Tissue",
+      "Subdural Space",
+      "Surface swab",
+      "T cell",
+      "Tibia",
+      "Tissue",
+      "Urine",
+      "Vaginal Specimen",
+      "Vertebrae",
+      "Whole Spleen",
+      "Zygote",
+      "aboveground biomass",
+      "blank control",
+      "bronchial epithelial cell",
+      "cardiac muscle tissue",
+      "dentate gyrus of hippocampal formation",
+      "frontal cortex",
+      "heart right ventricle",
+      "hindlimb",
+      "human engineered cartilage",
+      "human mammary epithelial cells",
+      "humerus",
+      "isolated cells",
+      "left eye",
+      "lumbar vertebra 2",
+      "lumbar vertebra 4",
+      "medial prefrontal cortex",
+      "not applicable",
+      "parietal bone",
+      "parietal cortex",
+      "primary cell",
+      "primary left ventricular cell",
+      "primary lung fibroblast cells",
+      "reference RNA",
+      "right hemisphere of cerebellum",
+      "right lateral gastrocnemius",
+      "rosette",
+      "solvent control",
+      "stem",
+      "technical chip control",
+      "tibialis anterior",
+      "whole 4th (inguinal) mammary glands",
+      "whole embryos"
+    ],
+    "Total RNA Extract": [
+      "total rna extract"
+    ],
+    "Vegetative Cell (Sensu Fungi)": [
+      "vegetative cell (sensu Fungi)",
+      "vegetative cell (sensu fungi)"
+    ],
+    "adipose tissue": [
+      "adipose tissue"
+    ],
+    "adipose tissue|brown adipose tissue": [
+      "brown adipose tissue"
+    ],
+    "adipose tissue|white adipose tissue": [
+      "white adipose tissue"
+    ],
+    "adrenal gland": [
+      "Adrenal gland",
+      "adrenal gland"
+    ],
+    "bacteria": [
+      "Bacteria",
+      "bacteria"
+    ],
+    "bioaerosol": [
+      "bioaerosol"
+    ],
+    "blank": [
+      "blank"
+    ],
+    "blood": [
+      "Blood",
+      "blood"
+    ],
+    "blood|Human Peripheral Blood Lymphocytes (PBL)": [
+      "Human Peripheral blood lymphocytes (PBL)",
+      "human peripheral blood lymphocytes (pbl)"
+    ],
+    "blood|blood plasma": [
+      "Plasma",
+      "blood plasma",
+      "plasma"
+    ],
+    "blood|blood serum": [
+      "blood serum"
+    ],
+    "blood|blood, isolated leukocytes": [
+      "blood, isolated leukocytes"
+    ],
+    "blood|peripheral blood mononuclear cell": [
+      "Peripheral Blood Mononuclear Cell",
+      "peripheral blood mononuclear cell"
+    ],
+    "blood|whole blood": [
+      "Whole Blood",
+      "Whole blood",
+      "whole blood"
+    ],
+    "bone marrow": [
+      "Bone Marrow",
+      "bone marrow"
+    ],
+    "bone marrow of humerus": [
+      "Bone marrow of humerus",
+      "bone marrow of humerus"
+    ],
+    "brain": [
+      "Brain",
+      "brain"
+    ],
+    "brain|cerebellum": [
+      "Cerebellum",
+      "cerebellum"
+    ],
+    "brain|cerebrum": [
+      "Cerebrum",
+      "cerebrum"
+    ],
+    "brain|hippocampus": [
+      "Hippocampus",
+      "hippocampus"
+    ],
+    "caenorhabditis elegans": [
+      "c. elegans",
+      "caenorhabditis elegans"
+    ],
+    "callus": [
+      "Callus",
+      "callus"
+    ],
+    "cardiovascular progenitor cells": [
+      "cardiovascular progenitor cells"
+    ],
+    "cell line": [
+      "cell line"
+    ],
+    "cell line|Human Fibroblasts AG01522": [
+      "human fibroblasts ag01522"
+    ],
+    "cell line|cell culture": [
+      "cell culture"
+    ],
+    "cell pellets": [
+      "cell pellets"
+    ],
+    "cells": [
+      "Cells",
+      "cells"
+    ],
+    "cells|vegetative cells": [
+      "vegetative cells"
+    ],
+    "cerebrospinal fluid": [
+      "cerebrospinal fluid"
+    ],
+    "cortical bone": [
+      "Cortical Bone",
+      "cortical bone"
+    ],
+    "cotyledon": [
+      "Cotyledon",
+      "cotyledon"
+    ],
+    "descending colon": [
+      "descending colon"
+    ],
+    "dust": [
+      "Dust",
+      "dust"
+    ],
+    "embryo": [
+      "embryo"
+    ],
+    "exhaled breath condensate": [
+      "Exhaled Breath Condensate",
+      "exhaled breath condensate"
+    ],
+    "eye": [
+      "Eye",
+      "eye"
+    ],
+    "eye|Eye-Left": [
+      "eye-left"
+    ],
+    "feces": [
+      "Feces",
+      "feces"
+    ],
+    "femoral skin": [
+      "femoral skin"
+    ],
+    "femoral skin|femoral lateral skin": [
+      "femoral lateral skin"
+    ],
+    "femur": [
+      "Femur",
+      "femur"
+    ],
+    "femur|bone marrow of femur": [
+      "Bone marrow of femur",
+      "bone marrow of femur"
+    ],
+    "femur|right femur": [
+      "Right Femur",
+      "Right femur",
+      "right femur"
+    ],
+    "filter particles": [
+      "filter particles"
+    ],
+    "hair follicle": [
+      "Hair follicle",
+      "hair follicle"
+    ],
+    "head": [
+      "Head",
+      "head"
+    ],
+    "heart": [
+      "Heart",
+      "heart"
+    ],
+    "hypocotyl": [
+      "Hypocotyl",
+      "hypocotyl"
+    ],
+    "hypocotyl|hypocotyl cell culture": [
+      "hypocotyl cell culture"
+    ],
+    "intestines": [
+      "Intestines",
+      "intestines"
+    ],
+    "jurkat t cells": [
+      "jurkat t cells"
+    ],
+    "kidney": [
+      "Kidney",
+      "kidney"
+    ],
+    "kidney|left kidney": [
+      "Left kidney",
+      "kidney-left",
+      "left kidney"
+    ],
+    "leaf": [
+      "leaf"
+    ],
+    "light organ": [
+      "Light Organ",
+      "Light organ",
+      "light organ"
+    ],
+    "liver": [
+      "Liver",
+      "liver"
+    ],
+    "liver|liver left lateral lobe": [
+      "Left Lobe of the Liver",
+      "Left lobe of liver",
+      "left lobe of liver",
+      "left lobe of the liver",
+      "liver left lateral lobe"
+    ],
+    "lung": [
+      "Lung",
+      "lung"
+    ],
+    "lung|left lung": [
+      "Left Lung",
+      "left lung",
+      "left lung lobe"
+    ],
+    "lung|lung fibroblast": [
+      "lung fibroblast"
+    ],
+    "lymphoblastoid cells": [
+      "lymphoblastoid cells"
+    ],
+    "lymphoma": [
+      "Lymphoma",
+      "lymphoma"
+    ],
+    "mammary gland": [
+      "mammary gland"
+    ],
+    "mandible": [
+      "Mandible",
+      "mandible"
+    ],
+    "medial collateral ligament": [
+      "Medial collateral ligament",
+      "medial collateral ligament"
+    ],
+    "murine left ventricular cardiomyocytes": [
+      "murine left ventricular cardiomyocytes"
+    ],
+    "muscle": [
+      "muscle"
+    ],
+    "muscle|Tibialis Anterior-Left": [
+      "tibialis anterior-left"
+    ],
+    "muscle|calf muscle": [
+      "calf muscle"
+    ],
+    "muscle|gastrocnemius": [
+      "Gastrocnemius",
+      "gastrocnemius"
+    ],
+    "muscle|quadriceps muscle": [
+      "Quadriceps Muscle",
+      "Quadriceps femoris",
+      "quadriceps femoris",
+      "quadriceps muscle"
+    ],
+    "muscle|soleus": [
+      "Soleus",
+      "Soleus-both sides",
+      "soleus",
+      "soleus-both sides"
+    ],
+    "muscle|vastus lateralis": [
+      "Vastus Lateralis",
+      "Vastus lateralis",
+      "vastus lateralis"
+    ],
+    "mycelia": [
+      "Mycelium",
+      "mycelia",
+      "mycelium"
+    ],
+    "neonatal rat cardiomyocyte": [
+      "neonatal rat cardiomyocyte"
+    ],
+    "ovary": [
+      "Ovary",
+      "ovary"
+    ],
+    "pharyngeal": [
+      "Pharyngeal",
+      "pharyngeal"
+    ],
+    "plant callus": [
+      "plant callus"
+    ],
+    "plant callus|callus cell culture": [
+      "callus cell culture"
+    ],
+    "plant leaves": [
+      "plant leaves"
+    ],
+    "primary cultured fibroblast cell": [
+      "primary cultured fibroblast cell"
+    ],
+    "primary prostate fibroblast cell culture": [
+      "primary prostate fibroblast cell culture"
+    ],
+    "retina": [
+      "Retina",
+      "retina"
+    ],
+    "retina|left retina": [
+      "Left retina",
+      "left retina"
+    ],
+    "retina|right retina": [
+      "Right retina",
+      "right retina"
+    ],
+    "root": [
+      "po:root",
+      "root"
+    ],
+    "root|mature root": [
+      "mature root"
+    ],
+    "root|plant roots": [
+      "Plant Roots",
+      "plant roots"
+    ],
+    "root|root tip": [
+      "root tip"
+    ],
+    "saliva": [
+      "Saliva",
+      "saliva"
+    ],
+    "seedlings": [
+      "Seedlings",
+      "seedling",
+      "seedlings"
+    ],
+    "seedlings|shoots of seedlings": [
+      "shoots of seedlings"
+    ],
+    "seeds": [
+      "Seeds",
+      "seeds"
+    ],
+    "serum": [
+      "Serum",
+      "serum"
+    ],
+    "shoot": [
+      "bto:shoot",
+      "shoot"
+    ],
+    "skin": [
+      "Skin",
+      "skin"
+    ],
+    "skin fibroblast": [
+      "skin fibroblast"
+    ],
+    "skin|dorsal skin": [
+      "dorsal skin"
+    ],
+    "soil": [
+      "Soil",
+      "soil"
+    ],
+    "spleen": [
+      "Spleen",
+      "spleen"
+    ],
+    "spleen|spleen-distal": [
+      "Spleen-distal",
+      "spleen-distal"
+    ],
+    "spores": [
+      "Spores",
+      "spores"
+    ],
+    "spores|spores, bacterial": [
+      "spores, bacterial"
+    ],
+    "statocyst": [
+      "statocyst"
+    ],
+    "swab": [
+      "Swab",
+      "swab"
+    ],
+    "temporal bone": [
+      "Temporal Bone",
+      "temporal bone"
+    ],
+    "testis": [
+      "Testis",
+      "testis"
+    ],
+    "thymic lymphoma": [
+      "thymic lymphoma"
+    ],
+    "thymus": [
+      "Thymus",
+      "thymus",
+      "thymus gland"
+    ],
+    "tumor": [
+      "tumor"
+    ],
+    "tumor|4T1 Tumor": [
+      "4T1 tumor",
+      "4t1 tumor"
+    ],
+    "tumor|transplanted p53null mammary tumor": [
+      "transplanted p53null mammary tumor"
+    ],
+    "tumor|trp53 null mammary tumor": [
+      "Trp53 null Mammary Tumor",
+      "trp53 null mammary tumor"
+    ],
+    "vastus lateralis": [
+      "vastus lateralis"
+    ],
+    "whole larva": [
+      "whole larva"
+    ],
+    "whole organism": [
+      "Whole Organism",
+      "whole organism"
+    ],
+    "wholebody": [
+      "wholebody"
+    ],
+    "wipes": [
+      "Wipes",
+      "wipes"
+    ]
+  },
+  "Mission": {
+    "Bion/Cosmos": [
+      "Bion M-1",
+      "Bion-M1"
+    ],
+    "Commercial Spaceflight": [
+      "CubeLab_HSAPIENS_SpaceX-19",
+      "Inspiration4 Crew",
+      "MELFI_MMUSCULUS_SPACEX-25",
+      "Microgravity Pain (Ax-1)",
+      "PHAB_HSAPIENS_SpaceX-10"
+    ],
+    "Ground Control": [
+      "GROUND-2"
+    ],
+    "ISS Expeditions": [
+      "IRISS",
+      "ISS-MO",
+      "ISS-MO (MT-1A)",
+      "ISS-MO (MT-1B)",
+      "ISS-MO (MT-1C)",
+      "ISS-MOP",
+      "MT-2 (ISS-MOP)"
+    ],
+    "Other Missions": [
+      "12A",
+      "19_12829_26_1A",
+      "3DMM",
+      "ABC-1",
+      "AES-1",
+      "APEX03-2",
+      "ARBEX - Russian dust",
+      "ARC00XX133",
+      "ARC00XX144",
+      "ARC00XX145",
+      "ARC00XX48",
+      "BASE-A",
+      "BONEMAC",
+      "BSP135",
+      "Biomolecule_Sequencer",
+      "Bioscience-3",
+      "CARA",
+      "CM",
+      "CSI-01",
+      "CUBELAB",
+      "EMCS-01",
+      "EXPOSE-E",
+      "FIT",
+      "GENE",
+      "GIS-6",
+      "Human Muscle-on-Chip",
+      "ICE FIRST",
+      "ICE-FIRST",
+      "Immune-STL",
+      "KIDNEY-CELLS",
+      "Lada-VPU-P3R",
+      "Leukin-2",
+      "MDSBSP",
+      "MESSAGE-2",
+      "MHU-1",
+      "MHU-2",
+      "MHU-3",
+      "MHU-4",
+      "MHU-5",
+      "MVP-Fly-01",
+      "MVP2-Cell-03",
+      "Micro 7",
+      "Micro-4",
+      "Micro-7",
+      "Micro-I",
+      "Micro-III",
+      "Microbe-II",
+      "Microbial Tracking-1A",
+      "Microbial Tracking-1B",
+      "Microbial Tracking-2",
+      "NIH.R2",
+      "NNX14AT23G",
+      "PESTO",
+      "PH-04",
+      "PROTECT",
+      "Physiological Systems Experiment-04 (PSE.04)",
+      "ROTIFER-B1",
+      "RRRM-1 (RR-8)",
+      "SIBMOX-CELEGANS_SHENZHOU-8",
+      "SJ10_B2-1",
+      "SJ10_B2-3",
+      "SPHINX",
+      "Seedling Growth-1",
+      "Space Biofilms",
+      "TAGES",
+      "TAGES-Isa / APEX03-2",
+      "VEGGIE",
+      "VEG_03",
+      "VP-03",
+      "WISE-2005",
+      "YEAST-B"
+    ],
+    "Payload Investigations": [
+      "APEX-03-1",
+      "APEX-03-2",
+      "APEX-04",
+      "APEX-TAGES",
+      "BRIC-16",
+      "BRIC-17-1",
+      "BRIC-19",
+      "BRIC-20",
+      "BRIC-21",
+      "BRIC-22",
+      "BRIC-23",
+      "BRIC-LED-001",
+      "CBTM",
+      "CBTM-3",
+      "CBTM-3 (Biospecimen Sharing Program)",
+      "CERISE",
+      "FFL-02",
+      "FFL01",
+      "FFL03",
+      "VEG-01A",
+      "VEG-01B",
+      "VEG-03A",
+      "VEG-03D",
+      "VEG-03E",
+      "VEG-03F",
+      "VEG-04A",
+      "VEG-04B"
+    ],
+    "Radiation Studies": [
+      "Gamma_Irradiation",
+      "Heavy_Ion_HZE_Irradiation",
+      "High_Dose_Irradiation",
+      "High_LET_Irradiation",
+      "Low_Dose_Irradiation",
+      "Low_LET_Irradiation",
+      "Multiple_Radiation_Types",
+      "Non_Ionizing_Irradiation",
+      "Proton_Irradiation",
+      "Simplified_Galactic_Cosmic_Ray_Simulation_Irradiation",
+      "Solar_Particle_Event_Simulation_Irradiation",
+      "UV_Ionizing_Irradiation",
+      "X-Ray_Irradiation"
+    ],
+    "Rodent Research": [
+      "RR-1",
+      "RR-10",
+      "RR-12",
+      "RR-17",
+      "RR-18",
+      "RR-19",
+      "RR-1_BSP",
+      "RR-23",
+      "RR-3",
+      "RR-4",
+      "RR-5",
+      "RR-6",
+      "RR-7",
+      "RR-8",
+      "RR-9"
+    ],
+    "Simulated Conditions": [
+      "Hindlimb_Unloading",
+      "Simulated_Environmental_Factors",
+      "Simulated_Hypergravity",
+      "Simulated_Microgravity"
+    ],
+    "Space Shuttle": [
+      "SLS-1",
+      "SLS-2"
+    ]
+  }
+}

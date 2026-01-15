@@ -1,0 +1,914 @@
+UNMAPPED ITEMS REPORT
+================================================================================
+
+These items from the API do not fit into existing categories.
+They have been placed in 'Other' categories and may need
+manual review to determine appropriate subcategories.
+================================================================================
+
+
+Assay technology type:
+--------------------------------------------------------------------------------
+
+  16S
+    Found in: OSD-65
+
+  16S and ITS
+    Found in: OSD-200
+
+  Anhedonia
+    Found in: OSD-836
+
+  Anthocyanin Content
+    Found in: OSD-745
+
+  Atomic Absorption Spectroscopy
+    Found in: OSD-877
+
+  Atomic Force Microscopy
+    Found in: OSD-702
+
+  Balance
+    Found in: OSD-618
+
+  Biotelemetry
+    Found in: OSD-681
+
+  CCS long read DNA Enzymatic Methyl Sequencing
+    Found in: OSD-625
+
+  ChIC-seq (Chromatin Immunocleavage Sequencing)
+    Found in: OSD-687
+
+  Comprehensive Metabolic Panel
+    Found in: OSD-575
+
+  Confocal
+    Found in: OSD-627
+
+  Contractility
+    Found in: OSD-662
+
+  Cytology
+    Found in: OSD-617
+
+  DIP-Seq
+    Found in: OSD-86
+
+  DIP-seq
+    Found in: OSD-374
+
+  Dual-Energy X-Ray Absorptiometry
+    Found in: OSD-654
+
+  ECLIA
+    Found in: OSD-738
+
+  ELISA
+    Found in: OSD-121
+
+  Flow Cytometry
+    Found in: OSD-640
+
+  Force Plate
+    Found in: OSD-616
+
+  Force Transducer
+    Found in: OSD-652
+
+  Forced Swim Test
+    Found in: OSD-835
+
+  Hematology Analyzer
+    Found in: OSD-569
+
+  ITS
+    Found in: OSD-65
+
+  Inductively Coupled Plasma Optical Emission Spectroscopy
+    Found in: OSD-655
+
+  Light Microscopy
+    Found in: OSD-557
+
+  Magnetic Resonance Imaging
+    Found in: OSD-679
+
+  Multiplex
+    Found in: OSD-575
+
+  Open Field
+    Found in: OSD-479
+
+  Optical Coherence Tomography
+    Found in: OSD-679
+
+  Optical Emission Spectroscopy
+    Found in: OSD-883
+
+  Oxygen Radical Absorbance Capacity
+    Found in: OSD-655
+
+  Phenolic Compound Content
+    Found in: OSD-655
+
+  Photography
+    Found in: OSD-120
+
+  Plant Material Biomass
+    Found in: OSD-855
+
+  Plate Count Assay
+    Found in: OSD-780
+
+  Psychomotor Vigilance Test
+    Found in: OSD-939
+
+  RAWM
+    Found in: OSD-479
+
+  Reduced-Representation Bisulfite Sequencing
+    Found in: OSD-202
+
+  Spectrophotometry
+    Found in: OSD-691
+
+  Three Chamber Social Isolation
+    Found in: OSD-479
+
+  Video Recording
+    Found in: OSD-595
+
+  Whole Genome Bisulfite Sequencing
+    Found in: OSD-47
+
+  Whole Transcriptome Bisulfite Sequencing
+    Found in: OSD-48
+
+  long read DNA Sequencing
+    Found in: OSD-509
+
+  long read RNA Sequencing
+    Found in: OSD-569
+
+  long read low-biomass DNA Sequencing
+    Found in: OSD-890
+
+  miRNA Microarray
+    Found in: OSD-55
+
+  miRNA Sequencing
+    Found in: OSD-334
+
+  miRNA sequencing
+    Found in: OSD-355
+
+  single-cell ATAC-seq
+    Found in: OSD-352
+
+Factor:
+--------------------------------------------------------------------------------
+
+  age at sample collection
+    Found in: schema
+
+  age at sample harvest
+    Found in: schema
+
+  age at start of experiment
+    Found in: schema
+
+  antibody
+    Found in: schema
+
+  assay time post-irradiation
+    Found in: schema
+
+  atmospheric composition
+    Found in: schema
+
+  carbon dioxide treatment
+    Found in: schema
+
+  cleaning treatment
+    Found in: schema
+
+  co-culture
+    Found in: schema
+
+  disease state
+    Found in: schema
+
+  donor age
+    Found in: schema
+
+  donor medical history
+    Found in: schema
+
+  gravity environment at imbibition
+    Found in: schema
+
+  growth environment
+    Found in: schema
+
+  growth medium
+    Found in: schema
+
+  growth medium provenance
+    Found in: schema
+
+  harvest
+    Found in: schema
+
+  hindlimb reloading duration
+    Found in: schema
+
+  hindlimb unloading duration
+    Found in: schema
+
+  histone modification target
+    Found in: schema
+
+  housing condition
+    Found in: schema
+
+  input cell count
+    Found in: schema
+
+  input dna mass
+    Found in: schema
+
+  ionizing radiation device or source
+    Found in: schema
+
+  lambda spike-in
+    Found in: schema
+
+  library construction protocol
+    Found in: schema
+
+  magnetic field
+    Found in: schema
+
+  micronucleus index
+    Found in: schema
+
+  number of radiation doses
+    Found in: schema
+
+  o2 level
+    Found in: schema
+
+  organism distribution
+    Found in: schema
+
+  payload
+    Found in: schema
+
+  relative humidity
+    Found in: schema
+
+  sample condition
+    Found in: schema
+
+  seed sanitization
+    Found in: schema
+
+  soil environment exposure
+    Found in: schema
+
+  substrate type
+    Found in: schema
+
+  time of sample collection after euthanasia
+    Found in: schema
+
+  time of sample collection after irradiation
+    Found in: schema
+
+  time post-irradiation
+    Found in: schema
+
+  tissue segment
+    Found in: schema
+
+  vendor
+    Found in: schema
+
+Material type:
+--------------------------------------------------------------------------------
+
+  3D Cells
+    Found in: OSD-92
+
+  3D cells
+    Found in: OSD-151
+
+  Attached Biofilms
+    Found in: OSD-809
+
+  Biofilms
+    Found in: OSD-487
+
+  Blood Cells
+    Found in: OSD-140
+
+  Both Eyes
+    Found in: OSD-583
+
+  Both eyes
+    Found in: OSD-583
+
+  CA1 field of hippocampus
+    Found in: OSD-682
+
+  Calvariae
+    Found in: OSD-486
+
+  Caudal Vertebrae 3-4
+    Found in: OSD-471
+
+  Cecum
+    Found in: OSD-899
+
+  Cells, Cultured
+    Found in: OSD-728
+
+  Cerebral Cortex
+    Found in: OSD-699
+
+  Colon
+    Found in: OSD-667
+
+  Cortex
+    Found in: OSD-751
+
+  DNA
+    Found in: OSD-84
+
+  Gastrocnemius – left
+    Found in: OSD-718
+
+  Heart and Abdominal Aorta
+    Found in: OSD-435
+
+  Hippocampus and Cortex
+    Found in: OSD-833
+
+  Inflorescence stems
+    Found in: OSD-531
+
+  Left Eye
+    Found in: OSD-568
+
+  Left Femur
+    Found in: OSD-477
+
+  Left Fore Limb
+    Found in: OSD-478
+
+  Left Hind Limb
+    Found in: OSD-478
+
+  Left Optic Nerve
+    Found in: OSD-680
+
+  Left cerebral hemisphere
+    Found in: OSD-612
+
+  Left extensor digitorum longus
+    Found in: OSD-139
+
+  Left eye
+    Found in: OSD-557
+
+  Left gastrocnemius
+    Found in: OSD-101
+
+  Left quadriceps femoris
+    Found in: OSD-103
+
+  Left soleus
+    Found in: OSD-139
+
+  Left tibialis anterior
+    Found in: OSD-105
+
+  Left ventricle
+    Found in: OSD-720
+
+  Lewis lung carcinoma (LLC)  tumor
+    Found in: OSD-88
+
+  Lumbar Spine
+    Found in: OSD-661
+
+  Microglia
+    Found in: OSD-777
+
+  Myoblasts
+    Found in: OSD-684
+
+  Not Applicable
+    Found in: OSD-98
+
+  Not Available
+    Found in: OSD-396
+
+  Not applicable
+    Found in: OSD-161
+
+  Peripheral Blood
+    Found in: OSD-481
+
+  Peripheral blood cell
+    Found in: OSD-152
+
+  Placenta
+    Found in: OSD-813
+
+  Plants
+    Found in: OSD-670
+
+  Positive Control
+    Found in: OSD-734
+
+  Primary T Cells
+    Found in: OSD-13
+
+  RBC pellet
+    Found in: OSD-569
+
+  Rear Paw
+    Found in: OSD-652
+
+  Right Eye
+    Found in: OSD-679
+
+  Right Lung
+    Found in: OSD-900
+
+  Right Optic Nerve
+    Found in: OSD-680
+
+  Right Tibia
+    Found in: OSD-608
+
+  Right extensor digitorum longus
+    Found in: OSD-665
+
+  Right gastrocnemius
+    Found in: OSD-419
+
+  Right hippocampus
+    Found in: OSD-562
+
+  Right kidney
+    Found in: OSD-771
+
+  Right quadriceps femoris
+    Found in: OSD-666
+
+  Right soleus
+    Found in: OSD-770
+
+  Right tibialis anterior
+    Found in: OSD-576
+
+  Right ventricle
+    Found in: OSD-881
+
+  Second Lumbar Vertebrae
+    Found in: OSD-310
+
+  Skeletal Muscle Tissue
+    Found in: OSD-51
+
+  Skin Biopsy
+    Found in: OSD-574
+
+  Skin Tissue
+    Found in: OSD-487
+
+  Skin swab
+    Found in: OSD-487
+
+  Stool Sample
+    Found in: OSD-630
+
+  Subcutaneous Tissue
+    Found in: OSD-681
+
+  Subdural Space
+    Found in: OSD-681
+
+  Surface swab
+    Found in: OSD-734
+
+  T cell
+    Found in: OSD-687
+
+  Tibia
+    Found in: OSD-653
+
+  Tissue
+    Found in: OSD-141
+
+  Urine
+    Found in: OSD-656
+
+  Vaginal Specimen
+    Found in: OSD-617
+
+  Vertebrae
+    Found in: OSD-804
+
+  Whole Spleen
+    Found in: OSD-141
+
+  Zygote
+    Found in: OSD-308
+
+  aboveground biomass
+    Found in: OSD-476
+
+  blank control
+    Found in: OSD-734
+
+  bronchial epithelial cell
+    Found in: OSD-149
+
+  cardiac muscle tissue
+    Found in: OSD-548
+
+  dentate gyrus of hippocampal formation
+    Found in: OSD-685
+
+  frontal cortex
+    Found in: OSD-698
+
+  heart right ventricle
+    Found in: OSD-580
+
+  hindlimb
+    Found in: OSD-616
+
+  human engineered cartilage
+    Found in: OSD-539
+
+  human mammary epithelial cells
+    Found in: OSD-78
+
+  humerus
+    Found in: OSD-351
+
+  isolated cells
+    Found in: OSD-689
+
+  left eye
+    Found in: OSD-100
+
+  lumbar vertebra 2
+    Found in: OSD-351
+
+  lumbar vertebra 4
+    Found in: OSD-489
+
+  medial prefrontal cortex
+    Found in: OSD-505
+
+  not applicable
+    Found in: OSD-280
+
+  parietal bone
+    Found in: OSD-351
+
+  parietal cortex
+    Found in: OSD-897
+
+  primary cell
+    Found in: OSD-5
+
+  primary left ventricular cell
+    Found in: OSD-109
+
+  primary lung fibroblast cells
+    Found in: OSD-175
+
+  reference RNA
+    Found in: OSD-54
+
+  right hemisphere of cerebellum
+    Found in: OSD-561
+
+  right lateral gastrocnemius
+    Found in: OSD-422
+
+  rosette
+    Found in: OSD-520
+
+  solvent control
+    Found in: OSD-734
+
+  stem
+    Found in: OSD-594
+
+  technical chip control
+    Found in: OSD-88
+
+  tibialis anterior
+    Found in: OSD-488
+
+  whole 4th (inguinal) mammary glands
+    Found in: OSD-153
+
+  whole embryos
+    Found in: OSD-524
+
+Mission:
+--------------------------------------------------------------------------------
+
+  12A
+    Found in: OSD-11
+
+  19_12829_26_1A
+    Found in: OSD-470
+
+  3DMM
+    Found in: OSD-734
+
+  ABC-1
+    Found in: OSD-170
+
+  AES-1
+    Found in: OSD-95
+
+  APEX03-2
+    Found in: OSD-193
+
+  ARBEX - Russian dust
+    Found in: OSD-126
+
+  ARC00XX133
+    Found in: OSD-251
+
+  ARC00XX144
+    Found in: OSD-314
+
+  ARC00XX145
+    Found in: OSD-314
+
+  ARC00XX48
+    Found in: OSD-223
+
+  BASE-A
+    Found in: OSD-39
+
+  BONEMAC
+    Found in: OSD-50
+
+  BSP135
+    Found in: OSD-87
+
+  Biomolecule_Sequencer
+    Found in: OSD-84
+
+  Bioscience-3
+    Found in: OSD-635
+
+  CARA
+    Found in: OSD-678
+
+  CM
+    Found in: OSD-781
+
+  CSI-01
+    Found in: OSD-42
+
+  CUBELAB
+    Found in: OSD-684
+
+  EMCS-01
+    Found in: OSD-437
+
+  EXPOSE-E
+    Found in: OSD-259
+
+  FIT
+    Found in: OSD-1
+
+  GENE
+    Found in: OSD-36
+
+  GIS-6
+    Found in: OSD-509
+
+  Human Muscle-on-Chip
+    Found in: OSD-937
+
+  ICE FIRST
+    Found in: OSD-35
+
+  ICE-FIRST
+    Found in: OSD-113
+
+  Immune-STL
+    Found in: OSD-323
+
+  KIDNEY-CELLS
+    Found in: OSD-516
+
+  Lada-VPU-P3R
+    Found in: OSD-59
+
+  Leukin-2
+    Found in: OSD-13
+
+  MDSBSP
+    Found in: OSD-61
+
+  MESSAGE-2
+    Found in: OSD-31
+
+  MHU-1
+    Found in: OSD-288
+
+  MHU-2
+    Found in: OSD-238
+
+  MHU-3
+    Found in: OSD-457
+
+  MHU-4
+    Found in: OSD-714
+
+  MHU-5
+    Found in: OSD-714
+
+  MVP-Fly-01
+    Found in: OSD-514
+
+  MVP2-Cell-03
+    Found in: OSD-811
+
+  Micro 7
+    Found in: OSD-118
+
+  Micro-4
+    Found in: OSD-58
+
+  Micro-7
+    Found in: OSD-114
+
+  Micro-I
+    Found in: OSD-82
+
+  Micro-III
+    Found in: OSD-82
+
+  Microbe-II
+    Found in: OSD-82
+
+  Microbial Tracking-1A
+    Found in: OSD-65
+
+  Microbial Tracking-1B
+    Found in: OSD-65
+
+  Microbial Tracking-2
+    Found in: OSD-252
+
+  NIH.R2
+    Found in: OSD-63
+
+  NNX14AT23G
+    Found in: OSD-375
+
+  PESTO
+    Found in: OSD-622
+
+  PH-04
+    Found in: OSD-772
+
+  PROTECT
+    Found in: OSD-28
+
+  Physiological Systems Experiment-04 (PSE.04)
+    Found in: OSD-310
+
+  ROTIFER-B1
+    Found in: OSD-824
+
+  RRRM-1 (RR-8)
+    Found in: OSD-379
+
+  SIBMOX-CELEGANS_SHENZHOU-8
+    Found in: OSD-165
+
+  SJ10_B2-1
+    Found in: OSD-220
+
+  SJ10_B2-3
+    Found in: OSD-469
+
+  SPHINX
+    Found in: OSD-52
+
+  Seedling Growth-1
+    Found in: OSD-346
+
+  Space Biofilms
+    Found in: OSD-554
+
+  TAGES
+    Found in: OSD-7
+
+  TAGES-Isa / APEX03-2
+    Found in: OSD-219
+
+  VEGGIE
+    Found in: OSD-177
+
+  VEG_03
+    Found in: OSD-269
+
+  VP-03
+    Found in: OSD-406
+
+  WISE-2005
+    Found in: OSD-51
+
+  YEAST-B
+    Found in: OSD-62
+
+Organism:
+--------------------------------------------------------------------------------
+
+  Adineta vaga
+    Found in: OSD-824
+
+  Agrobacterium genomosp. 3
+    Found in: OSD-306
+
+  Brassica oleracea
+    Found in: OSD-855
+
+  Capsicum annuum
+    Found in: OSD-670
+
+  Citrus limonia
+    Found in: OSD-877
+
+  Daphnia magna
+    Found in: OSD-110
+
+  Daucus carota
+    Found in: OSD-883
+
+  Enterobacter cloacae
+    Found in: OSD-788
+
+  Fusarium oxysporum
+    Found in: OSD-177
+
+  Glycine max
+    Found in: OSD-877
+
+  Klebsiella aerogenes
+    Found in: OSD-309
+
+  Klebsiella pneumoniae
+    Found in: OSD-309
+
+  Lactuca sativa
+    Found in: OSD-670
+
+  Leptopilina boulardi
+    Found in: OSD-610
+
+  Leptopilina heterotoma
+    Found in: OSD-609
+
+  Lolium multiflorum
+    Found in: OSD-581
+
+  Marchantia
+    Found in: OSD-877
+
+  Not Applicable
+    Found in: OSD-98
+
+  Paraburkholderia phymatum
+    Found in: OSD-810
+
+  Raphanus sativus
+    Found in: OSD-670
+
+  Serratia liquefaciens
+    Found in: OSD-305
+
+  Triticum aestivum
+    Found in: OSD-622
+
+  Vibrio fischeri
+    Found in: OSD-356
