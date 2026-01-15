@@ -2,6 +2,41 @@
 
 A Python script that regenerates the OSDR (Open Science Data Repository) filter-options JSON file by fetching all data in real-time from the OSDR API. **No input files required!**
 
+<br>
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Requirements](#requirements)
+  - [Installing Requirements](#installing-requirements)
+- [Usage](#usage)
+  - [Download the python script](#download-the-python-script)
+  - [Run the script](#run-the-script)
+  - [What Happens](#what-happens)
+- [Output Files](#output-files)
+- [What the Script Does](#what-the-script-does)
+- [Data Sources](#data-sources)
+  - [Current Filter Options](#current-filter-options)
+  - [API Endpoints (JSON Split Format)](#api-endpoints-json-split-format)
+- [Example Output](#example-output)
+- [Mission Categories](#mission-categories)
+- [Error Handling](#error-handling)
+  - [Download Error](#download-error)
+  - [API Connection Error](#api-connection-error)
+  - [Verification Failure](#verification-failure)
+- [Exit Codes](#exit-codes)
+- [Network Requirements](#network-requirements)
+- [Automation & Scheduling](#automation--scheduling)
+  - [Cron Job (Linux/Mac)](#cron-job-linuxmac)
+  - [Task Scheduler (Windows)](#task-scheduler-windows)
+  - [GitHub Actions](#github-actions)
+- [Notes](#notes)
+- [Troubleshooting](#troubleshooting)
+- [Advantages](#advantages)
+- [Version](#version)
+
+<br>
+
 ## Overview
 
 This script:
