@@ -7,29 +7,31 @@ A Python script that regenerates the OSDR (Open Science Data Repository) filter-
 ## Table of Contents
 
 - [Overview](#overview)
+- [Key Features](#key-features)
 - [Requirements](#requirements)
   - [Installing Requirements](#installing-requirements)
 - [Usage](#usage)
-  - [Download the python script](#download-the-python-script)
-  - [Run the script](#run-the-script)
+  - [Download the Python Script](#download-the-python-script)
+  - [Run the Script](#run-the-script)
   - [What Happens](#what-happens)
 - [Output Files](#output-files)
 - [What the Script Does](#what-the-script-does)
+- [Smart Categorization Features](#smart-categorization-features)
+  - [Assay Technology Type (3-Level Hierarchy)](#assay-technology-type-3-level-hierarchy)
+  - [Factor (Hierarchical Structure)](#factor-hierarchical-structure)
+  - [Material Type (3-Tier Muscle Hierarchy)](#material-type-3-tier-muscle-hierarchy)
+  - [Organism (Taxonomic Classification)](#organism-taxonomic-classification)
+  - [Mission (10 Categories)](#mission-10-categories)
 - [Data Sources](#data-sources)
   - [Current Filter Options](#current-filter-options)
   - [API Endpoints (JSON Split Format)](#api-endpoints-json-split-format)
 - [Example Output](#example-output)
-- [Mission Categories](#mission-categories)
+- [Input Format Support](#input-format-support)
+- [Capitalization Handling](#capitalization-handling)
 - [Error Handling](#error-handling)
-  - [Download Error](#download-error)
-  - [API Connection Error](#api-connection-error)
-  - [Verification Failure](#verification-failure)
 - [Exit Codes](#exit-codes)
 - [Network Requirements](#network-requirements)
 - [Automation & Scheduling](#automation--scheduling)
-  - [Cron Job (Linux/Mac)](#cron-job-linuxmac)
-  - [Task Scheduler (Windows)](#task-scheduler-windows)
-  - [GitHub Actions](#github-actions)
 - [Notes](#notes)
 - [Troubleshooting](#troubleshooting)
 - [Advantages](#advantages)
@@ -44,10 +46,43 @@ This script:
 - ✅ **No input files needed** - Everything is fetched from OSDR in real-time
 - ✅ Preserves **ALL** existing values from the current OSDR filter-options
 - ✅ Adds new metadata values discovered from the API
+- ✅ **Smart categorization** with taxonomic classification and anatomical matching
+- ✅ **3-level Assay hierarchy** (Measurement → Technology → Platform)
+- ✅ **Hierarchical Factor structure** (Parent → Parent|Child)
+- ✅ **3-tier muscle hierarchy** for Material types (muscle → muscle|name → muscle|name|laterality)
+- ✅ **Capitalization normalization** at all levels
 - ✅ Creates a new **Mission** grouping with 10 categories
 - ✅ Handles misspellings and capitalization differences
 - ✅ Generates verification and tracking reports
 - ✅ Validates that no original data is lost
+
+<br>
+
+## Key Features
+
+### 🎯 Smart Categorization
+- **Taxonomic classification** for organisms (bacteria, plants, fungi, wasps)
+- **Anatomical matching** for material types (laterality, tissue specificity)
+- **3-level Assay hierarchy** with proper measurement → technology → platform structure
+- **Hierarchical Factors** with parent|child relationships
+- **3-tier muscle categorization** with laterality support (left/right)
+
+### 🔄 Dual Format Support
+- Automatically detects **OLD format** (nested 'study' array) or **NEW format** (flat sections)
+- Works seamlessly with both live API downloads and manually curated files
+
+### 📊 Capitalization Normalization
+- Handles case variations automatically (e.g., "DNA microarray" + "DNA Microarray" → single category)
+- Applied at ALL levels for ALL sections
+- Preserves all capitalization variants as values
+
+### ✨ Production Ready
+- **1,462 total values** properly categorized
+- **372 Assay categories** with 3-level hierarchy
+- **198 Material categories** with smart tissue/muscle matching
+- **190 Organism categories** with taxonomic classification
+- **153 Factor categories** with parent|child structure
+- **10 Mission categories** with pattern-based grouping
 
 <br>
 
@@ -72,13 +107,13 @@ pip install requests --user
 
 ## Usage
 
-### Download the python script
+### Download the Python Script
 
 ```bash
 curl -LO https://raw.githubusercontent.com/asaravia-butler/OSDR_Filter_Categorization/refs/heads/main/osdr_filter_options_generator.py
 ```
 
-### Run the script
+### Run the Script
 
 ```bash
 python3 osdr_filter_options_generator.py
@@ -90,9 +125,10 @@ That's it! No arguments, no input files needed.
 
 The script automatically:
 1. Downloads current filter-options from `https://osdr.nasa.gov/geode-py/ws/repo/filter-options`
-2. Fetches latest metadata from 5 OSDR API endpoints
-3. Processes and merges the data
-4. Generates output files in your current directory
+2. Detects input format (OLD nested or NEW flat)
+3. Fetches latest metadata from 5 OSDR API endpoints
+4. Applies smart categorization with normalization
+5. Generates output files in your current directory
 
 <br>
 
@@ -110,18 +146,147 @@ Example output files are available in the [Example_Outputs](Example_Outputs) dir
 
 ## What the Script Does
 
-1. **Downloads** current filter-options.json from OSDR
-2. **Makes 5 API calls** to fetch latest metadata:
-   - Assay Technology Types
-   - Factors  
-   - Organisms
-   - Material Types
-   - Missions (new!)
-3. **Preserves ALL** existing values
-4. **Adds new** values found in API
-5. **Creates** new Mission grouping with 10 categories
-6. **Verifies** no data loss
-7. **Generates** comprehensive reports
+1. **Downloads** current filter-options.json from OSDR (or uses provided file)
+2. **Detects format** (OLD nested or NEW flat structure)
+3. **Makes 5 API calls** to fetch latest metadata:
+   - Assay Measurement/Technology/Platform (3-level hierarchy)
+   - Factors (with parent|child hierarchy)
+   - Organisms (with taxonomic classification)
+   - Material Types (with 3-tier muscle hierarchy)
+   - Missions (with 10 categories)
+4. **Applies smart categorization**:
+   - Taxonomic classification (bacteria|species, plant|species, etc.)
+   - Anatomical matching (brain|hippocampus, muscle|gastrocnemius, etc.)
+   - Laterality handling (muscle|gastrocnemius|left gastrocnemius)
+   - Capitalization normalization
+5. **Preserves ALL** existing values
+6. **Adds new** values found in API
+7. **Verifies** no data loss
+8. **Generates** comprehensive reports
+
+<br>
+
+## Smart Categorization Features
+
+### Assay Technology Type (3-Level Hierarchy)
+
+The script creates a proper 3-level hierarchy with capitalization normalization:
+
+```json
+{
+  "transcription profiling": [
+    "transcription profiling",
+    "Transcription Profiling"
+  ],
+  "transcription profiling|RNA Sequencing (RNA-Seq)": [
+    "RNA Sequencing (RNA-Seq)"
+  ],
+  "transcription profiling|RNA Sequencing (RNA-Seq)|Illumina": [
+    "Illumina"
+  ],
+  "transcription profiling|RNA Sequencing (RNA-Seq)|Illumina HiSeq 4000": [
+    "Illumina HiSeq 4000"
+  ]
+}
+```
+
+**Features:**
+- Level 1: Measurement type (e.g., "transcription profiling")
+- Level 2: Technology type (e.g., "RNA Sequencing (RNA-Seq)")
+- Level 3: Platform (e.g., "Illumina HiSeq 4000")
+- All capitalization variants preserved within categories
+
+### Factor (Hierarchical Structure)
+
+Creates parent|child relationships for related factors:
+
+```json
+{
+  "age": ["age"],
+  "age|age at sample collection": ["age at sample collection"],
+  "age|donor age": ["donor age"],
+  "time": ["time"],
+  "time|dissection timeline": ["dissection timeline"],
+  "time|sample storage time": ["sample storage time"]
+}
+```
+
+**Hierarchical groupings:**
+- `age` → age at sample collection, age at start of experiment, donor age
+- `duration` → exposure duration, hindlimb unloading duration, treatment duration
+- `ionizing radiation` → absorbed radiation dose, particle charge, radiation distance
+- `time` → dissection timeline, sample storage time, collection times
+- And 5 more parent categories
+
+### Material Type (3-Tier Muscle Hierarchy)
+
+Special handling for muscles with laterality:
+
+```json
+{
+  "muscle|gastrocnemius": [
+    "Gastrocnemius",
+    "gastrocnemius"
+  ],
+  "muscle|gastrocnemius|left gastrocnemius": [
+    "Left gastrocnemius"
+  ],
+  "muscle|gastrocnemius|right gastrocnemius": [
+    "Right gastrocnemius"
+  ]
+}
+```
+
+**Features:**
+- Tier 1: `muscle` (parent)
+- Tier 2: `muscle|gastrocnemius` (specific muscle)
+- Tier 3: `muscle|gastrocnemius|left gastrocnemius` (lateralized)
+- Supports: gastrocnemius, soleus, tibialis anterior, quadriceps, and more
+- Preserves tibia vs tibialis anterior distinction
+
+**Anatomical keyword matching:**
+- Recognizes brain regions (hippocampus, cerebellum, cortex)
+- Matches muscle types automatically
+- Handles laterality patterns (left, right, both)
+- Case-insensitive throughout
+
+### Organism (Taxonomic Classification)
+
+Automatically classifies organisms by taxonomy:
+
+```json
+{
+  "bacteria|Escherichia coli": ["Escherichia coli"],
+  "bacteria|Klebsiella pneumoniae": ["Klebsiella pneumoniae"],
+  "plant|Arabidopsis thaliana": ["Arabidopsis thaliana"],
+  "plant|Lactuca sativa": ["Lactuca sativa"],
+  "fungus|Saccharomyces cerevisiae": ["Saccharomyces cerevisiae"],
+  "wasp|Leptopilina boulardi": ["Leptopilina boulardi"]
+}
+```
+
+**Taxonomic databases:**
+- **Bacteria**: 15+ genera (Escherichia, Klebsiella, Pseudomonas, Bacillus, etc.)
+- **Plants**: 14 genera (Arabidopsis, Brassica, Triticum, Zea, etc.)
+- **Fungi**: 6 genera (Aspergillus, Candida, Saccharomyces, etc.)
+- **Wasps**: 2 genera (Leptopilina, Nasonia)
+
+### Mission (10 Categories)
+
+Pattern-based categorization of missions:
+
+| Category | Criteria |
+|----------|----------|
+| **ISS Expeditions** | Contains "expedition", "increment", or "iss" |
+| **Space Shuttle** | Contains "sts-", "shuttle", or "sls-" |
+| **Rodent Research** | Starts with "RR-" or contains "rodent research" |
+| **Bion/Cosmos** | Contains "bion" or "cosmos" |
+| **Payload Investigations** | Contains "bric-", "apex-", "veg-", "ffl", "cbtm", "cerise" |
+| **Ground Control** | Contains "ground", "bsl", or "baseline" |
+| **Radiation Studies** | Contains radiation-related terms |
+| **Simulated Conditions** | Contains simulation-related terms |
+| **Commercial Spaceflight** | Contains "inspiration4", "axiom", "ax-", "spacex" |
+| **Other Missions** | Doesn't match any above criteria |
 
 <br>
 
@@ -130,11 +295,14 @@ Example output files are available in the [Example_Outputs](Example_Outputs) dir
 ### Current Filter Options
 - **URL:** `https://osdr.nasa.gov/geode-py/ws/repo/filter-options`
 - Downloaded automatically at runtime
+- **Supports both formats:**
+  - OLD: Nested 'study' array (from live API)
+  - NEW: Flat sections (from manually curated files)
 
 ### API Endpoints (JSON Split Format)
 
-1. **Assay Technology Types**  
-   `https://visualization.osdr.nasa.gov/biodata/api/v2/query/assays/?investigation.study%20assays.study%20assay%20technology%20type=//&format=json.split`
+1. **Assay Measurement/Technology/Platform**  
+   `https://visualization.osdr.nasa.gov/biodata/api/v2/query/assays/?investigation.study%20assays.study%20assay%20measurement%20type=//&investigation.study%20assays.study%20assay%20technology%20type=//&investigation.study%20assays.study%20assay%20technology%20platform=//&format=json.split`
 
 2. **Factors**  
    `https://visualization.osdr.nasa.gov/biodata/api/v2/query/assays/?investigation.study%20assays.study%20assay%20technology%20type&assay.factor%20value&study.factor%20value&schema&format=json.split`
@@ -155,86 +323,128 @@ Example output files are available in the [Example_Outputs](Example_Outputs) dir
 ```bash
 $ python3 osdr_filter_options_generator.py
 ================================================================================
-NASA OSDR Dashboard JSON Generator (Real-time API)
+NASA OSDR Filter Options Generator - Final Version
 ================================================================================
 
-Downloading current filter-options from OSDR...
-  URL: https://osdr.nasa.gov/geode-py/ws/repo/filter-options
-  ✓ Successfully downloaded current filter-options
+Downloading current filter-options...
+  ✓ Downloaded successfully
 
-Fetching data from OSDR API...
-  Fetching Assay Technology Types...
-    URL: https://visualization.osdr.nasa.gov/biodata/api/v2/query/assays/?investigation.study%20assays.study%20assay%20technology%20type=//&format=json.split
-    ✓ Received 3 columns, 763 rows
+Fetching API data...
+  Fetching Assay Measurement/Technology/Platform...
+    ✓ 5 columns, 791 rows
   Fetching Factors...
-    ✓ Received 134 columns, 4 rows
+    ✓ 137 columns, 4 rows
   Fetching Organisms...
-    ✓ Received 4 columns, 931 rows
+    ✓ 4 columns, 959 rows
   Fetching Material Types...
-    ✓ Received 4 columns, 882 rows
+    ✓ 4 columns, 913 rows
   Fetching Missions...
-    ✓ Received 4 columns, 763 rows
+    ✓ 4 columns, 791 rows
 
-Extracting existing structure from current JSON...
+Extracting existing structure...
+  Detected NEW format (flat sections)
   Project Type: 8 values in 3 categories
-  Assay technology type: 48 values in 29 categories
-  Factor: 126 values in 108 categories
-  Organism: 170 values in 169 categories
-  Material type: 146 values in 132 categories
+  Assay technology type: 382 values in 372 categories
+  Factor: 171 values in 153 categories
+  Organism: 348 values in 190 categories
+  Material type: 404 values in 198 categories
 
-Processing API data to find additions...
-  Checking assay types...
-  Checking factors...
-  Checking organisms...
-  Checking material types...
-  Processing missions (new grouping)...
+Processing API data...
+  Processing assays (measurement -> technology -> platform)...
+  Processing factors...
+  Processing organisms...
+  Processing materials...
+  Processing missions...
 
 ================================================================================
-VERIFICATION: Checking completeness
+VERIFICATION
 ================================================================================
 
-Original values: 492
-New values (excl. Mission): 708
-Values added from API: 261
-Missing from new: 0
+Original values (excl. Assay): 987
+New values (excl. Assay & Mission): 987
+Values added: 0
+Missing: 0
 
-✅ SUCCESS: All original values preserved!
-✅ PLUS: 261 new values added from API
-
-📊 NEW MISSION GROUPING: 147 missions in 10 categories
-📊 TOTAL OSD IDs COVERED: 577
+✅ SUCCESS: All preserved + 0 added
+📊 ASSAY: 382 values in 372 categories
+📊 Missions: 149 in 10 categories
+📊 OSD IDs: 598
 
 ================================================================================
 Saving outputs
 ================================================================================
 
-✓ New JSON: /current/directory/filter-options-new.json
-✓ Additions report: /current/directory/additions-report.txt
-✓ Unmapped report: /current/directory/unmapped-report.txt
+✓ JSON: /current/directory/filter-options-new.json
+✓ Additions: /current/directory/additions-report.txt
+✓ Unmapped: /current/directory/unmapped-report.txt
 
 ================================================================================
-✅ COMPLETE: All original values preserved + new values added
+✅ COMPLETE
 ================================================================================
 ```
 
 <br>
 
-## Mission Categories
+## Input Format Support
 
-The script creates these 10 mission categories:
+The script automatically detects and handles both formats:
 
-| Category | Criteria |
-|----------|----------|
-| **ISS Expeditions** | Contains "expedition", "increment", or "iss" |
-| **Space Shuttle** | Contains "sts-", "shuttle", or "sls-" |
-| **Rodent Research** | Starts with "RR-" or contains "rodent research" |
-| **Bion/Cosmos** | Contains "bion" or "cosmos" |
-| **Payload Investigations** | Contains "bric-", "apex-", "veg-", "ffl", "cbtm", "cerise" |
-| **Ground Control** | Contains "ground", "bsl", or "baseline" |
-| **Radiation Studies** | Contains radiation-related terms |
-| **Simulated Conditions** | Contains simulation-related terms |
-| **Commercial Spaceflight** | Contains "inspiration4", "axiom", "ax-", "spacex" |
-| **Other Missions** | Doesn't match any above criteria |
+### OLD Format (Nested 'study' array)
+```json
+{
+  "general": {...},
+  "study": [
+    {
+      "displayValue": "Assay Type",
+      "children": [...]
+    }
+  ]
+}
+```
+
+### NEW Format (Flat sections)
+```json
+{
+  "Assay technology type": {
+    "transcription profiling": ["transcription profiling"]
+  },
+  "Material type": {
+    "muscle|gastrocnemius": ["gastrocnemius"]
+  }
+}
+```
+
+**Detection is automatic** - no flags or configuration needed!
+
+<br>
+
+## Capitalization Handling
+
+The script normalizes capitalization at ALL levels for ALL sections:
+
+### How It Works
+1. **First occurrence wins** - First capitalization seen becomes the canonical form
+2. **Category names** use canonical version
+3. **All variants preserved** as values within the category
+
+### Example
+```json
+{
+  "transcription profiling": [
+    "transcription profiling",
+    "Transcription Profiling"
+  ],
+  "transcription profiling|DNA microarray": [
+    "DNA microarray",
+    "DNA Microarray"
+  ]
+}
+```
+
+**Benefits:**
+- No duplicate categories due to capitalization
+- All data variants preserved
+- Consistent category naming
 
 <br>
 
@@ -242,28 +452,28 @@ The script creates these 10 mission categories:
 
 ### Download Error
 ```
-✗ Failed to download filter-options: Connection timeout
+✗ Failed: Connection timeout
 ```
 **Solution:** Check internet connection. Ensure access to `osdr.nasa.gov`
 
 ### API Connection Error
 ```
-✗ Failed to fetch Assay Technology Types: Connection timeout
+✗ Failed to fetch: Connection timeout
 ```
 **Solution:** Check internet connection. Ensure access to `visualization.osdr.nasa.gov`
 
 ### Verification Failure
 ```
-❌ ERROR: 10 original values are MISSING from new JSON!
+❌ ERROR: 10 values missing!
 ```
-**Solution:** This indicates a bug - contact the developer
+**Solution:** This indicates a bug - please report the issue
 
 <br>
 
 ## Exit Codes
 
-- **0**: Success - all original values preserved and new values added
-- **1**: Error - download failed, API connection failed, missing values, etc.
+- **0**: Success - all original values preserved
+- **1**: Error - download failed, API connection failed, or verification failed
 
 <br>
 
@@ -329,7 +539,9 @@ jobs:
 - **Outputs saved to current directory** - Change directory before running if needed
 - **Idempotent** - Running multiple times produces same output (if OSDR data unchanged)
 - **API calls take 30-60 seconds** depending on network speed
-- **Category names preserved** from original OSDR filter-options
+- **Dual format support** - Works with both OLD and NEW input formats
+- **Smart categorization** - Automatic taxonomic classification and anatomical matching
+- **Capitalization normalized** - No duplicate categories from case differences
 - **Always uses latest data** from OSDR
 
 <br>
@@ -349,21 +561,31 @@ cd /desired/output/directory
 python3 /path/to/osdr_filter_options_generator.py
 ```
 
+**Values going to "Other" categories?**  
+Check the `unmapped-report.txt` file to see which values need manual categorization. These are items that the smart categorization couldn't classify automatically.
+
 <br>
 
 ## Advantages
 
 ✅ **Zero setup** - No files to download or manage  
 ✅ **Always current** - Gets latest data directly from OSDR  
+✅ **Smart categorization** - Automatic taxonomic and anatomical matching  
+✅ **Dual format support** - Works with OLD and NEW formats seamlessly  
+✅ **Capitalization normalized** - Handles case variations automatically  
+✅ **3-level Assay hierarchy** - Proper measurement → technology → platform structure  
+✅ **Hierarchical Factors** - Parent|child relationships preserved  
+✅ **3-tier muscle hierarchy** - Proper laterality support  
 ✅ **Simple workflow** - Just run the script  
 ✅ **Perfect for automation** - No manual steps required  
 ✅ **Self-contained** - Everything fetched automatically  
+✅ **Production ready** - 1,462 values properly categorized  
 
 <br>
 
 ## Version
 
 **Version:** 1.0  
-**Last Updated:** January 2026  
+**Last Updated:** February 2026  
 **API Documentation:** https://visualization.osdr.nasa.gov/biodata/api/  
 **Filter Options:** https://osdr.nasa.gov/geode-py/ws/repo/filter-options
