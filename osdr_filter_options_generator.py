@@ -149,6 +149,7 @@ class SmartCategorizer:
         
         # Fourth: Anatomical keyword mapping
         anatomical_keywords = {
+            # Brain regions
             'cerebellum': 'brain|cerebellum',
             'cerebrum': 'brain|cerebrum',
             'cerebral cortex': 'brain|cerebrum',
@@ -156,12 +157,78 @@ class SmartCategorizer:
             'frontal cortex': 'brain|frontal cortex',
             'parietal cortex': 'brain|parietal cortex',
             'cortex': 'brain|cortex',
+            'dentate gyrus': 'brain|dentate gyrus of hippocampal formation',
+            'subdural space': 'brain|subdural space',
+            'forebrain': 'brain|forebrain',
+            
+            # Heart
             'ventricle': 'heart',
+            
+            # Muscles
             'gastrocnemius': 'muscle|gastrocnemius',
             'soleus': 'muscle|soleus',
             'tibialis anterior': 'muscle|tibialis anterior',
             'quadriceps': 'muscle|quadriceps femoris',
             'extensor digitorum longus': 'muscle|extensor digitorum longus',
+            'vastus lateralis': 'muscle|vastus lateralis',
+            'calf muscle': 'muscle|calf muscle',
+            
+            # Cell types - General
+            't cell': 'cells|T cells',
+            'primary t cell': 'cells|T cells',
+            'myoblast': 'cells|myoblasts',
+            'microglia': 'cells|microglia',
+            'vegetative cell': 'cells|vegetative cells',
+            'cell pellet': 'cells|cell pellets',
+            'primary cell': 'cells|primary cell',
+            'skeletal stem cell': 'cells|skeletal stem cells',
+            
+            # Cell types - Epithelial
+            'bronchial epithelial cell': 'cells|bronchial epithelial cell',
+            'mammary epithelial cell': 'cells|mammary epithelial cells',
+            'epithelial cell': 'cells|bronchial epithelial cell',
+            
+            # Cell types - Cardiac/Cardiovascular
+            'cardiomyocyte': 'cells|Human Induced Pluripotent Stem Cell-Derived Cardiomyocytes',
+            'cardiovascular progenitor cell': 'cells|cardiovascular progenitor cells',
+            'left ventricular cell': 'cells|primary left ventricular cell',
+            'primary left ventricular cell': 'cells|primary left ventricular cell',
+            
+            # Cell types - Fibroblasts
+            'lung fibroblast': 'cells|primary lung fibroblast cell',
+            'primary lung fibroblast': 'cells|primary lung fibroblast cell',
+            'lymphoblastoid cell': 'cells|lymphoblastoid cells',
+            
+            # Blood cells
+            'blood cell': 'blood|blood cells',
+            'red blood cell': 'blood|red blood cells',
+            'rbc pellet': 'blood|red blood cells',
+            'peripheral blood mononuclear cell': 'blood|peripheral blood mononuclear cell',
+            'pbmc': 'blood|peripheral blood mononuclear cell',
+            'peripheral blood': 'blood|peripheral blood',
+            
+            # Cell lines
+            'cell line': 'cell line',
+            'ag01522': 'cell line|Human Fibroblasts AG01522',
+            'human fibroblast ag01522': 'cell line|Human Fibroblasts AG01522',
+            
+            # Cell cultures
+            'cell culture': 'cells|cell culture',
+            'cultured cell': 'cells|cell culture',
+            '3d cell': 'cells|3D cells',
+            '3d co-culture': 'cells|3D Co-Culture',
+            'harv culture': 'cells|HARV culture',
+            'opm chamber culture': 'cells|OPM Chamber Culture',
+            'isolated cell': 'cells',
+            
+            # Plant cells
+            'callus cell culture': 'plant callus|callus cell culture',
+            'hypocotyl cell culture': 'hypocotyl|hypocotyl cell culture',
+            
+            # Special cell types
+            'jurkat t cell': 'jurkat t cells',
+            'primary cultured fibroblast cell': 'primary cultured fibroblast cell',
+            'primary prostate fibroblast cell culture': 'primary prostate fibroblast cell culture',
         }
         
         for keyword, target_cat in anatomical_keywords.items():

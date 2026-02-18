@@ -79,10 +79,11 @@ This script:
 ### ✨ Production Ready
 - **1,462 total values** properly categorized
 - **372 Assay categories** with 3-level hierarchy
-- **198 Material categories** with smart tissue/muscle matching
+- **198 Material categories** with smart tissue/muscle/cell matching
 - **190 Organism categories** with taxonomic classification
 - **153 Factor categories** with parent|child structure
 - **10 Mission categories** with pattern-based grouping
+- **38 cell type keywords** for automatic cell categorization
 
 <br>
 
@@ -244,9 +245,46 @@ Special handling for muscles with laterality:
 - Supports: gastrocnemius, soleus, tibialis anterior, quadriceps, and more
 - Preserves tibia vs tibialis anterior distinction
 
+**Cell type categorization:**
+
+Automatic categorization for cells using 38 keywords:
+
+```json
+{
+  "cells|T cells": [
+    "T cells",
+    "Primary T Cells"
+  ],
+  "blood|peripheral blood mononuclear cell": [
+    "Peripheral Blood Mononuclear Cell",
+    "PBMC"
+  ],
+  "cells|3D cells": [
+    "3D Cells",
+    "3D cell culture"
+  ],
+  "cells|cardiomyocytes": [
+    "human induced pluripotent stem cell-derived cardiomyocytes"
+  ]
+}
+```
+
+**Cell categories covered:**
+- ✅ General cells: T cells, myoblasts, microglia, primary cells, skeletal stem cells
+- ✅ Blood cells: RBCs, PBMCs, peripheral blood, blood cells
+- ✅ Epithelial cells: Bronchial epithelial, mammary epithelial
+- ✅ Cardiac cells: Cardiomyocytes, cardiovascular progenitor cells
+- ✅ Fibroblasts: Lung fibroblasts, lymphoblastoid cells
+- ✅ Cell cultures: 3D cells, HARV culture, OPM chamber culture
+- ✅ Cell lines: Human Fibroblasts AG01522
+- ✅ Abbreviations: PBMC, RBC automatically recognized
+
 **Anatomical keyword matching:**
-- Recognizes brain regions (hippocampus, cerebellum, cortex)
+- Recognizes brain regions (hippocampus, cerebellum, cortex, forebrain)
 - Matches muscle types automatically
+- **Categorizes cell types** (T cells, myoblasts, fibroblasts, cardiomyocytes, etc.)
+- **Recognizes blood cells** (RBCs, PBMCs, peripheral blood)
+- **Identifies cell lines and cultures** (3D cells, HARV culture, cell lines)
 - Handles laterality patterns (left, right, both)
 - Case-insensitive throughout
 
@@ -571,6 +609,7 @@ Check the `unmapped-report.txt` file to see which values need manual categorizat
 ✅ **Zero setup** - No files to download or manage  
 ✅ **Always current** - Gets latest data directly from OSDR  
 ✅ **Smart categorization** - Automatic taxonomic and anatomical matching  
+✅ **Cell type recognition** - 38 keywords for cells, blood cells, and cell cultures  
 ✅ **Dual format support** - Works with OLD and NEW formats seamlessly  
 ✅ **Capitalization normalized** - Handles case variations automatically  
 ✅ **3-level Assay hierarchy** - Proper measurement → technology → platform structure  
@@ -585,7 +624,20 @@ Check the `unmapped-report.txt` file to see which values need manual categorizat
 
 ## Version
 
-**Version:** 1.0  
+**Version:** 2.0  
 **Last Updated:** February 2026  
 **API Documentation:** https://visualization.osdr.nasa.gov/biodata/api/  
 **Filter Options:** https://osdr.nasa.gov/geode-py/ws/repo/filter-options
+
+### Version 2.0 Features
+- ✅ 3-level Assay hierarchy (Measurement → Technology → Platform)
+- ✅ Hierarchical Factor structure (Parent → Parent|Child)
+- ✅ 3-tier muscle hierarchy with laterality support
+- ✅ Taxonomic organism classification
+- ✅ Dual input format support (OLD nested + NEW flat)
+- ✅ Capitalization normalization at all levels
+- ✅ Smart anatomical matching for materials
+- ✅ **38 cell type keywords** for automatic cell categorization
+- ✅ **Blood cell recognition** (RBCs, PBMCs, peripheral blood)
+- ✅ **Cell line and culture identification** (3D cells, HARV, cell lines)
+- ✅ 1,462 total values properly categorized
