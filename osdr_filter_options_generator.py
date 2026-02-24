@@ -310,7 +310,7 @@ class OSDRFilterGenerator:
     def fetch_assay_data(self):
         """Fetch assay data with measurement, technology, and platform"""
         return self.fetch_api_data(
-            "?investigation.study%20assays.study%20assay%20measurement%20type=//&investigation.study%20assays.study%20assay%20technology%20type=//&investigation.study%20assays.study%20assay%20technology%20platform=//&format=json.split",
+            "?investigation.study%20assays.study%20assay%20measurement%20type&investigation.study%20assays.study%20assay%20technology%20type&investigation.study%20assays.study%20assay%20technology%20platform&format=json.split",
             "Assay Measurement/Technology/Platform"
         )
     
@@ -322,19 +322,19 @@ class OSDRFilterGenerator:
     
     def fetch_organism_data(self):
         return self.fetch_api_data(
-            "?investigation.study%20assays.study%20assay%20technology%20type=//&study.characteristics.organism=//&format=json.split",
+            "?investigation.study%20assays.study%20assay%20technology%20type&study.characteristics.organism&format=json.split",
             "Organisms"
         )
     
     def fetch_material_data(self):
         return self.fetch_api_data(
-            "?investigation.study%20assays.study%20assay%20technology%20type=//&study.characteristics.material%20type=//&format=json.split",
+            "?investigation.study%20assays.study%20assay%20technology%20type&study.characteristics.material%20type&format=json.split",
             "Material Types"
         )
     
     def fetch_mission_data(self):
         return self.fetch_api_data(
-            "?investigation.study%20assays.study%20assay%20technology%20type=//&investigation.study.comment.Project%20Identifier=//&format=json.split",
+            "?investigation.study%20assays.study%20assay%20technology%20type&investigation.study.comment.Project%20Identifier&format=json.split",
             "Missions"
         )
     

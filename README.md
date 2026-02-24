@@ -340,19 +340,19 @@ Pattern-based categorization of missions:
 ### API Endpoints (JSON Split Format)
 
 1. **Assay Measurement/Technology/Platform**  
-   `https://visualization.osdr.nasa.gov/biodata/api/v2/query/assays/?investigation.study%20assays.study%20assay%20measurement%20type=//&investigation.study%20assays.study%20assay%20technology%20type=//&investigation.study%20assays.study%20assay%20technology%20platform=//&format=json.split`
+   `https://visualization.osdr.nasa.gov/biodata/api/v2/query/assays/?investigation.study%20assays.study%20assay%20measurement%20type&investigation.study%20assays.study%20assay%20technology%20type&investigation.study%20assays.study%20assay%20technology%20platform&format=json.split`
 
 2. **Factors**  
    `https://visualization.osdr.nasa.gov/biodata/api/v2/query/assays/?investigation.study%20assays.study%20assay%20technology%20type&assay.factor%20value&study.factor%20value&schema&format=json.split`
 
 3. **Organisms**  
-   `https://visualization.osdr.nasa.gov/biodata/api/v2/query/assays/?investigation.study%20assays.study%20assay%20technology%20type=//&study.characteristics.organism=//&format=json.split`
+   `https://visualization.osdr.nasa.gov/biodata/api/v2/query/assays/?investigation.study%20assays.study%20assay%20technology%20type&study.characteristics.organism&format=json.split`
 
 4. **Material Types**  
-   `https://visualization.osdr.nasa.gov/biodata/api/v2/query/assays/?investigation.study%20assays.study%20assay%20technology%20type=//&study.characteristics.material%20type=//&format=json.split`
+   `https://visualization.osdr.nasa.gov/biodata/api/v2/query/assays/?investigation.study%20assays.study%20assay%20technology%20type&study.characteristics.material%20type&format=json.split`
 
 5. **Missions**  
-   `https://visualization.osdr.nasa.gov/biodata/api/v2/query/assays/?investigation.study%20assays.study%20assay%20technology%20type=//&investigation.study.comment.Project%20Identifier=//&format=json.split`
+   `https://visualization.osdr.nasa.gov/biodata/api/v2/query/assays/?investigation.study%20assays.study%20assay%20technology%20type&investigation.study.comment.Project%20Identifier&format=json.split`
 
 <br>
 
