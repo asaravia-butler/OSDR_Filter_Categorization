@@ -1,0 +1,3329 @@
+{
+  "Project Type": {
+    "ground": [
+      "ground"
+    ],
+    "high altitude": [
+      "high altitude",
+      "parabolic"
+    ],
+    "spaceflight": [
+      "flight",
+      "flight study",
+      "spaceflight",
+      "spaceflight project",
+      "spaceflight study"
+    ]
+  },
+  "Assay technology type": {
+    "ATPase Activity": [
+      "ATPase Activity"
+    ],
+    "ATPase Activity|Spectrophotometry": [
+      "Spectrophotometry"
+    ],
+    "ATPase Activity|Spectrophotometry|Molecular Devices SpectraMax M2": [
+      "Molecular Devices SpectraMax M2"
+    ],
+    "Amplicon Sequencing": [
+      "Amplicon Sequencing",
+      "amplicon sequencing"
+    ],
+    "Amplicon Sequencing|16S": [
+      "16S"
+    ],
+    "Amplicon Sequencing|16S and ITS": [
+      "16S and ITS"
+    ],
+    "Amplicon Sequencing|16S and ITS|Illumina": [
+      "Illumina"
+    ],
+    "Amplicon Sequencing|16S|Illumina": [
+      "Illumina",
+      "illumina"
+    ],
+    "Amplicon Sequencing|16S|Illumina MiSeq": [
+      "Illumina MiSeq"
+    ],
+    "Amplicon Sequencing|16S|Roche": [
+      "Roche"
+    ],
+    "Amplicon Sequencing|16S|Roche GS FLX": [
+      "Roche GS FLX"
+    ],
+    "Amplicon Sequencing|ITS": [
+      "ITS"
+    ],
+    "Amplicon Sequencing|ITS|Illumina": [
+      "Illumina"
+    ],
+    "Analytical Chemistry": [
+      "Analytical Chemistry"
+    ],
+    "Analytical Chemistry|Comprehensive Metabolic Panel": [
+      "Comprehensive Metabolic Panel"
+    ],
+    "Analytical Chemistry|Comprehensive Metabolic Panel|Quest Diagnostics": [
+      "Quest Diagnostics"
+    ],
+    "Behavior": [
+      "Behavior"
+    ],
+    "Behavior|Anhedonia": [
+      "Anhedonia"
+    ],
+    "Behavior|Anhedonia|Candy Test": [
+      "Candy Test"
+    ],
+    "Behavior|Balance": [
+      "Balance"
+    ],
+    "Behavior|Balance|Conduct Science (ME-BB-M01)": [
+      "Conduct Science (ME-BB-M01)"
+    ],
+    "Behavior|Elevated Plus Maze": [
+      "Elevated Plus Maze"
+    ],
+    "Behavior|Elevated Plus Maze|AnyMaze": [
+      "AnyMaze"
+    ],
+    "Behavior|Elevated Plus Maze|Elevated Plus Maze": [
+      "Elevated Plus Maze"
+    ],
+    "Behavior|Elevated Plus Maze|EthovisionXT_12": [
+      "EthovisionXT_12"
+    ],
+    "Behavior|Elevated Plus Maze|Kinder Scientific": [
+      "Kinder Scientific"
+    ],
+    "Behavior|Forced Swim Test": [
+      "Forced Swim Test"
+    ],
+    "Behavior|Forced Swim Test|Forced Swim": [
+      "Forced Swim"
+    ],
+    "Behavior|Gait": [
+      "Gait"
+    ],
+    "Behavior|Gait|DigiGait System (Mouse Specifics)": [
+      "DigiGait System (Mouse Specifics)"
+    ],
+    "Behavior|Locomotory Behavior": [
+      "Locomotory Behavior"
+    ],
+    "Behavior|Locomotory Behavior|Manual Counting": [
+      "Manual Counting"
+    ],
+    "Behavior|Novel Object Recognition": [
+      "Novel Object Recognition"
+    ],
+    "Behavior|Novel Object Recognition|AnyMaze": [
+      "AnyMaze"
+    ],
+    "Behavior|Novel Object Recognition|Custom Plexiglass": [
+      "Custom Plexiglass"
+    ],
+    "Behavior|Novel Object Recognition|EthovisionXT_12": [
+      "EthovisionXT_12"
+    ],
+    "Behavior|Novel Object Recognition|Noldus Ethovision XT13": [
+      "Noldus Ethovision XT13"
+    ],
+    "Behavior|Novel Object Recognition|Novel Object Recognition": [
+      "Novel Object Recognition"
+    ],
+    "Behavior|Open Field": [
+      "Open Field"
+    ],
+    "Behavior|Open Field|AnyMaze": [
+      "AnyMaze"
+    ],
+    "Behavior|Open Field|EthovisionXT_12": [
+      "EthovisionXT_12"
+    ],
+    "Behavior|Open Field|Noldus Ethovision XT13": [
+      "Noldus Ethovision XT13"
+    ],
+    "Behavior|Open Field|Open Field": [
+      "Open Field"
+    ],
+    "Behavior|Psychomotor Vigilance Test": [
+      "Psychomotor Vigilance Test"
+    ],
+    "Behavior|Psychomotor Vigilance Test|MedPC": [
+      "MedPC"
+    ],
+    "Behavior|RAWM": [
+      "RAWM"
+    ],
+    "Behavior|RAWM|EthovisionXT_12": [
+      "EthovisionXT_12"
+    ],
+    "Behavior|RAWM|Radial Arm Water Maze": [
+      "Radial Arm Water Maze"
+    ],
+    "Behavior|Three Chamber Social Isolation": [
+      "Three Chamber Social Isolation"
+    ],
+    "Behavior|Three Chamber Social Isolation|EthovisionXT_12": [
+      "EthovisionXT_12"
+    ],
+    "Behavior|Three Chamber Social Isolation|Three Chamber Social Approach": [
+      "Three Chamber Social Approach"
+    ],
+    "Behavior|Video Recording": [
+      "Video Recording"
+    ],
+    "Behavior|Video Recording|Multi-use Variable Gravity Drosophila hardware (UI-1491LE camera)": [
+      "Multi-use Variable Gravity Drosophila hardware (UI-1491LE camera)"
+    ],
+    "Body Temperature": [
+      "Body Temperature"
+    ],
+    "Body Temperature|Biotelemetry": [
+      "Biotelemetry"
+    ],
+    "Body Temperature|Biotelemetry|Data Sciences": [
+      "Data Sciences"
+    ],
+    "Bone Microstructure": [
+      "Bone Microstructure"
+    ],
+    "Bone Microstructure|Dual-Energy X-Ray Absorptiometry": [
+      "Dual-Energy X-Ray Absorptiometry"
+    ],
+    "Bone Microstructure|Dual-Energy X-Ray Absorptiometry|OsteoSys InSIGHT": [
+      "OsteoSys InSIGHT",
+      "Osteosys Insight",
+      "osteosys insight"
+    ],
+    "Bone Microstructure|Micro-Computed Tomography": [
+      "Micro-Computed Tomography"
+    ],
+    "Bone Microstructure|Micro-Computed Tomography|Bruker SkyScan": [
+      "Bruker SkyScan"
+    ],
+    "Bone Microstructure|Micro-Computed Tomography|Bruker Skyscan 1272": [
+      "Bruker Skyscan 1272"
+    ],
+    "Bone Microstructure|Micro-Computed Tomography|Scanco mCT40 scanner": [
+      "Scanco mCT40 scanner"
+    ],
+    "Bone Microstructure|Micro-Computed Tomography|SkyScan 1176 V1 build 12": [
+      "SkyScan 1176 V1 build 12"
+    ],
+    "Bone Microstructure|Micro-Computed Tomography|SkyScan_1272_desktop_micro-CT_system": [
+      "SkyScan_1272_desktop_micro-CT_system"
+    ],
+    "Bone Microstructure|Micro-Computed Tomography|Skyscan 1076 micro-computed tomography scanner (Kontich, Belgium)": [
+      "Skyscan 1076 micro-computed tomography scanner (Kontich, Belgium)"
+    ],
+    "Bone Microstructure|Micro-Computed Tomography|mCT 50, Scanco Medical": [
+      "mCT 50, Scanco Medical"
+    ],
+    "Bone Microstructure|Micro-Computed Tomography|\u03bcCT40 (Scanco Medical AG)": [
+      "\u03bcCT40 (Scanco Medical AG)"
+    ],
+    "Bone Microstructure|Peripheral Quantitative Computed Tomography": [
+      "Peripheral Quantitative Computed Tomography"
+    ],
+    "Bone Microstructure|Peripheral Quantitative Computed Tomography|Stratec (XCT Research SA+)": [
+      "Stratec (XCT Research SA+)"
+    ],
+    "Bone Microstructure|Peripheral Quantitative Computed Tomography|XCT Research SA+(Stratec)": [
+      "XCT Research SA+(Stratec)"
+    ],
+    "Bone biomechanical measurement": [
+      "Bone biomechanical measurement"
+    ],
+    "Bone biomechanical measurement|Bone biomechanical measurement": [
+      "Bone biomechanical measurement"
+    ],
+    "Bone biomechanical measurement|Bone biomechanical measurement|Instron 8511 MTS (Instron)": [
+      "Instron 8511 MTS (Instron)"
+    ],
+    "Calcium Uptake": [
+      "Calcium Uptake"
+    ],
+    "Calcium Uptake|Spectrofluorimetric Assay": [
+      "Spectrofluorimetric Assay"
+    ],
+    "Calcium Uptake|Spectrofluorimetric Assay|Molecular Devices M2 plate reader": [
+      "Molecular Devices M2 plate reader"
+    ],
+    "Chemical Methods": [
+      "Chemical Methods"
+    ],
+    "Chemical Methods|Anthocyanin Content": [
+      "Anthocyanin Content"
+    ],
+    "Chemical Methods|Anthocyanin Content|Beckman_DU_700": [
+      "Beckman_DU_700"
+    ],
+    "Chemical Methods|Oxygen Radical Absorbance Capacity": [
+      "Oxygen Radical Absorbance Capacity"
+    ],
+    "Chemical Methods|Oxygen Radical Absorbance Capacity|biotek_synergy_hybrid": [
+      "biotek_synergy_hybrid"
+    ],
+    "Chemical Methods|Phenolic Compound Content": [
+      "Phenolic Compound Content"
+    ],
+    "Chemical Methods|Phenolic Compound Content|biotek_synergy_hybrid": [
+      "biotek_synergy_hybrid"
+    ],
+    "Chromatin Accessibility": [
+      "Chromatin Accessibility"
+    ],
+    "Chromatin Accessibility|single-cell ATAC-seq": [
+      "single-cell ATAC-seq"
+    ],
+    "Chromatin Accessibility|single-cell ATAC-seq|Illumina": [
+      "Illumina"
+    ],
+    "Complete Blood Count": [
+      "Complete Blood Count"
+    ],
+    "Complete Blood Count|Hematology Analyzer": [
+      "Hematology Analyzer"
+    ],
+    "Complete Blood Count|Hematology Analyzer|Quest Diagnostics": [
+      "Quest Diagnostics"
+    ],
+    "DNA methylation profiling": [
+      "DNA methylation profiling"
+    ],
+    "DNA methylation profiling|Bisulfite sequencing": [
+      "Bisulfite sequencing"
+    ],
+    "DNA methylation profiling|Bisulfite sequencing|Illumina": [
+      "Illumina"
+    ],
+    "DNA methylation profiling|DIP-Seq": [
+      "DIP-Seq",
+      "DIP-seq"
+    ],
+    "DNA methylation profiling|DIP-Seq|Illumina": [
+      "Illumina"
+    ],
+    "DNA methylation profiling|DNA microarray": [
+      "DNA microarray"
+    ],
+    "DNA methylation profiling|DNA microarray|Agilent": [
+      "Agilent"
+    ],
+    "DNA methylation profiling|DNA microarray|Illumina": [
+      "Illumina"
+    ],
+    "DNA methylation profiling|Reduced-Representation Bisulfite Sequencing": [
+      "Reduced-Representation Bisulfite Sequencing"
+    ],
+    "DNA methylation profiling|Reduced-Representation Bisulfite Sequencing|Illumina": [
+      "Illumina"
+    ],
+    "DNA methylation profiling|Whole Genome Bisulfite Sequencing": [
+      "Whole Genome Bisulfite Sequencing"
+    ],
+    "DNA methylation profiling|Whole Genome Bisulfite Sequencing|Illumina": [
+      "Illumina"
+    ],
+    "DNA methylation profiling|microarray": [
+      "microarray"
+    ],
+    "DNA methylation profiling|microarray|Illumina Infinium 450K Human Methylation Beadchip": [
+      "Illumina Infinium 450K Human Methylation Beadchip"
+    ],
+    "DNA methylation profiling|nucleotide sequencing": [
+      "nucleotide sequencing"
+    ],
+    "DNA methylation profiling|nucleotide sequencing|Illumina": [
+      "Illumina"
+    ],
+    "Deletion Pool Profiling": [
+      "Deletion Pool Profiling"
+    ],
+    "Deletion Pool Profiling|Nucleotide Sequencing": [
+      "Nucleotide Sequencing"
+    ],
+    "Deletion Pool Profiling|Nucleotide Sequencing|Illumina": [
+      "Illumina"
+    ],
+    "Echocardiogram": [
+      "Echocardiogram"
+    ],
+    "Echocardiogram|Ultrasonography": [
+      "Ultrasonography"
+    ],
+    "Echocardiogram|Ultrasonography|Vevo 2100 aorta": [
+      "Vevo 2100 aorta"
+    ],
+    "Echocardiogram|Ultrasonography|Vevo 2100 heart": [
+      "Vevo 2100 heart"
+    ],
+    "Estrous Cycle": [
+      "Estrous Cycle"
+    ],
+    "Estrous Cycle|Cytology": [
+      "Cytology"
+    ],
+    "Estrous Cycle|Cytology|Standard White Light Microscope": [
+      "Standard White Light Microscope"
+    ],
+    "Flow Cytometry": [
+      "Flow Cytometry"
+    ],
+    "Flow Cytometry|Flow Cytometry": [
+      "Flow Cytometry"
+    ],
+    "Flow Cytometry|Flow Cytometry|BD_LSRII": [
+      "BD_LSRII"
+    ],
+    "Flow Cytometry|Flow Cytometry|FACS Canto2(Becton Dickinson)": [
+      "FACS Canto2(Becton Dickinson)"
+    ],
+    "Germination and Growth Assesment": [
+      "Germination and Growth Assesment"
+    ],
+    "Germination and Growth Assesment|Plant Material Biomass": [
+      "Plant Material Biomass"
+    ],
+    "Germination and Growth Assesment|Plant Material Biomass|Lunar Receiving Laboratory": [
+      "Lunar Receiving Laboratory"
+    ],
+    "Glycomic Profile": [
+      "Glycomic Profile"
+    ],
+    "Glycomic Profile|ELISA": [
+      "ELISA"
+    ],
+    "Glycomic Profile|ELISA|Thermo Fisher Scientific": [
+      "Thermo Fisher Scientific"
+    ],
+    "Histological Assay": [
+      "Histological Assay"
+    ],
+    "Histological Assay|Histomorphometry": [
+      "Histomorphometry"
+    ],
+    "Histological Assay|Histomorphometry|OsteoMeasure System (OsteoMetrics)": [
+      "OsteoMeasure System (OsteoMetrics)"
+    ],
+    "Histological Assay|Histomorphometry|OsteoMeasure software (Osteometrics)": [
+      "OsteoMeasure software (Osteometrics)"
+    ],
+    "Histological Assay|Light Microscopy": [
+      "Light Microscopy"
+    ],
+    "Histological Assay|Light Microscopy|Inverted fluorescence microscope": [
+      "Inverted fluorescence microscope"
+    ],
+    "Image Analysis": [
+      "Image Analysis"
+    ],
+    "Image Analysis|Photography": [
+      "Photography"
+    ],
+    "Image Analysis|Photography|CARA": [
+      "CARA"
+    ],
+    "Image Analysis|Photography|NIKON_D4S": [
+      "NIKON_D4S"
+    ],
+    "Image Analysis|Photography|camera": [
+      "camera"
+    ],
+    "Immunoassay": [
+      "Immunoassay"
+    ],
+    "Immunoassay|ECLIA": [
+      "ECLIA"
+    ],
+    "Immunoassay|ECLIA|MESO-QuickPlex SQ-120MM": [
+      "MESO-QuickPlex SQ-120MM"
+    ],
+    "Immunoassay|Multiplex": [
+      "Multiplex"
+    ],
+    "Immunoassay|Multiplex|Alamar Biosciences": [
+      "Alamar Biosciences"
+    ],
+    "Immunoassay|Multiplex|Eve Technologies Panel HD71": [
+      "Eve Technologies Panel HD71"
+    ],
+    "Immunoassay|Multiplex|Eve Technologies Panel HDCVD9": [
+      "Eve Technologies Panel HDCVD9"
+    ],
+    "Intracranial Pressure": [
+      "Intracranial Pressure"
+    ],
+    "Intracranial Pressure|Biotelemetry": [
+      "Biotelemetry"
+    ],
+    "Intracranial Pressure|Biotelemetry|Data Sciences": [
+      "Data Sciences"
+    ],
+    "Intraocular Pressure": [
+      "Intraocular Pressure"
+    ],
+    "Intraocular Pressure|Tonometry": [
+      "Tonometry"
+    ],
+    "Intraocular Pressure|Tonometry|TonoLab-ICARE": [
+      "TonoLab-ICARE"
+    ],
+    "Intraocular Pressure|Tonometry|Tonolab": [
+      "Tonolab"
+    ],
+    "Mechanical Tests": [
+      "Mechanical Tests"
+    ],
+    "Mechanical Tests|Atomic Force Microscopy": [
+      "Atomic Force Microscopy"
+    ],
+    "Mechanical Tests|Atomic Force Microscopy|JPK NanoWizard 4a NanoScience Atomic Force Microscope (Bruker)": [
+      "JPK NanoWizard 4a NanoScience Atomic Force Microscope (Bruker)"
+    ],
+    "Metagenomic sequencing": [
+      "Metagenomic sequencing"
+    ],
+    "Metagenomic sequencing|Whole-Genome Shotgun Sequencing": [
+      "Whole-Genome Shotgun Sequencing"
+    ],
+    "Metagenomic sequencing|Whole-Genome Shotgun Sequencing|Illumina": [
+      "Illumina"
+    ],
+    "Metagenomic sequencing|Whole-Genome Shotgun Sequencing|Illumina NovaSeq 6000": [
+      "Illumina NovaSeq 6000"
+    ],
+    "Metagenomic sequencing|Whole-Genome Shotgun Sequencing|Oxford Nanopore Technologies": [
+      "Oxford Nanopore Technologies"
+    ],
+    "Metagenomic sequencing|long read low-biomass DNA Sequencing": [
+      "long read low-biomass DNA Sequencing"
+    ],
+    "Metagenomic sequencing|long read low-biomass DNA Sequencing|Oxford Nanopore Technologies": [
+      "Oxford Nanopore Technologies"
+    ],
+    "Metagenomic sequencing|short read low-biomass DNA Sequencing": [
+      "short read low-biomass DNA Sequencing"
+    ],
+    "Metagenomic sequencing|short read low-biomass DNA Sequencing|Illumina": [
+      "Illumina"
+    ],
+    "Microbiology Procedure": [
+      "Microbiology Procedure"
+    ],
+    "Microbiology Procedure|Plate Count Assay": [
+      "Plate Count Assay"
+    ],
+    "Microbiology Procedure|Plate Count Assay|Inhibitory Mold Agar": [
+      "Inhibitory Mold Agar"
+    ],
+    "Microbiology Procedure|Plate Count Assay|Tryptic Soy Agar": [
+      "Tryptic Soy Agar"
+    ],
+    "Molecular Cellular Imaging": [
+      "Molecular Cellular Imaging"
+    ],
+    "Molecular Cellular Imaging|Confocal": [
+      "Confocal"
+    ],
+    "Molecular Cellular Imaging|Confocal|Nikon SIM A1 Laser scanning Confocal Microscope": [
+      "Nikon SIM A1 Laser scanning Confocal Microscope"
+    ],
+    "Molecular Cellular Imaging|Confocal|Nikon SIM A1 Laser scanning Confocal Microscope-inverted": [
+      "Nikon SIM A1 Laser scanning Confocal Microscope-inverted"
+    ],
+    "Molecular Cellular Imaging|Immunohistochemistry": [
+      "Immunohistochemistry"
+    ],
+    "Molecular Cellular Imaging|Immunohistochemistry|4-HNE": [
+      "4-HNE"
+    ],
+    "Molecular Cellular Imaging|Immunohistochemistry|AQP4-GFAP": [
+      "AQP4-GFAP"
+    ],
+    "Molecular Cellular Imaging|Immunohistochemistry|PECAM-1": [
+      "PECAM-1"
+    ],
+    "Molecular Cellular Imaging|Immunohistochemistry|ZO-1": [
+      "ZO-1"
+    ],
+    "Molecular Cellular Imaging|Immunohistochemistry|Zeiss LSM 880": [
+      "Zeiss LSM 880"
+    ],
+    "Molecular Cellular Imaging|Immunostaining": [
+      "Immunostaining"
+    ],
+    "Molecular Cellular Imaging|Immunostaining|4-HNE": [
+      "4-HNE"
+    ],
+    "Molecular Cellular Imaging|Immunostaining|PNA": [
+      "PNA"
+    ],
+    "Molecular Cellular Imaging|Microscopy": [
+      "Microscopy"
+    ],
+    "Molecular Cellular Imaging|Microscopy|Axioskop Microscope (Carl Zeiss)": [
+      "Axioskop Microscope (Carl Zeiss)"
+    ],
+    "Molecular Cellular Imaging|Microscopy|BZ-X700 Keyence Corp (1)": [
+      "BZ-X700 Keyence Corp (1)"
+    ],
+    "Molecular Cellular Imaging|Microscopy|BZ-X710 Keyance": [
+      "BZ-X710 Keyance"
+    ],
+    "Molecular Cellular Imaging|Microscopy|ImageScope 12 (Leica Biosystems)": [
+      "ImageScope 12 (Leica Biosystems)"
+    ],
+    "Molecular Cellular Imaging|Microscopy|Nikon inverted microscope": [
+      "Nikon inverted microscope"
+    ],
+    "Molecular Cellular Imaging|Microscopy|Pannoramic Scan (3D Histech)": [
+      "Pannoramic Scan (3D Histech)",
+      "pannoramic scan (3d histech)"
+    ],
+    "Molecular Cellular Imaging|Microscopy|TUNEL": [
+      "TUNEL"
+    ],
+    "Molecular Cellular Imaging|Microscopy|bz-x700 keyence corp (2)": [
+      "bz-x700 keyence corp (2)"
+    ],
+    "Morphometric analysis": [
+      "Morphometric analysis"
+    ],
+    "Morphometric analysis|Image analysis": [
+      "Image analysis"
+    ],
+    "Morphometric analysis|Image analysis|ImageJ": [
+      "ImageJ"
+    ],
+    "Morphometric analysis|Image analysis|photography": [
+      "photography"
+    ],
+    "Muscle Contraction": [
+      "Muscle Contraction"
+    ],
+    "Muscle Contraction|Contractility": [
+      "Contractility"
+    ],
+    "Muscle Contraction|Contractility|Aurora Scientific": [
+      "Aurora Scientific"
+    ],
+    "Muscle Force": [
+      "Muscle Force"
+    ],
+    "Muscle Force|Force Plate": [
+      "Force Plate"
+    ],
+    "Muscle Force|Force Plate|Dual Mode Muscle Lever System (Aurora Scientific)": [
+      "Dual Mode Muscle Lever System (Aurora Scientific)"
+    ],
+    "Muscle Force|Force Transducer": [
+      "Force Transducer"
+    ],
+    "Muscle Force|Force Transducer|50-N-capacity force transducer (Chatillon)": [
+      "50-N-capacity force transducer (Chatillon)"
+    ],
+    "Ophthalmologic Diagnostic Technique": [
+      "Ophthalmologic Diagnostic Technique"
+    ],
+    "Ophthalmologic Diagnostic Technique|Optical Coherence Tomography": [
+      "Optical Coherence Tomography"
+    ],
+    "Ophthalmologic Diagnostic Technique|Optical Coherence Tomography|Bioptigen": [
+      "Bioptigen"
+    ],
+    "Ophthalmologic Diagnostic Technique|Ultrasonography": [
+      "Ultrasonography"
+    ],
+    "Ophthalmologic Diagnostic Technique|Ultrasonography|Sonomed": [
+      "Sonomed"
+    ],
+    "RNA methylation profiling": [
+      "RNA methylation profiling"
+    ],
+    "RNA methylation profiling|Whole Transcriptome Bisulfite Sequencing": [
+      "Whole Transcriptome Bisulfite Sequencing"
+    ],
+    "RNA methylation profiling|Whole Transcriptome Bisulfite Sequencing|Illumina": [
+      "Illumina"
+    ],
+    "Spectrochemical Analysis": [
+      "Spectrochemical Analysis"
+    ],
+    "Spectrochemical Analysis|Atomic Absorption Spectroscopy": [
+      "Atomic Absorption Spectroscopy"
+    ],
+    "Spectrochemical Analysis|Atomic Absorption Spectroscopy|Lunar Receiving Laboratory": [
+      "Lunar Receiving Laboratory"
+    ],
+    "Spectrochemical Analysis|Atomic Absorption Spectroscopy|Unknown": [
+      "Unknown"
+    ],
+    "Spectrochemical Analysis|Inductively Coupled Plasma Optical Emission Spectroscopy": [
+      "Inductively Coupled Plasma Optical Emission Spectroscopy"
+    ],
+    "Spectrochemical Analysis|Inductively Coupled Plasma Optical Emission Spectroscopy|icap_7000_series": [
+      "icap_7000_series"
+    ],
+    "Spectrochemical Analysis|Optical Emission Spectroscopy": [
+      "Optical Emission Spectroscopy"
+    ],
+    "Spectrochemical Analysis|Optical Emission Spectroscopy|Lunar Receiving Laboratory": [
+      "Lunar Receiving Laboratory"
+    ],
+    "Targeted DNA Methylation Profiling": [
+      "Targeted DNA Methylation Profiling"
+    ],
+    "Targeted DNA Methylation Profiling|CCS long read DNA Enzymatic Methyl Sequencing": [
+      "CCS long read DNA Enzymatic Methyl Sequencing"
+    ],
+    "Targeted DNA Methylation Profiling|CCS long read DNA Enzymatic Methyl Sequencing|Pacific Biosciences": [
+      "Pacific Biosciences"
+    ],
+    "Targeted Genome Sequencing": [
+      "Targeted Genome Sequencing"
+    ],
+    "Targeted Genome Sequencing|long read DNA Sequencing": [
+      "long read DNA Sequencing"
+    ],
+    "Targeted Genome Sequencing|long read DNA Sequencing|Oxford Nanopore Technologies": [
+      "Oxford Nanopore Technologies"
+    ],
+    "Targeted Genome Sequencing|nucleotide sequencing": [
+      "nucleotide sequencing"
+    ],
+    "Targeted Genome Sequencing|nucleotide sequencing|Illumina": [
+      "Illumina"
+    ],
+    "Targeted Transcriptome Sequencing": [
+      "Targeted Transcriptome Sequencing"
+    ],
+    "Targeted Transcriptome Sequencing|RNA Sequencing (RNA-Seq)": [
+      "RNA Sequencing (RNA-Seq)"
+    ],
+    "Targeted Transcriptome Sequencing|RNA Sequencing (RNA-Seq)|Illumina": [
+      "Illumina"
+    ],
+    "Tomography": [
+      "Tomography"
+    ],
+    "Tomography|Magnetic Resonance Imaging": [
+      "Magnetic Resonance Imaging"
+    ],
+    "Tomography|Magnetic Resonance Imaging|Bruker Biospec 7T": [
+      "Bruker Biospec 7T"
+    ],
+    "copy number variation profiling": [
+      "copy number variation profiling"
+    ],
+    "copy number variation profiling|DNA microarray": [
+      "DNA microarray"
+    ],
+    "genome sequencing": [
+      "genome sequencing"
+    ],
+    "genome sequencing|nucleotide sequencing": [
+      "nucleotide sequencing"
+    ],
+    "genome sequencing|nucleotide sequencing|Element AVITI system": [
+      "Element AVITI system"
+    ],
+    "genome sequencing|nucleotide sequencing|Element Biosciences": [
+      "Element Biosciences"
+    ],
+    "genome sequencing|nucleotide sequencing|Illumina": [
+      "Illumina"
+    ],
+    "genome sequencing|nucleotide sequencing|Illumina HiSeq 2500": [
+      "Illumina HiSeq 2500"
+    ],
+    "genome sequencing|nucleotide sequencing|Illumina NovaSeq 6000": [
+      "Illumina NovaSeq 6000"
+    ],
+    "genome sequencing|nucleotide sequencing|Illumina, PacBio": [
+      "Illumina, PacBio"
+    ],
+    "genome sequencing|nucleotide sequencing|Oxford Nanopore Technologies": [
+      "Oxford Nanopore Technologies"
+    ],
+    "genome sequencing|nucleotide sequencing|Pacific Biosciences": [
+      "Pacific Biosciences"
+    ],
+    "metabolite profiling": [
+      "metabolite profiling"
+    ],
+    "metabolite profiling|mass spectrometry": [
+      "mass spectrometry"
+    ],
+    "metabolite profiling|mass spectrometry|6530 Q-TOF LCMS (Agilent)": [
+      "6530 Q-TOF LCMS (Agilent)"
+    ],
+    "metabolite profiling|mass spectrometry|Agilent 6550 iFunnel Quadrupole-Time-of-flight (Q-TOF) Mass spectrometer": [
+      "Agilent 6550 iFunnel Quadrupole-Time-of-flight (Q-TOF) Mass spectrometer"
+    ],
+    "metabolite profiling|mass spectrometry|Leco Pegasus TOF": [
+      "Leco Pegasus TOF"
+    ],
+    "metabolite profiling|mass spectrometry|Q Exactive(Thermo Scientific) (negative ion)": [
+      "Q Exactive(Thermo Scientific) (negative ion)"
+    ],
+    "metabolite profiling|mass spectrometry|Q Exactive(Thermo Scientific) (positive ion)": [
+      "Q Exactive(Thermo Scientific) (positive ion)"
+    ],
+    "metabolite profiling|mass spectrometry|Thermo-Finnigan Mass Spectrometer": [
+      "Thermo-Finnigan Mass Spectrometer"
+    ],
+    "metabolite profiling|mass spectrometry|TripleTOF 5600(AB Sciex)": [
+      "TripleTOF 5600(AB Sciex)"
+    ],
+    "metabolite profiling|mass spectrometry|Xevo G2 QTOF(Waters)": [
+      "Xevo G2 QTOF(Waters)"
+    ],
+    "metabolite profiling|mass spectrometry|Xevo QTof MS(Waters)": [
+      "Xevo QTof MS(Waters)"
+    ],
+    "metagenome profiling": [
+      "metagenome profiling"
+    ],
+    "metagenome profiling|amplicon sequencing assay": [
+      "amplicon sequencing assay"
+    ],
+    "metagenome profiling|amplicon sequencing assay|Roche": [
+      "Roche"
+    ],
+    "metagenome profiling|nucleotide sequencing": [
+      "nucleotide sequencing"
+    ],
+    "metagenome profiling|nucleotide sequencing|Illumina": [
+      "Illumina"
+    ],
+    "metatranscriptome sequencing assay": [
+      "metatranscriptome sequencing assay"
+    ],
+    "metatranscriptome sequencing assay|RNA Sequencing (RNA-Seq)": [
+      "RNA Sequencing (RNA-Seq)"
+    ],
+    "metatranscriptome sequencing assay|RNA Sequencing (RNA-Seq)|Illumina": [
+      "Illumina"
+    ],
+    "metatranscriptome sequencing assay|RNA Sequencing (RNA-Seq)|MinION": [
+      "MinION"
+    ],
+    "phosphoprotein profiling": [
+      "phosphoprotein profiling"
+    ],
+    "phosphoprotein profiling|mass spectrometry": [
+      "mass spectrometry"
+    ],
+    "phosphoprotein profiling|mass spectrometry|Orbitrap Eclipse": [
+      "Orbitrap Eclipse"
+    ],
+    "protein expression profiling": [
+      "protein expression profiling"
+    ],
+    "protein expression profiling|gel electrophoresis": [
+      "gel electrophoresis"
+    ],
+    "protein expression profiling|gel electrophoresis|2D-DIGE": [
+      "2D-DIGE"
+    ],
+    "protein expression profiling|mass spectrometry": [
+      "mass spectrometry"
+    ],
+    "protein expression profiling|mass spectrometry|Bruker timsTOF Pro": [
+      "Bruker timsTOF Pro"
+    ],
+    "protein expression profiling|mass spectrometry|Exactive (Thermo Scientific)": [
+      "Exactive (Thermo Scientific)"
+    ],
+    "protein expression profiling|mass spectrometry|LTQ Orbitrap Elite": [
+      "LTQ Orbitrap Elite"
+    ],
+    "protein expression profiling|mass spectrometry|LTQ Orbitrap Fusion (Thermo Scientific)": [
+      "LTQ Orbitrap Fusion (Thermo Scientific)"
+    ],
+    "protein expression profiling|mass spectrometry|LTQ Orbitrap Velos (Thermo Scientific)": [
+      "LTQ Orbitrap Velos (Thermo Scientific)"
+    ],
+    "protein expression profiling|mass spectrometry|LTQ Orbitrap Velos(Thermo Scientific)": [
+      "LTQ Orbitrap Velos(Thermo Scientific)"
+    ],
+    "protein expression profiling|mass spectrometry|LTQ-Orbitrap Velos Pro": [
+      "LTQ-Orbitrap Velos Pro"
+    ],
+    "protein expression profiling|mass spectrometry|MaXis 4G": [
+      "MaXis 4G"
+    ],
+    "protein expression profiling|mass spectrometry|Orbitrap Fusion": [
+      "Orbitrap Fusion"
+    ],
+    "protein expression profiling|mass spectrometry|Orbitrap Fusion Lumos": [
+      "Orbitrap Fusion Lumos"
+    ],
+    "protein expression profiling|mass spectrometry|Orbitrap Fusion Tribrid": [
+      "Orbitrap Fusion Tribrid"
+    ],
+    "protein expression profiling|mass spectrometry|Orbitrap Fusion mass spectrometer (Thermo Scientific)": [
+      "Orbitrap Fusion mass spectrometer (Thermo Scientific)"
+    ],
+    "protein expression profiling|mass spectrometry|Orbitrap Fusion(Thermo Scientific)": [
+      "Orbitrap Fusion(Thermo Scientific)"
+    ],
+    "protein expression profiling|mass spectrometry|Q Exactive Plus": [
+      "Q Exactive Plus"
+    ],
+    "protein expression profiling|mass spectrometry|Q Exactive(Thermo Scientific)": [
+      "Q Exactive(Thermo Scientific)"
+    ],
+    "protein expression profiling|mass spectrometry|Q-Exactive plus": [
+      "Q-Exactive plus"
+    ],
+    "protein expression profiling|mass spectrometry|SYNAPT G2 HDMS (Waters)": [
+      "SYNAPT G2 HDMS (Waters)"
+    ],
+    "protein expression profiling|mass spectrometry|TripleTOF 6600": [
+      "TripleTOF 6600"
+    ],
+    "protein expression profiling|mass spectrometry|UHPLC Orbitrap Fusion mass spectrometer (Thermo Scientific)": [
+      "UHPLC Orbitrap Fusion mass spectrometer (Thermo Scientific)"
+    ],
+    "protein expression profiling|mass spectrometry|iTRAQ": [
+      "iTRAQ"
+    ],
+    "protein expression profiling|mass spectrometry|timsTOF Pro": [
+      "timsTOF Pro"
+    ],
+    "protein expression profiling|protein microarray": [
+      "protein microarray"
+    ],
+    "protein expression profiling|protein microarray|SomaScan": [
+      "SomaScan"
+    ],
+    "protein identification": [
+      "protein identification"
+    ],
+    "protein identification|mass spectrometry": [
+      "mass spectrometry"
+    ],
+    "protein identification|mass spectrometry|LTQ Orbitrap": [
+      "LTQ Orbitrap"
+    ],
+    "protein quantification": [
+      "protein quantification"
+    ],
+    "protein quantification|Western Blot": [
+      "Western Blot"
+    ],
+    "protein quantification|Western Blot|AlphaImager Gel Imaging System, Protein Simple": [
+      "AlphaImager Gel Imaging System, Protein Simple"
+    ],
+    "protein quantification|Western Blot|BioRad ChemiDoc": [
+      "BioRad ChemiDoc"
+    ],
+    "protein quantification|Western Blot|ChemiDoc_AKTpAKT": [
+      "ChemiDoc_AKTpAKT"
+    ],
+    "protein quantification|Western Blot|ChemiDoc_DAT": [
+      "ChemiDoc_DAT"
+    ],
+    "protein quantification|Western Blot|ChemiDoc_TH": [
+      "ChemiDoc_TH"
+    ],
+    "protein quantification|Western Blot|ChemiDoc_pCREB": [
+      "ChemiDoc_pCREB"
+    ],
+    "protein-DNA binding site identification": [
+      "protein-DNA binding site identification"
+    ],
+    "protein-DNA binding site identification|ChIC-seq (Chromatin Immunocleavage Sequencing)": [
+      "ChIC-seq (Chromatin Immunocleavage Sequencing)"
+    ],
+    "protein-DNA binding site identification|ChIC-seq (Chromatin Immunocleavage Sequencing)|Illumina": [
+      "Illumina"
+    ],
+    "protein-DNA binding site identification|ChIP-seq": [
+      "ChIP-seq"
+    ],
+    "protein-DNA binding site identification|ChIP-seq|Illumina": [
+      "Illumina"
+    ],
+    "transcription profiling": [
+      "Transcription Profiling",
+      "transcription profiling"
+    ],
+    "transcription profiling|DNA microarray": [
+      "DNA Microarray",
+      "DNA microarray"
+    ],
+    "transcription profiling|DNA microarray|Affymetrix": [
+      "Affymetrix"
+    ],
+    "transcription profiling|DNA microarray|Agilent": [
+      "Agilent"
+    ],
+    "transcription profiling|DNA microarray|BD Biosciences Clontech": [
+      "BD Biosciences Clontech"
+    ],
+    "transcription profiling|DNA microarray|Compugen": [
+      "Compugen"
+    ],
+    "transcription profiling|DNA microarray|CustomArray": [
+      "CustomArray"
+    ],
+    "transcription profiling|DNA microarray|Exiqon": [
+      "Exiqon"
+    ],
+    "transcription profiling|DNA microarray|GenePix": [
+      "GenePix"
+    ],
+    "transcription profiling|DNA microarray|Hitachisoft Hypergene Yeast Chip Ver. 2.0": [
+      "Hitachisoft Hypergene Yeast Chip Ver. 2.0"
+    ],
+    "transcription profiling|DNA microarray|Illumina": [
+      "Illumina"
+    ],
+    "transcription profiling|DNA microarray|Illumina HumanHT-12 V4.0 expression beadchip": [
+      "Illumina HumanHT-12 V4.0 expression beadchip"
+    ],
+    "transcription profiling|DNA microarray|NanoString nCounter MAX system": [
+      "NanoString nCounter MAX system"
+    ],
+    "transcription profiling|DNA microarray|Nimblegen": [
+      "Nimblegen"
+    ],
+    "transcription profiling|DNA microarray|SCKCEN Genomic Platform": [
+      "SCKCEN Genomic Platform"
+    ],
+    "transcription profiling|DNA microarray|Sidney Kimmel Cancer Center non-commercial": [
+      "Sidney Kimmel Cancer Center non-commercial"
+    ],
+    "transcription profiling|DNA microarray|nCounter MAX": [
+      "nCounter MAX"
+    ],
+    "transcription profiling|DNA microarray|non-commercial": [
+      "non-commercial"
+    ],
+    "transcription profiling|DNA microarray|spotted DNA-cDNA": [
+      "spotted DNA-cDNA"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)": [
+      "RNA Sequencing (RNA-Seq)"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|DNBSEQ-G400 (MGI)": [
+      "DNBSEQ-G400 (MGI)"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|GS FLX Titanium Series system": [
+      "GS FLX Titanium Series system"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|Illumina": [
+      "Illumina"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|Illumina Genome Analyzer IIx": [
+      "Illumina Genome Analyzer IIx"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|Illumina HiSeq 2000": [
+      "Illumina HiSeq 2000"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|Illumina HiSeq 2500": [
+      "Illumina HiSeq 2500"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|Illumina HiSeq 4000": [
+      "Illumina HiSeq 4000"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|Illumina HiSeq X": [
+      "Illumina HiSeq X"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|Illumina HiSeq1000": [
+      "Illumina HiSeq1000"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|Illumina HiSeq2500": [
+      "Illumina HiSeq2500"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|Illumina MiSeq": [
+      "Illumina MiSeq"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|Illumina NexSeq": [
+      "Illumina NexSeq"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|Illumina NovaSeq": [
+      "Illumina NovaSeq"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|Illumina NovaSeq 6000": [
+      "Illumina NovaSeq 6000"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|Ion Proton": [
+      "Ion Proton"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|MiSeq": [
+      "MiSeq"
+    ],
+    "transcription profiling|RNA Sequencing (RNA-Seq)|Ultima Genomics": [
+      "Ultima Genomics"
+    ],
+    "transcription profiling|long read RNA Sequencing": [
+      "long read RNA Sequencing"
+    ],
+    "transcription profiling|long read RNA Sequencing|Oxford Nanopore Technologies": [
+      "Oxford Nanopore Technologies"
+    ],
+    "transcription profiling|miRNA Microarray": [
+      "miRNA Microarray"
+    ],
+    "transcription profiling|miRNA Microarray|Affymetrix": [
+      "Affymetrix"
+    ],
+    "transcription profiling|miRNA Microarray|Agilent": [
+      "Agilent"
+    ],
+    "transcription profiling|miRNA Microarray|Exiqon": [
+      "Exiqon"
+    ],
+    "transcription profiling|miRNA Microarray|Filgen": [
+      "Filgen"
+    ],
+    "transcription profiling|miRNA Sequencing": [
+      "miRNA Sequencing",
+      "miRNA sequencing"
+    ],
+    "transcription profiling|miRNA Sequencing|Illumina": [
+      "Illumina"
+    ],
+    "transcription profiling|microarray": [
+      "microarray"
+    ],
+    "transcription profiling|microarray|Affymetrix": [
+      "Affymetrix"
+    ],
+    "transcription profiling|real time PCR": [
+      "real time PCR"
+    ],
+    "transcription profiling|real time PCR|BioRad": [
+      "BioRad"
+    ],
+    "transcription profiling|real time PCR|QuantStudio 12K Flex": [
+      "QuantStudio 12K Flex"
+    ],
+    "transcription profiling|real time PCR|RT2 Profiler PCR array": [
+      "RT2 Profiler PCR array"
+    ],
+    "transcription profiling|single-cell RNA sequencing": [
+      "single-cell RNA Sequencing",
+      "single-cell RNA sequencing"
+    ],
+    "transcription profiling|single-cell RNA sequencing|Illumina": [
+      "Illumina"
+    ],
+    "transcription profiling|single-cell RNA sequencing|Illumina NovaSeq 6000": [
+      "Illumina NovaSeq 6000"
+    ],
+    "transcription profiling|spatial transcriptomics": [
+      "spatial transcriptomics"
+    ],
+    "transcription profiling|spatial transcriptomics|Illumina": [
+      "Illumina"
+    ],
+    "transcription profiling|spatial transcriptomics|Nanostring GeoMx digital spatial profiling (DSP) platform": [
+      "Nanostring GeoMx digital spatial profiling (DSP) platform"
+    ],
+    "translation profiling": [
+      "translation profiling"
+    ],
+    "translation profiling|Ribo-seq (Ribosome profiling)": [
+      "Ribo-seq (Ribosome profiling)"
+    ],
+    "translation profiling|Ribo-seq (Ribosome profiling)|Illumina": [
+      "Illumina"
+    ],
+    "translation profiling|Ribo-seq (Ribosome profiling)|Illumina HiSeq 4000": [
+      "Illumina HiSeq 4000"
+    ],
+    "translation profiling|Ribo-seq (Ribosome profiling)|Illumina HiSeq X": [
+      "Illumina HiSeq X"
+    ]
+  },
+  "Factor": {
+    "age": [
+      "age"
+    ],
+    "age|age at sample collection": [
+      "age at sample collection"
+    ],
+    "age|age at sample harvest": [
+      "age at sample harvest"
+    ],
+    "age|age at start of experiment": [
+      "age at start of experiment"
+    ],
+    "age|donor age": [
+      "donor age"
+    ],
+    "altered gravity": [
+      "altered gravity"
+    ],
+    "altered gravity|altered gravity simulator": [
+      "altered gravity simulator"
+    ],
+    "altered gravity|altered gravity duration": [
+      "altered gravity duration"
+    ],
+    "bed rest": [
+      "bed rest"
+    ],
+    "diet": [
+      "diet"
+    ],
+    "dissection condition": [
+      "dissection condition"
+    ],
+    "duration": [
+      "duration"
+    ],
+    "duration|exposure duration": [
+      "exposure duration"
+    ],
+    "duration|hindlimb reloading duration": [
+      "hindlimb reloading duration"
+    ],
+    "duration|hindlimb unloading duration": [
+      "hindlimb unloading duration"
+    ],
+    "duration|treatment duration": [
+      "treatment duration"
+    ],
+    "ecotype": [
+      "ecotype"
+    ],
+    "euthanasia location": [
+      "euthanasia location"
+    ],
+    "generation": [
+      "generation"
+    ],
+    "genotype": [
+      "genotype"
+    ],
+    "gravity": [
+      "gravity"
+    ],
+    "hypergravity": [
+      "hypergravity"
+    ],
+    "ionizing radiation": [
+      "hze",
+      "ionizing radiation",
+      "ionzing radiation",
+      "irradiation",
+      "radiation"
+    ],
+    "ionizing radiation|absorbed radiation dose": [
+      "absorbed radiation dose",
+      "dose",
+      "radiation dose"
+    ],
+    "ionizing radiation|ionizing radiation device or source": [
+      "ionizing radiation device or source"
+    ],
+    "ionizing radiation|number of radiation doses": [
+      "number of radiation doses"
+    ],
+    "ionizing radiation|particle charge": [
+      "particle charge"
+    ],
+    "ionizing radiation|radiation distance": [
+      "radiation distance"
+    ],
+    "ionizing radiation|radiation type": [
+      "radiation type"
+    ],
+    "ionizing radiation|time post-irradiation": [
+      "time post-irradiation"
+    ],
+    "light": [
+      "light"
+    ],
+    "light cycle": [
+      "light cycle"
+    ],
+    "organism part": [
+      "organism part"
+    ],
+    "other": [
+      "other"
+    ],
+    "other|accession": [
+      "accession"
+    ],
+    "other|altitude": [
+      "altitude"
+    ],
+    "other|animal housing": [
+      "animal housing"
+    ],
+    "other|antibiotic concentration": [
+      "antibiotic concentration"
+    ],
+    "other|antibody": [
+      "antibody"
+    ],
+    "other|atmospheric composition": [
+      "atmospheric composition"
+    ],
+    "other|atmospheric pressure": [
+      "atmospheric pressure"
+    ],
+    "other|cage": [
+      "cage"
+    ],
+    "other|carbon dioxide treatment": [
+      "carbon dioxide treatment"
+    ],
+    "other|cell cycle phase": [
+      "cell cycle phase"
+    ],
+    "other|cell line": [
+      "cell line"
+    ],
+    "other|cleaning treatment": [
+      "cleaning treatment"
+    ],
+    "other|clinical treatment": [
+      "clinical treatment"
+    ],
+    "other|co-culture": [
+      "co-culture"
+    ],
+    "other|coating": [
+      "coating"
+    ],
+    "other|collection date": [
+      "collection date"
+    ],
+    "other|collection set": [
+      "collection set"
+    ],
+    "other|cultivar": [
+      "cultivar"
+    ],
+    "other|culture condition": [
+      "culture condition"
+    ],
+    "other|culture media": [
+      "culture media"
+    ],
+    "other|developmental condition": [
+      "developmental condition"
+    ],
+    "other|developmental stage": [
+      "developmental stage"
+    ],
+    "other|disease state": [
+      "disease state"
+    ],
+    "other|donor": [
+      "donor"
+    ],
+    "other|donor medical history": [
+      "donor medical history"
+    ],
+    "other|dry immersion": [
+      "dry immersion"
+    ],
+    "other|electromagnetic fields": [
+      "electromagnetic fields"
+    ],
+    "other|euthanasia": [
+      "euthanasia"
+    ],
+    "other|euthanasia method": [
+      "euthanasia method"
+    ],
+    "other|experiment": [
+      "experiment"
+    ],
+    "other|experimental campaign": [
+      "experimental campaign"
+    ],
+    "other|food deprivation": [
+      "food deprivation"
+    ],
+    "other|generation number": [
+      "generation number"
+    ],
+    "other|gravity environment at imbibition": [
+      "gravity environment at imbibition"
+    ],
+    "other|ground based facilities": [
+      "ground based facilities"
+    ],
+    "other|growth cycle": [
+      "growth cycle"
+    ],
+    "other|growth environment": [
+      "growth environment"
+    ],
+    "other|growth medium": [
+      "growth medium"
+    ],
+    "other|growth medium provenance": [
+      "growth medium provenance"
+    ],
+    "other|harvest": [
+      "harvest"
+    ],
+    "other|histone modification target": [
+      "histone modification target"
+    ],
+    "other|housing condition": [
+      "housing condition"
+    ],
+    "other|individual": [
+      "individual"
+    ],
+    "other|input cell count": [
+      "input cell count"
+    ],
+    "other|input dna mass": [
+      "input dna mass"
+    ],
+    "other|intracranial pressure": [
+      "intracranial pressure"
+    ],
+    "other|lambda spike-in": [
+      "lambda spike-in"
+    ],
+    "other|library construction protocol": [
+      "library construction protocol"
+    ],
+    "other|location": [
+      "location"
+    ],
+    "other|magnetic field": [
+      "magnetic field"
+    ],
+    "other|micronucleus index": [
+      "micronucleus index"
+    ],
+    "other|minimized mechanical stress": [
+      "minimized mechanical stress"
+    ],
+    "other|mitochondrial status": [
+      "mitochondrial status"
+    ],
+    "other|neoplasm": [
+      "neoplasm"
+    ],
+    "other|o2 level": [
+      "o2 level"
+    ],
+    "other|organism distribution": [
+      "organism distribution"
+    ],
+    "other|oxygen gas": [
+      "oxygen gas"
+    ],
+    "other|parabola": [
+      "parabola"
+    ],
+    "other|part": [
+      "part"
+    ],
+    "other|payload": [
+      "payload"
+    ],
+    "other|pressure": [
+      "pressure"
+    ],
+    "other|rad9 status": [
+      "rad9 status"
+    ],
+    "other|relative humidity": [
+      "relative humidity"
+    ],
+    "other|root zone": [
+      "root zone"
+    ],
+    "other|sample collection protocol": [
+      "sample collection protocol"
+    ],
+    "other|sample condition": [
+      "sample condition"
+    ],
+    "other|sample storage": [
+      "sample storage"
+    ],
+    "other|sample type": [
+      "sample type"
+    ],
+    "other|seed sanitization": [
+      "seed sanitization"
+    ],
+    "other|sieve size": [
+      "sieve size"
+    ],
+    "other|smoking status": [
+      "smoking status"
+    ],
+    "other|soil environment exposure": [
+      "soil environment exposure"
+    ],
+    "other|spike-in quality control": [
+      "spike-in quality control"
+    ],
+    "other|stress": [
+      "stress"
+    ],
+    "other|substrate type": [
+      "substrate type"
+    ],
+    "other|tetanus toxoid": [
+      "tetanus toxoid"
+    ],
+    "other|treatment group": [
+      "treatment group"
+    ],
+    "other|uv mutagenesis": [
+      "uv mutagenesis"
+    ],
+    "other|vaccine adjuvant": [
+      "vaccine adjuvant"
+    ],
+    "other|variation": [
+      "variation"
+    ],
+    "other|vendor": [
+      "vendor"
+    ],
+    "other|water deprivation": [
+      "water deprivation"
+    ],
+    "other|zygosity": [
+      "zygosity"
+    ],
+    "preservation method": [
+      "preservation method"
+    ],
+    "preservation method|carcass preservation method": [
+      "carcass preservation method"
+    ],
+    "preservation method|freezing": [
+      "freezing"
+    ],
+    "preservation method|freezing profile": [
+      "freezing profile"
+    ],
+    "preservation method|order of preservation": [
+      "order of preservation"
+    ],
+    "preservation method|sample preservation method": [
+      "sample preservation method"
+    ],
+    "preservation method|tissue homogenate preservation time at -80c in rlt buffer": [
+      "tissue homogenate preservation time at -80c in rlt buffer"
+    ],
+    "preservation method|tissue preservation method": [
+      "tissue preservation method"
+    ],
+    "sample location": [
+      "sample location"
+    ],
+    "sex": [
+      "gender",
+      "sex"
+    ],
+    "spaceflight": [
+      "microgravity",
+      "space flight",
+      "space mission",
+      "spacecraft",
+      "spaceflight",
+      "weightlessness"
+    ],
+    "strain": [
+      "mouse strain",
+      "strain"
+    ],
+    "study subject": [
+      "study subject"
+    ],
+    "temperature": [
+      "temperature"
+    ],
+    "time": [
+      "tiime",
+      "time"
+    ],
+    "time|assay time post-irradiation": [
+      "assay time post-irradiation"
+    ],
+    "time|dissection timeline": [
+      "dissection timeline"
+    ],
+    "time|growth time": [
+      "growth time"
+    ],
+    "time|post radiation timepoint": [
+      "post radiation timepoint"
+    ],
+    "time|sample storage time": [
+      "sample storage time"
+    ],
+    "time|sampling time": [
+      "sampling time"
+    ],
+    "time|time after treatment": [
+      "time after treatment"
+    ],
+    "time|time of sample collection after euthanasia": [
+      "time of sample collection after euthanasia"
+    ],
+    "time|time of sample collection after irradiation": [
+      "time of sample collection after irradiation"
+    ],
+    "time|time of sample collection after treatment": [
+      "time of sample collection after treatment"
+    ],
+    "time|timepoint": [
+      "timepoint"
+    ],
+    "time|treatment time": [
+      "treatment time"
+    ],
+    "tissue": [
+      "muscle",
+      "tissue"
+    ],
+    "tissue|tissue segment": [
+      "tissue segment"
+    ],
+    "tissue|tissue type": [
+      "tissue type"
+    ],
+    "treatment": [
+      "treatment"
+    ],
+    "treatment|bleomycin treatment": [
+      "bleomycin treatment"
+    ],
+    "treatment|infection": [
+      "infection"
+    ],
+    "weightlessness simulation": [
+      "environmentalstress",
+      "microgravity simulation",
+      "simulated microgravity",
+      "weightlessness simulation"
+    ],
+    "weightlessness simulation|hindlimb unloading": [
+      "hindlimb unloading"
+    ],
+    "weightlessness simulation|partial weight bearing": [
+      "partial weight bearing"
+    ]
+  },
+  "Organism": {
+    "Human (Homo sapiens)": [
+      "Homo sapiens",
+      "homo sapiens",
+      "human"
+    ],
+    "Other Organisms": [
+      "Adineta vaga",
+      "Daphnia magna",
+      "Not Applicable"
+    ],
+    "algae": [
+      "algae"
+    ],
+    "algae|Chlamydomonas reinhardtii": [
+      "Chlamydomonas reinhardtii",
+      "chlamydomonas reinhardtii"
+    ],
+    "algae|Euglena gracilis": [
+      "Euglena gracilis",
+      "euglena gracilis"
+    ],
+    "algae|Pseudopyrenochaeta terrestris": [
+      "Pseudopyrenochaeta terrestris",
+      "pseudopyrenochaeta terrestris"
+    ],
+    "bacteria": [
+      "bacteria"
+    ],
+    "bacteria|Acinetobacter pittii": [
+      "Acinetobacter pittii",
+      "acinetobacter pittii"
+    ],
+    "bacteria|Acinetobacter radioresistens": [
+      "Acinetobacter radioresistens",
+      "acinetobacter radioresistens"
+    ],
+    "bacteria|Agrobacterium genomosp. 3": [
+      "Agrobacterium genomosp. 3"
+    ],
+    "bacteria|Alkalihalobacillus clausii": [
+      "Alkalihalobacillus clausii",
+      "alkalihalobacillus clausii"
+    ],
+    "bacteria|Alkalihalobacillus gibsonii": [
+      "Alkalihalobacillus gibsonii",
+      "alkalihalobacillus gibsonii"
+    ],
+    "bacteria|Aranicola proteolyticus": [
+      "Aranicola proteolyticus",
+      "aranicola proteolyticus"
+    ],
+    "bacteria|Bacillus": [
+      "Bacillus",
+      "bacillus"
+    ],
+    "bacteria|Bacillus altitudinis": [
+      "Bacillus altitudinis",
+      "bacillus altitudinis"
+    ],
+    "bacteria|Bacillus amyloliquefaciens": [
+      "Bacillus amyloliquefaciens",
+      "bacillus amyloliquefaciens"
+    ],
+    "bacteria|Bacillus atrophaeus": [
+      "Bacillus atrophaeus",
+      "bacillus atrophaeus"
+    ],
+    "bacteria|Bacillus cereus thuringiensis": [
+      "Bacillus cereus thuringiensis",
+      "bacillus cereus thuringiensis"
+    ],
+    "bacteria|Bacillus firmus": [
+      "Bacillus firmus",
+      "bacillus firmus"
+    ],
+    "bacteria|Bacillus glycinifermentans": [
+      "Bacillus glycinifermentans",
+      "bacillus glycinifermentans"
+    ],
+    "bacteria|Bacillus haynesii": [
+      "Bacillus haynesii",
+      "bacillus haynesii"
+    ],
+    "bacteria|Bacillus horneckiae": [
+      "Bacillus horneckiae",
+      "bacillus horneckiae"
+    ],
+    "bacteria|Bacillus licheniformis": [
+      "Bacillus licheniformis",
+      "bacillus licheniformis"
+    ],
+    "bacteria|Bacillus nealsonii": [
+      "Bacillus nealsonii",
+      "bacillus nealsonii"
+    ],
+    "bacteria|Bacillus paralicheniformis": [
+      "Bacillus paralicheniformis",
+      "bacillus paralicheniformis"
+    ],
+    "bacteria|Bacillus pumilus": [
+      "Bacillus pumilus",
+      "bacillus pumilus"
+    ],
+    "bacteria|Bacillus pumilus safr-032": [
+      "bacillus pumilus safr-032"
+    ],
+    "bacteria|Bacillus safensis": [
+      "Bacillus safensis",
+      "bacillus safensis"
+    ],
+    "bacteria|Bacillus subtilis": [
+      "Bacillus subtilis",
+      "bacillus subtilis"
+    ],
+    "bacteria|Brevibacillus parabrevis": [
+      "Brevibacillus parabrevis",
+      "brevibacillus parabrevis"
+    ],
+    "bacteria|Brevibacterium luteolum": [
+      "Brevibacterium luteolum",
+      "brevibacterium luteolum"
+    ],
+    "bacteria|Burkholderia cepacia": [
+      "Burkholderia cepacia",
+      "burkholderia cepacia"
+    ],
+    "bacteria|Burkholderia contaminans": [
+      "Burkholderia contaminans",
+      "burkholderia contaminans"
+    ],
+    "bacteria|Cytobacillus oceanisediminis": [
+      "Cytobacillus oceanisediminis",
+      "cytobacillus oceanisediminis"
+    ],
+    "bacteria|Enterobacter": [
+      "Enterobacter",
+      "enterobacter"
+    ],
+    "bacteria|Enterobacter bugandensis": [
+      "Enterobacter bugandensis",
+      "enterobacter bugandensis"
+    ],
+    "bacteria|Enterobacter cloacae": [
+      "Enterobacter cloacae"
+    ],
+    "bacteria|Enterobacteria phage lambda": [
+      "Enterobacteria phage lambda",
+      "enterobacteria phage lambda"
+    ],
+    "bacteria|Escherichia coli": [
+      "Escherichia coli",
+      "escherichia coli"
+    ],
+    "bacteria|Kalamiella piersonii": [
+      "Kalamiella piersonii",
+      "kalamiella piersonii"
+    ],
+    "bacteria|Klebsiella": [
+      "Klebsiella",
+      "klebsiella"
+    ],
+    "bacteria|Klebsiella aerogenes": [
+      "Klebsiella aerogenes"
+    ],
+    "bacteria|Klebsiella pneumoniae": [
+      "Klebsiella pneumoniae"
+    ],
+    "bacteria|Klebsiella quasipneumoniae": [
+      "Klebsiella quasipneumoniae",
+      "klebsiella quasipneumoniae"
+    ],
+    "bacteria|Klebsiella quasipneumoniae subsp. similipneumoniae": [
+      "Klebsiella quasipneumoniae subsp. similipneumoniae",
+      "klebsiella quasipneumoniae subsp. similipneumoniae"
+    ],
+    "bacteria|Kocuria indica": [
+      "Kocuria indica",
+      "kocuria indica"
+    ],
+    "bacteria|Kocuria palustris": [
+      "Kocuria palustris",
+      "kocuria palustris"
+    ],
+    "bacteria|Lactobacillus acidophilus": [
+      "Lactobacillus acidophilus",
+      "lactobacillus acidophilus"
+    ],
+    "bacteria|Methylobacterium organophilum": [
+      "Methylobacterium organophilum",
+      "methylobacterium organophilum"
+    ],
+    "bacteria|Methylobacterium sp.": [
+      "Methylobacterium sp.",
+      "methylobacterium sp."
+    ],
+    "bacteria|Methylorubrum rhodesianum": [
+      "Methylorubrum rhodesianum",
+      "methylorubrum rhodesianum"
+    ],
+    "bacteria|Micrococcus luteus": [
+      "Micrococcus luteus",
+      "micrococcus luteus"
+    ],
+    "bacteria|Mycobacterium marinum": [
+      "Mycobacterium marinum",
+      "mycobacterium marinum"
+    ],
+    "bacteria|Oceanobacillus caeni": [
+      "Oceanobacillus caeni",
+      "oceanobacillus caeni"
+    ],
+    "bacteria|Paenibacillus polymyxa": [
+      "Paenibacillus polymyxa",
+      "paenibacillus polymyxa"
+    ],
+    "bacteria|Pantoea agglomerans": [
+      "Pantoea agglomerans",
+      "pantoea agglomerans"
+    ],
+    "bacteria|Pantoea brenneri": [
+      "Pantoea brenneri",
+      "pantoea brenneri"
+    ],
+    "bacteria|Pantoea conspicua": [
+      "Pantoea conspicua",
+      "pantoea conspicua"
+    ],
+    "bacteria|Paraburkholderia phymatum": [
+      "Paraburkholderia phymatum"
+    ],
+    "bacteria|Priestia megaterium": [
+      "Priestia megaterium",
+      "priestia megaterium"
+    ],
+    "bacteria|Pseudoclavibacter alba": [
+      "Pseudoclavibacter alba",
+      "pseudoclavibacter alba"
+    ],
+    "bacteria|Pseudomonas aeruginosa": [
+      "Pseudomonas aeruginosa",
+      "pseudomonas aeruginosa"
+    ],
+    "bacteria|Pseudomonas fulva": [
+      "Pseudomonas fulva",
+      "pseudomonas fulva"
+    ],
+    "bacteria|Pseudomonas granadensis": [
+      "Pseudomonas granadensis",
+      "pseudomonas granadensis"
+    ],
+    "bacteria|Ralstonia insidiosa": [
+      "Ralstonia insidiosa",
+      "ralstonia insidiosa"
+    ],
+    "bacteria|Ralstonia pickettii": [
+      "Ralstonia pickettii",
+      "ralstonia pickettii"
+    ],
+    "bacteria|Rhodospirillum rubrum": [
+      "Rhodospirillum rubrum",
+      "rhodospirillum rubrum"
+    ],
+    "bacteria|Rubinsicoccus jepli": [
+      "Rubinsicoccus jepli",
+      "rubinsicoccus jepli"
+    ],
+    "bacteria|Salmonella enterica": [
+      "Salmonella enterica",
+      "salmonella enterica"
+    ],
+    "bacteria|Salmonella enterica subsp. enterica serovar typhimurium": [
+      "Salmonella enterica subsp. enterica serovar Typhimurium",
+      "salmonella enterica subsp. enterica serovar typhimurium"
+    ],
+    "bacteria|Serratia liquefaciens": [
+      "Serratia liquefaciens"
+    ],
+    "bacteria|Solibacillus kalamii": [
+      "Solibacillus kalamii",
+      "solibacillus kalamii"
+    ],
+    "bacteria|Sphingobacterium paucimobilis": [
+      "Sphingobacterium paucimobilis",
+      "sphingobacterium paucimobilis"
+    ],
+    "bacteria|Sphingomonas sanguinis": [
+      "Sphingomonas sanguinis",
+      "sphingomonas sanguinis"
+    ],
+    "bacteria|Staphylococcus": [
+      "Staphylococcus",
+      "staphylococcus"
+    ],
+    "bacteria|Staphylococcus aureus": [
+      "Staphylococcus aureus",
+      "staphylococcus aureus"
+    ],
+    "bacteria|Staphylococcus auricularis": [
+      "Staphylococcus auricularis",
+      "staphylococcus auricularis"
+    ],
+    "bacteria|Staphylococcus capitis": [
+      "Staphylococcus capitis",
+      "staphylococcus capitis"
+    ],
+    "bacteria|Staphylococcus caprae": [
+      "Staphylococcus caprae",
+      "staphylococcus caprae"
+    ],
+    "bacteria|Staphylococcus epidermidis": [
+      "Staphylococcus epidermidis",
+      "staphylococcus epidermidis"
+    ],
+    "bacteria|Staphylococcus lugdunensis": [
+      "Staphylococcus lugdunensis",
+      "staphylococcus lugdunensis"
+    ],
+    "bacteria|Staphylococcus saprophyticus": [
+      "Staphylococcus saprophyticus",
+      "staphylococcus saprophyticus"
+    ],
+    "bacteria|Staphylococcus warneri": [
+      "Staphylococcus warneri",
+      "staphylococcus warneri"
+    ],
+    "bacteria|Streptococcus mutans": [
+      "Streptococcus mutans",
+      "streptococcus mutans"
+    ],
+    "bacteria|Thermus amyloliquefaciens": [
+      "Thermus amyloliquefaciens",
+      "thermus amyloliquefaciens"
+    ],
+    "bacteria|Vibrio fischeri": [
+      "Vibrio fischeri"
+    ],
+    "bacteria|Virgibacillus pantothenticus": [
+      "Virgibacillus pantothenticus",
+      "virgibacillus pantothenticus"
+    ],
+    "cellular organisms": [
+      "cellular organisms"
+    ],
+    "fish": [
+      "fish"
+    ],
+    "fish|Danio rerio": [
+      "Danio rerio",
+      "danio rerio"
+    ],
+    "fish|Oryzias latipes": [
+      "Oryzias latipes",
+      "oryzias latipes"
+    ],
+    "fruit fly": [
+      "fruit fly"
+    ],
+    "fruit fly|Drosophila melanogaster": [
+      "Drosophila melanogaster",
+      "drosophila melanogaster"
+    ],
+    "fungus": [
+      "fungus"
+    ],
+    "fungus|Acremonium citrinum": [
+      "Acremonium citrinum",
+      "acremonium citrinum"
+    ],
+    "fungus|Alternaria angustiovoidea": [
+      "Alternaria angustiovoidea",
+      "alternaria angustiovoidea"
+    ],
+    "fungus|Aspergillus calidoustus": [
+      "Aspergillus calidoustus",
+      "aspergillus calidoustus"
+    ],
+    "fungus|Aspergillus costaricaensis": [
+      "Aspergillus costaricaensis",
+      "aspergillus costaricaensis"
+    ],
+    "fungus|Aspergillus fumigatus": [
+      "Aspergillus fumigatus",
+      "aspergillus fumigatus"
+    ],
+    "fungus|Aspergillus nidulans": [
+      "Aspergillus nidulans",
+      "aspergillus nidulans"
+    ],
+    "fungus|Aspergillus niger": [
+      "Aspergillus niger",
+      "aspergillus niger"
+    ],
+    "fungus|Aspergillus pseudoglaucus": [
+      "Aspergillus pseudoglaucus",
+      "aspergillus pseudoglaucus"
+    ],
+    "fungus|Aspergillus quadricinctus": [
+      "Aspergillus quadricinctus",
+      "aspergillus quadricinctus"
+    ],
+    "fungus|Aspergillus terreus": [
+      "Aspergillus terreus",
+      "aspergillus terreus"
+    ],
+    "fungus|Aspergillus unguis": [
+      "Aspergillus unguis",
+      "aspergillus unguis"
+    ],
+    "fungus|Aureobasidium lini": [
+      "Aureobasidium lini",
+      "aureobasidium lini"
+    ],
+    "fungus|Aureobasidium melanogenum": [
+      "Aureobasidium melanogenum",
+      "aureobasidium melanogenum"
+    ],
+    "fungus|Aureobasidium pullulans": [
+      "Aureobasidium pullulans",
+      "aureobasidium pullulans"
+    ],
+    "fungus|Barbatosphaeria neglecta": [
+      "Barbatosphaeria neglecta",
+      "barbatosphaeria neglecta"
+    ],
+    "fungus|Beauveria bassiana": [
+      "Beauveria bassiana",
+      "beauveria bassiana"
+    ],
+    "fungus|Botryosphaeria agaves": [
+      "Botryosphaeria agaves",
+      "botryosphaeria agaves"
+    ],
+    "fungus|Candida albicans": [
+      "Candida albicans",
+      "candida albicans"
+    ],
+    "fungus|Cladosporium austrohemisphaericum": [
+      "Cladosporium austrohemisphaericum",
+      "cladosporium austrohemisphaericum"
+    ],
+    "fungus|Cladosporium cladosporioides": [
+      "Cladosporium cladosporioides",
+      "cladosporium cladosporioides"
+    ],
+    "fungus|Cladosporium colombiae": [
+      "Cladosporium colombiae",
+      "cladosporium colombiae"
+    ],
+    "fungus|Cladosporium endophytica": [
+      "Cladosporium endophytica",
+      "cladosporium endophytica"
+    ],
+    "fungus|Cladosporium sphaerospermum": [
+      "Cladosporium sphaerospermum",
+      "cladosporium sphaerospermum"
+    ],
+    "fungus|Cystobasidium benthicum": [
+      "Cystobasidium benthicum",
+      "cystobasidium benthicum"
+    ],
+    "fungus|Exophiala oligosperma": [
+      "Exophiala oligosperma",
+      "exophiala oligosperma"
+    ],
+    "fungus|Fungal sp.": [
+      "fungal sp."
+    ],
+    "fungus|Fusarium annulatum": [
+      "Fusarium annulatum",
+      "fusarium annulatum"
+    ],
+    "fungus|Fusarium nygamai": [
+      "Fusarium nygamai",
+      "fusarium nygamai"
+    ],
+    "fungus|Fusarium oxysporum": [
+      "Fusarium oxysporum"
+    ],
+    "fungus|Fusarium solani": [
+      "Fusarium solani",
+      "fusarium solani"
+    ],
+    "fungus|Fusarium veterinarium": [
+      "Fusarium veterinarium",
+      "fusarium veterinarium"
+    ],
+    "fungus|Gamszarea kalimantanensis": [
+      "Gamszarea kalimantanensis",
+      "gamszarea kalimantanensis"
+    ],
+    "fungus|Ganoderma meredithae": [
+      "Ganoderma meredithae",
+      "ganoderma meredithae"
+    ],
+    "fungus|Naganishia adeliensis": [
+      "Naganishia adeliensis",
+      "naganishia adeliensis"
+    ],
+    "fungus|Naganishia albida": [
+      "Naganishia albida",
+      "naganishia albida"
+    ],
+    "fungus|Naganishia sp.": [
+      "Naganishia sp.",
+      "naganishia sp."
+    ],
+    "fungus|Neocatenulostroma microsporum": [
+      "Neocatenulostroma microsporum",
+      "neocatenulostroma microsporum"
+    ],
+    "fungus|Neophaeococcomyces aloes": [
+      "Neophaeococcomyces aloes",
+      "neophaeococcomyces aloes"
+    ],
+    "fungus|Papiliotrema laurentii": [
+      "Papiliotrema laurentii",
+      "papiliotrema laurentii"
+    ],
+    "fungus|Penicillium brevicompactum": [
+      "Penicillium brevicompactum",
+      "penicillium brevicompactum"
+    ],
+    "fungus|Penicillium camemberti": [
+      "Penicillium camemberti",
+      "penicillium camemberti"
+    ],
+    "fungus|Penicillium caseifulvum": [
+      "Penicillium caseifulvum",
+      "penicillium caseifulvum"
+    ],
+    "fungus|Penicillium chrysogenum": [
+      "Penicillium chrysogenum",
+      "penicillium chrysogenum"
+    ],
+    "fungus|Penicillium citrinum": [
+      "Penicillium citrinum",
+      "penicillium citrinum"
+    ],
+    "fungus|Penicillium corylophilum": [
+      "Penicillium corylophilum",
+      "penicillium corylophilum"
+    ],
+    "fungus|Penicillium decumbens": [
+      "Penicillium decumbens",
+      "penicillium decumbens"
+    ],
+    "fungus|Penicillium dipodomyicola": [
+      "Penicillium dipodomyicola",
+      "penicillium dipodomyicola"
+    ],
+    "fungus|Penicillium fuscoglaucum": [
+      "Penicillium fuscoglaucum",
+      "penicillium fuscoglaucum"
+    ],
+    "fungus|Penicillium griseoroseum": [
+      "Penicillium griseoroseum",
+      "penicillium griseoroseum"
+    ],
+    "fungus|Penicillium palitans": [
+      "Penicillium palitans",
+      "penicillium palitans"
+    ],
+    "fungus|Penicillium polonicum": [
+      "Penicillium polonicum",
+      "penicillium polonicum"
+    ],
+    "fungus|Penicillium rubens": [
+      "Penicillium rubens",
+      "penicillium rubens"
+    ],
+    "fungus|Penicillium sumatraense": [
+      "Penicillium sumatraense",
+      "penicillium sumatraense"
+    ],
+    "fungus|Phaeophleospora eucalypticola": [
+      "Phaeophleospora eucalypticola",
+      "phaeophleospora eucalypticola"
+    ],
+    "fungus|Phialocephala fluminis": [
+      "Phialocephala fluminis",
+      "phialocephala fluminis"
+    ],
+    "fungus|Rhodotorula mucilaginosa": [
+      "Rhodotorula mucilaginosa",
+      "rhodotorula mucilaginosa"
+    ],
+    "fungus|Roussoella neopustulans": [
+      "Roussoella neopustulans",
+      "roussoella neopustulans"
+    ],
+    "fungus|Saccharomyces cerevisiae": [
+      "Saccharomyces cerevisiae",
+      "saccharomyces cerevisiae"
+    ],
+    "fungus|Septoriella neoarundinis": [
+      "Septoriella neoarundinis",
+      "septoriella neoarundinis"
+    ],
+    "fungus|Talaromyces liani": [
+      "Talaromyces liani",
+      "talaromyces liani"
+    ],
+    "fungus|Talaromyces ruber": [
+      "Talaromyces ruber",
+      "talaromyces ruber"
+    ],
+    "fungus|Trichoderma citrinoviride": [
+      "Trichoderma citrinoviride",
+      "trichoderma citrinoviride"
+    ],
+    "fungus|Trichoderma virens": [
+      "Trichoderma virens",
+      "trichoderma virens"
+    ],
+    "fungus|Xylona heveae": [
+      "Xylona heveae",
+      "xylona heveae"
+    ],
+    "fungus|Zalaria obscura": [
+      "Zalaria obscura",
+      "zalaria obscura"
+    ],
+    "microbiota": [
+      "Microbiota",
+      "microbiota"
+    ],
+    "plant": [
+      "plant"
+    ],
+    "plant|Arabidopsis thaliana": [
+      "Arabidopsis thaliana",
+      "arabidopsis thaliana"
+    ],
+    "plant|Brachypodium distachyon": [
+      "Brachypodium distachyon",
+      "brachypodium distachyon"
+    ],
+    "plant|Brassica oleracea": [
+      "Brassica oleracea"
+    ],
+    "plant|Brassica rapa": [
+      "Brassica rapa",
+      "brassica rapa"
+    ],
+    "plant|Capsicum annuum": [
+      "Capsicum annuum"
+    ],
+    "plant|Ceratopteris richardii": [
+      "Ceratopteris richardii",
+      "ceratopteris richardii"
+    ],
+    "plant|Citrus limonia": [
+      "Citrus limonia"
+    ],
+    "plant|Daucus carota": [
+      "Daucus carota"
+    ],
+    "plant|Eruca vesicaria": [
+      "Eruca vesicaria",
+      "eruca vesicaria"
+    ],
+    "plant|Glycine max": [
+      "Glycine max"
+    ],
+    "plant|Lactuca sativa": [
+      "Lactuca sativa"
+    ],
+    "plant|Lolium multiflorum": [
+      "Lolium multiflorum"
+    ],
+    "plant|Marchantia": [
+      "Marchantia"
+    ],
+    "plant|Oryza sativa": [
+      "Oryza sativa",
+      "oryza sativa"
+    ],
+    "plant|Raphanus sativus": [
+      "Raphanus sativus"
+    ],
+    "plant|Triticum aestivum": [
+      "Triticum aestivum"
+    ],
+    "rodent": [
+      "rodent"
+    ],
+    "rodent|Mus musculus": [
+      "Mus musculus",
+      "mus musculus"
+    ],
+    "rodent|Rattus norvegicus": [
+      "Rattus norvegicus",
+      "rattus norvegicus"
+    ],
+    "snail": [
+      "snail"
+    ],
+    "snail|Helix lucorum": [
+      "Helix lucorum",
+      "helix lucorum"
+    ],
+    "squid": [
+      "squid"
+    ],
+    "squid|Euprymna scolopes": [
+      "Euprymna scolopes",
+      "euprymna scolopes"
+    ],
+    "squirrel": [
+      "squirrel"
+    ],
+    "squirrel|Urocitellus parryii": [
+      "Urocitellus parryii",
+      "urocitellus parryii"
+    ],
+    "wasp|Leptopilina boulardi": [
+      "Leptopilina boulardi"
+    ],
+    "wasp|Leptopilina heterotoma": [
+      "Leptopilina heterotoma"
+    ],
+    "worm": [
+      "worm"
+    ],
+    "worm|Caenorhabditis elegans": [
+      "Caenorhabditis elegans",
+      "caenorhabditis elegans"
+    ]
+  },
+  "Material type": {
+    "Extracted DNA": [
+      "extracted dna"
+    ],
+    "Non-Small Cell Lung Carcinoma": [
+      "non-small cell lung carcinoma"
+    ],
+    "Other Materials": [
+      "DNA",
+      "Not Applicable",
+      "Not Available",
+      "Not applicable",
+      "Positive Control",
+      "Subcutaneous Tissue",
+      "Tissue",
+      "aboveground biomass",
+      "blank",
+      "blank control",
+      "not applicable",
+      "reference RNA",
+      "solvent control",
+      "technical chip control"
+    ],
+    "Total RNA Extract": [
+      "total rna extract"
+    ],
+    "Vegetative Cell (Sensu Fungi)": [
+      "vegetative cell (sensu Fungi)",
+      "vegetative cell (sensu fungi)"
+    ],
+    "adipose tissue": [
+      "adipose tissue"
+    ],
+    "adipose tissue|brown adipose tissue": [
+      "brown adipose tissue"
+    ],
+    "adipose tissue|white adipose tissue": [
+      "white adipose tissue"
+    ],
+    "adrenal gland": [
+      "Adrenal gland",
+      "adrenal gland",
+      "Adrenal Glands - Both Sides",
+      "Adrenal glands- both sides",
+      "adrenal glands- both sides"
+    ],
+    "bacteria": [
+      "Bacteria",
+      "bacteria"
+    ],
+    "bioaerosol": [
+      "bioaerosol"
+    ],
+    "biofilms": [
+      "Attached Biofilms",
+      "Biofilms",
+      "biofilms"
+    ],
+    "blank": [
+      "blank"
+    ],
+    "blood": [
+      "Blood",
+      "blood"
+    ],
+    "blood|Human Peripheral Blood Lymphocytes (PBL)": [
+      "Human Peripheral blood lymphocytes (PBL)",
+      "human peripheral blood lymphocytes (pbl)"
+    ],
+    "blood|blood cells": [
+      "blood cells",
+      "Blood Cells"
+    ],
+    "blood|blood plasma": [
+      "Plasma",
+      "blood plasma",
+      "plasma"
+    ],
+    "blood|blood serum": [
+      "blood serum"
+    ],
+    "blood|isolated leukocytes": [
+      "blood, isolated leukocytes"
+    ],
+    "blood|peripheral blood": [
+      "Peripheral Blood",
+      "Peripheral blood cell"
+    ],
+    "blood|peripheral blood mononuclear cell": [
+      "Peripheral Blood Mononuclear Cell",
+      "peripheral blood mononuclear cell"
+    ],
+    "blood|red blood cells": [
+      "red blood cells",
+      "RBC pellet"
+    ],
+    "blood|whole blood": [
+      "Whole Blood",
+      "Whole blood",
+      "whole blood"
+    ],
+    "bone marrow": [
+      "Bone Marrow",
+      "bone marrow"
+    ],
+    "bone marrow|bone marrow of humerus": [
+      "Bone marrow of humerus",
+      "bone marrow of humerus"
+    ],
+    "brain": [
+      "Brain",
+      "brain"
+    ],
+    "brain|cerebellum": [
+      "Cerebellum",
+      "cerebellum",
+      "myeloid cerebellum",
+      "non-myeloid cerebellum",
+      "right hemisphere of cerebellum"
+    ],
+    "brain|cerebrum": [
+      "Cerebrum",
+      "cerebrum",
+      "Cerebral Cortex",
+      "Left cerebral hemisphere"
+    ],
+    "brain|cortex": [
+      "cortex",
+      "Cortex",
+      "Hippocampus and Cortex"
+    ],
+    "brain|dentate gyrus of hippocampal formation": [
+      "dentate gyrus of hippocampal formation"
+    ],
+    "brain|forebrain": [
+      "non-myeloid forebrain"
+    ],
+    "brain|frontal cortex": [
+      "frontal cortex",
+      "medial prefrontal cortex"
+    ],
+    "brain|hippocampus": [
+      "CA1 field of hippocampus",
+      "Hippocampus",
+      "Hippocampus and Cortex",
+      "hippocampus",
+      "myeloid hippocampus", 
+      "non-myeloid hippocampus",
+      "Right hippocampus"
+    ],
+    "brain|parietal cortex": [
+      "parietal cortex"
+    ],
+    "brain|subdural space": [
+      "subdural space",
+      "Subdural Space"
+    ],
+    "caenorhabditis elegans": [
+      "c. elegans",
+      "caenorhabditis elegans"
+    ],
+    "callus": [
+      "Callus",
+      "callus"
+    ],
+    "calvariae": [  
+      "calvariae", 
+      "Calvariae" 
+    ],
+    "cardiac muscle tissue": [
+      "cardiac muscle tissue"
+    ],
+    "cartilage|human engineered cartilage": [
+      "human engineered cartilage"
+    ],
+    "cecum": [
+      "cecum",
+      "Cecum"
+    ],
+    "cell line": [
+      "cell line"
+    ],
+    "cell line|Human Fibroblasts AG01522": [
+      "human fibroblasts ag01522"
+    ],
+    "cells": [
+      "Cells",
+      "Cells, Cultured",
+      "Cultured Cells",
+      "cells",
+      "isolated cells"
+    ],
+    "cells|bronchial epithelial cell": [
+      "bronchial epithelial cell",
+      "bronchial epithelial cells"
+    ],
+    "cells|cardiovascular progenitor cells": [
+      "cardiovascular progenitor cells"
+    ],
+    "cells|cell culture": [
+      "cell culture",
+      "Cells, Cultured"
+    ],
+    "cells|cell pellets": [
+      "cell pellets"
+    ],
+    "cells|HARV culture": [
+      "harv culture",
+      "HARV culture"
+    ],
+    "cells|Human Induced Pluripotent Stem Cell-Derived Cardiomyocytes": [
+      "human induced pluripotent stem cell-derived cardiomyocytes"
+    ],
+    "cells|lymphoblastoid cells": [
+      "lymphoblastoid cells" 
+    ],
+    "cells|mammary epithelial cells": [
+      "mammary epithelial cells",
+      "human mammary epithelial cells"
+    ],
+    "cells|microglia": [
+      "Microglia"
+    ],
+    "cells|myoblasts": [
+      "Myoblasts"
+    ],
+    "cells|OPM Chamber Culture": [
+      "opm chamber culture"
+    ],
+    "cells|primary cell": [
+      "primary cell",
+      "primary cells"
+    ],
+    "cells|primary left ventricular cell": [
+      "primary left ventricular cell",
+      "primary left ventricular cells"
+    ],
+    "cells|primary lung fibroblast cell": [
+      "primary lung fibroblast cells",
+      "primary lung fibroblast cell"
+    ],
+    "cells|skeletal stem cells": [
+      "skeletal stem cells"
+    ],
+    "cells|T cells": [
+      "Primary T Cells",
+      "T cell",  
+      "T cells"
+    ],
+    "cells|vegetative cells": [
+      "vegetative cells"
+    ],
+    "cells|3D cells": [
+      "3D Cells",
+      "3D cells"
+    ],
+    "cells|3D Co-Culture": [
+      "3D co-culture",
+      "3d co-culture"
+    ],
+    "cerebrospinal fluid": [
+      "cerebrospinal fluid"
+    ],
+    "colon": [
+      "colon",
+      "Colon"
+    ],
+    "cortical bone": [
+      "Cortical Bone",
+      "cortical bone"
+    ],
+    "cotyledon": [
+      "Cotyledon",
+      "cotyledon"
+    ],
+    "descending colon": [
+      "descending colon"
+    ],
+    "dust": [
+      "Dust",
+      "dust"
+    ],
+    "embryo": [
+      "embryo",
+      "whole embryos",
+      "whole embryo"
+    ],
+    "exhaled breath condensate": [
+      "Exhaled Breath Condensate",
+      "exhaled breath condensate"
+    ],
+    "eye": [
+      "Eye",
+      "eye"
+    ],
+    "eye|both eyes": [
+      "Both Eyes",
+      "Both eyes"
+    ],
+    "eye|left eye": [
+      "eye-left",
+      "Eye-Left",
+      "Left Eye",
+      "Left eye",
+      "left eye"
+    ],
+    "eye|right eye": [
+      "right eye",
+      "Right Eye"
+    ],
+    "feces": [
+      "Feces",
+      "feces"
+    ],
+    "feces|stool sample": [
+      "stool sample",
+      "Stool Sample"
+    ],
+    "femur": [
+      "Femur",
+      "femur",
+      "femurs, hip bones and vertebral columns"
+    ],
+    "femur|bone marrow of femur": [
+      "Bone marrow of femur",
+      "bone marrow of femur"
+    ],
+    "femur|left femur": [
+      "left femur",
+      "Left Femur"
+    ],
+    "femur|right femur": [
+      "Right Femur",
+      "Right femur",
+      "right femur"
+    ],
+    "filter particles": [
+      "filter particles"
+    ],
+    "forelimb": [
+      "forelimb"
+    ],
+    "forelimb|left forelimb": [
+      "left forelimb",
+      "Left Fore Limb"
+    ],
+    "hair follicle": [
+      "Hair follicle",
+      "hair follicle"
+    ],
+    "head": [
+      "Head",
+      "head"
+    ],
+    "heart": [
+      "Heart",
+      "Heart Atria",  
+      "Heart Ventricles",
+      "Heart and Abdominal Aorta",
+      "heart"
+    ],
+    "heart|aorta": [
+      "aorta"
+    ],
+    "heart|left ventricle": [
+      "left ventricle",
+      "Left ventricle"
+    ],
+    "heart|right ventricle": [
+      "heart right ventricle",
+      "right ventricle",
+      "Right ventricle"
+    ],
+    "hindlimb": [
+      "hindlimb"
+    ],
+    "hindlimb|left hindlimb": [
+      "left hindlimb",
+      "Left Hind Limb"
+    ],
+    "humerus": [ 
+      "humerus",
+      "Humerus"  
+    ],
+    "hypocotyl": [
+      "Hypocotyl",
+      "hypocotyl"
+    ],
+    "hypocotyl|hypocotyl cell culture": [
+      "hypocotyl cell culture"
+    ],
+    "intestines": [
+      "Intestines",
+      "intestines"
+    ],
+    "intestines|large intestine": [
+      "large intestine",
+      "Intestine, Large"
+    ],
+    "jurkat t cells": [
+      "jurkat t cells"
+    ],
+    "kidney": [
+      "Kidney",
+      "kidney"
+    ],
+    "kidney|left kidney": [
+      "Left kidney",
+      "kidney-left",
+      "left kidney"
+    ],
+    "kidney|right kidney": [
+      "right kidney",
+      "Right kidney"
+    ],
+    "leaf": [
+      "leaf"
+    ],
+    "light organ": [
+      "Light Organ",
+      "Light organ",
+      "light organ"
+    ],
+    "liver": [
+      "Liver",
+      "liver"
+    ],
+    "liver|liver left lateral lobe": [
+      "Left Lobe of the Liver",
+      "Left lobe of liver",
+      "left lobe of liver",
+      "left lobe of the liver",
+      "liver left lateral lobe"
+    ],
+    "lung": [
+      "Lung",
+      "lung"
+    ],
+    "lung|left lung": [
+      "Left Lung",
+      "left lung",
+      "left lung lobe"
+    ],
+    "lung|lung fibroblast": [
+      "lung fibroblast"
+    ],
+    "lung|right lung": [
+      "right lung",
+      "Right Lung"
+    ],
+    "lymphoma": [
+      "Lymphoma",
+      "lymphoma"
+    ],
+    "mammary gland": [
+      "mammary gland",
+      "whole 4th (inguinal) mammary glands"
+    ],
+    "mandible": [
+      "Mandible",
+      "mandible"
+    ],
+    "medial collateral ligament": [
+      "Medial collateral ligament",
+      "medial collateral ligament"
+    ],
+    "murine left ventricular cardiomyocytes": [
+      "murine left ventricular cardiomyocytes"
+    ],
+    "muscle": [
+      "muscle",
+      "limb muscle"
+    ],
+    "muscle|calf muscle": [
+      "calf muscle"
+    ],
+    "muscle|extensor digitorum longus": [
+      "Extensor Digitorum Longus - Both Sides",
+      "Extensor Digitorum Longus",
+      "Extensor digitorum longus",
+      "Extensor digitorum longus- both sides",
+      "extensor digitorum longus",
+      "extensor digitorum longus- both sides",
+      "Left extensor digitorum longus",
+      "Right extensor digitorum longus"
+    ],
+    "muscle|gastrocnemius": [
+      "Gastrocnemius",
+      "gastrocnemius",
+      "Gastrocnemius \u2013 left",
+      "Left gastrocnemius",
+      "Right gastrocnemius",
+      "right lateral gastrocnemius"
+    ],
+    "muscle|quadriceps femoris": [
+      "Quadriceps Muscle",
+      "Quadriceps femoris",
+      "quadriceps femoris",
+      "quadriceps muscle",
+      "Left quadriceps femoris",
+      "Right quadriceps femoris"
+    ],
+    "muscle|skeletal muscle tissue": [
+      "Skeletal Muscle Tissue",
+      "skeletal muscle tissue"
+    ],
+    "muscle|soleus": [
+      "Soleus",
+      "Soleus-both sides",
+      "soleus",
+      "soleus-both sides",
+      "Left soleus",
+      "Right soleus"
+    ],
+    "muscle|tibialis anterior": [
+      "tibialis anterior-left",
+      "Tibialis Anterior-Left",
+      "Left tibialis anterior",
+      "Right tibialis anterior",
+      "tibialis anterior"
+    ],
+    "muscle|vastus lateralis": [
+      "Vastus Lateralis",
+      "Vastus lateralis",
+      "vastus lateralis"
+    ],
+    "mycelia": [
+      "Mycelium",
+      "mycelia",
+      "mycelium"
+    ],
+    "neonatal rat cardiomyocyte": [
+      "neonatal rat cardiomyocyte"
+    ],
+    "optic nerve": [
+      "optic nerve"
+    ],
+    "optic nerve|left optic nerve": [
+      "left optic nerve",
+      "Left Optic Nerve"
+    ],
+    "optic nerve|right optic nerve": [
+      "right optic nerve",
+      "Right Optic Nerve"
+    ],
+    "ovary": [
+      "Ovary",
+      "ovary"
+    ],
+    "paw|rear paw": [
+      "Rear Paw"
+    ],
+    "pharyngeal": [
+      "Pharyngeal",
+      "pharyngeal"
+    ],
+    "placenta": [
+      "Placenta"
+    ],
+    "plants": [
+      "Plants"
+    ],
+    "plant callus": [
+      "plant callus"
+    ],
+    "plant callus|callus cell culture": [
+      "callus cell culture"
+    ],
+    "plant leaves": [
+      "plant leaves"
+    ],
+    "plant leaves|rosette": [
+      "rosette"
+    ],
+    "plant root": [
+      "po:root", 
+      "root"
+    ],
+    "plant root|mature root": [
+      "mature root"
+    ],
+    "plant root|plant roots": [
+      "Plant Roots",
+      "plant roots"
+    ],
+    "plant root|root tip": [
+      "root tip"
+    ],
+    "plant stem|inflorescence stems": [
+      "inflorescence stems",
+      "Inflorescence stems"
+    ],
+    "plant stem|stem": [
+      "stem",   
+      "stems"
+    ],
+    "primary cultured fibroblast cell": [
+      "primary cultured fibroblast cell"
+    ],
+    "primary prostate fibroblast cell culture": [
+      "primary prostate fibroblast cell culture"
+    ],
+    "retina": [
+      "Retina",
+      "retina"
+    ],
+    "retina|left retina": [
+      "Left retina",
+      "left retina"
+    ],
+    "retina|right retina": [
+      "Right retina",
+      "right retina"
+    ],
+    "saliva": [
+      "Saliva",
+      "saliva"
+    ],
+    "seedlings": [
+      "Seedlings",
+      "seedling",
+      "seedlings"
+    ],
+    "seedlings|shoots of seedlings": [
+      "shoots of seedlings"
+    ],
+    "seeds": [
+      "Seeds",
+      "seeds"
+    ],
+    "serum": [
+      "Serum",
+      "serum"
+    ],
+    "shoot": [
+      "bto:shoot",
+      "shoot"
+    ],
+    "skin": [
+      "Skin",
+      "skin"
+    ],
+    "skin|Mat-Tek EPI-200 3-Dimensional Skin Model": [
+      "Mat-Tek EPI-200 3-Dimensional Skin Model",
+      "mat-tek epi-200 3-dimensional skin model"
+    ],
+    "skin|dorsal skin": [
+      "dorsal skin"
+    ],
+    "skin|femoral skin": [
+      "femoral skin"
+    ],
+    "skin|femoral lateral skin": [
+      "femoral lateral skin"  
+    ],
+    "skin|skin biopsy": [
+      "skin biopsy",
+      "Skin Biopsy"
+    ],
+    "skin|skin fibroblast": [
+      "skin fibroblast"
+    ],
+    "skin|skin tissue": [
+      "skin tissue",
+      "Skin Tissue"
+    ],
+    "skull|parietal bone": [
+      "parietal bone",
+      "skull"
+    ],
+    "soil": [
+      "Soil",
+      "soil"
+    ],
+    "spleen": [
+      "Spleen",
+      "spleen",
+      "Whole Spleen",
+      "whole spleen"
+    ],
+    "spleen|spleen-distal": [
+      "Spleen-distal",
+      "spleen-distal"
+    ],
+    "spores": [
+      "Spores",
+      "spores"
+    ],
+    "spores|spores, bacterial": [
+      "spores, bacterial"
+    ],
+    "statocyst": [
+      "statocyst"
+    ],
+    "swab": [
+      "Swab",
+      "swab"
+    ],
+    "swab|skin swab": [
+      "skin swab",
+      "Skin swab"
+    ],
+    "swab|surface swab": [
+      "surface swab",
+      "Surface swab"
+    ],
+    "temporal bone": [
+      "Temporal Bone",
+      "temporal bone"
+    ],
+    "testis": [
+      "Testis",
+      "testis"
+    ],
+    "thymic lymphoma": [
+      "thymic lymphoma"
+    ],
+    "thymus": [
+      "Thymus",
+      "thymus",
+      "thymus gland"
+    ],
+    "tibia": [
+      "tibia",
+      "Tibia"
+    ],
+    "tibia|right tibia": [
+      "right tibia",
+      "Right Tibia"
+    ],
+    "tumor": [
+      "tumor"
+    ],
+    "tumor|4T1 Tumor": [
+      "4T1 tumor",
+      "4t1 tumor"
+    ],
+    "tumor|Lewis Lung Carcinoma (LLC) Tumor": [
+      "lewis lung carcinoma (llc) tumor",
+      "Lewis lung carcinoma (LLC)  tumor"
+    ],
+    "tumor|transplanted p53null mammary tumor": [
+      "transplanted p53null mammary tumor"
+    ],
+    "tumor|trp53 null mammary tumor": [
+      "Trp53 null Mammary Tumor",
+      "trp53 null mammary tumor"
+    ],
+    "urine": [
+      "urine",
+      "Urine"
+    ],
+    "vaginal specimen": [
+      "vaginal specimen",
+      "Vaginal Specimen"
+    ],
+    "vastus lateralis": [
+      "vastus lateralis"
+    ],
+    "vertebrae": [
+      "vertebrae",
+      "Vertebrae"
+    ],
+    "vertebrae|caudal vertebrae 3-4": [
+      "caudal vertebrae 3-4",
+      "Caudal Vertebrae 3-4" 
+    ],
+    "vertebrae|lumbar spine": [
+      "Lumbar Spine"
+    ],
+    "vertebrae|lumbar vertebra 2": [
+      "lumbar vertebra 2"
+    ],
+    "vertebrae|lumbar vertebra 4": [
+      "lumbar vertebra 4" 
+    ],
+    "vertebrae|second lumbar vertebrae": [
+      "second lumbar vertebrae",
+      "Second Lumbar Vertebrae"
+    ],
+    "whole larva": [
+      "whole larva"
+    ],
+    "whole organism": [
+      "Whole Organism",
+      "whole organism"
+    ],
+    "whole organism|whole pupae": [
+      "4 pooled whole pupae"
+    ],
+    "wholebody": [
+      "wholebody"
+    ],
+    "wipes": [
+      "Wipes",
+      "wipes"
+    ],
+    "zygote": [
+      "Zygote",
+      "zygote"
+    ]
+  },
+  "Mission": {
+    "Bion/Cosmos": [
+      "Bion M-1",
+      "Bion-M1"
+    ],
+    "Commercial Spaceflight": [
+      "CubeLab_HSAPIENS_SpaceX-19",
+      "Inspiration4 Crew",
+      "MELFI_MMUSCULUS_SPACEX-25",
+      "Microgravity Pain (Ax-1)",
+      "PHAB_HSAPIENS_SpaceX-10"
+    ],
+    "Ground Control": [
+      "GROUND-2"
+    ],
+    "ISS Expeditions": [
+      "IRISS",
+      "ISS-MO",
+      "ISS-MO (MT-1A)",
+      "ISS-MO (MT-1B)",
+      "ISS-MO (MT-1C)",
+      "ISS-MOP",
+      "MT-2 (ISS-MOP)"
+    ],
+    "Other Missions": [
+      "12A",
+      "19_12829_26_1A",
+      "3DMM",
+      "ABC-1",
+      "AES-1",
+      "APEX03-2",
+      "ARBEX - Russian dust",
+      "ARC00XX133",
+      "ARC00XX144",
+      "ARC00XX145",
+      "ARC00XX48",
+      "BASE-A",
+      "BONEMAC",
+      "BSP135",
+      "Biomolecule_Sequencer",
+      "Bioscience-3",
+      "CARA",
+      "CM",
+      "CSI-01",
+      "CUBELAB",
+      "EMCS-01",
+      "EPIGENETICS",
+      "EXPOSE-E",
+      "FIT",
+      "GENE",
+      "GIS-6",
+      "Human Muscle-on-Chip",
+      "ICE FIRST",
+      "ICE-FIRST",
+      "Immune-STL",
+      "KIDNEY-CELLS",
+      "Lada-VPU-P3R",
+      "Leukin-2",
+      "MDSBSP",
+      "MESSAGE-2",
+      "MHU-1",
+      "MHU-2",
+      "MHU-3",
+      "MHU-4",
+      "MHU-5",
+      "MVP-Fly-01",
+      "MVP2-Cell-03",
+      "Micro 7",
+      "Micro-4",
+      "Micro-7",
+      "Micro-I",
+      "Micro-III",
+      "Microbe-II",
+      "Microbial Tracking-1A",
+      "Microbial Tracking-1B",
+      "Microbial Tracking-2",
+      "NIH.R2",
+      "NNX14AT23G",
+      "PESTO",
+      "PH-04",
+      "PROTECT",
+      "Physiological Systems Experiment-04 (PSE.04)",
+      "ROTIFER-B1",
+      "RRRM-1 (RR-8)",
+      "Ribosome Profiling",
+      "SIBMOX-CELEGANS_SHENZHOU-8",
+      "SJ10_B2-1",
+      "SJ10_B2-3",
+      "SPHINX",
+      "Seedling Growth-1",
+      "Space Biofilms",
+      "TAGES",
+      "TAGES-Isa / APEX03-2",
+      "VEGGIE",
+      "VEG_03",
+      "VP-03",
+      "WISE-2005",
+      "YEAST-B"
+    ],
+    "Payload Investigations": [
+      "APEX-03-1",
+      "APEX-03-2",
+      "APEX-04",
+      "APEX-TAGES",
+      "BRIC-16",
+      "BRIC-17-1",
+      "BRIC-19",
+      "BRIC-20",
+      "BRIC-21",
+      "BRIC-22",
+      "BRIC-23",
+      "BRIC-LED-001",
+      "CBTM",
+      "CBTM-3",
+      "CBTM-3 (Biospecimen Sharing Program)",
+      "CERISE",
+      "FFL-02",
+      "FFL01",
+      "FFL03",
+      "VEG-01A",
+      "VEG-01B",
+      "VEG-03A",
+      "VEG-03D",
+      "VEG-03E",
+      "VEG-03F",
+      "VEG-04A",
+      "VEG-04B"
+    ],
+    "Radiation Studies": [
+      "Gamma_Irradiation",
+      "Heavy_Ion_HZE_Irradiation",
+      "High_Dose_Irradiation",
+      "High_LET_Irradiation",
+      "Low_Dose_Irradiation",
+      "Low_LET_Irradiation",
+      "Multiple_Radiation_Types",
+      "Non_Ionizing_Irradiation",
+      "Proton_Irradiation",
+      "Simplified_Galactic_Cosmic_Ray_Simulation_Irradiation",
+      "Solar_Particle_Event_Simulation_Irradiation",
+      "UV_Ionizing_Irradiation",
+      "X-Ray_Irradiation"
+    ],
+    "Rodent Research": [
+      "RR-1",
+      "RR-10",
+      "RR-12",
+      "RR-17",
+      "RR-18",
+      "RR-19",
+      "RR-1_BSP",
+      "RR-23",
+      "RR-3",
+      "RR-4",
+      "RR-5",
+      "RR-6",
+      "RR-7",
+      "RR-8",
+      "RR-9"
+    ],
+    "Simulated Conditions": [
+      "Hindlimb_Unloading",
+      "Simulated_Environmental_Factors",
+      "Simulated_Hypergravity",
+      "Simulated_Microgravity"
+    ],
+    "Space Shuttle": [
+      "SLS-1",
+      "SLS-2"
+    ]
+  }
+}
+
