@@ -42,9 +42,10 @@ A Python script that regenerates the OSDR (Open Science Data Repository) filter-
 ## Overview
 
 This script:
-- ✅ **Fully automated** - Downloads current filter-options and fetches all API data
-- ✅ **No input files needed** - Everything is fetched from OSDR in real-time
-- ✅ Preserves **ALL** existing values from the current OSDR filter-options
+- ✅ **Fully automated** - Downloads current filter-options from OSDR or uses your custom file
+- ✅ **Flexible input** - Use live OSDR data (default) or specify a local JSON file
+- ✅ **No input files required** - Works standalone by downloading from OSDR
+- ✅ Preserves **ALL** existing values from the input filter-options
 - ✅ Adds new metadata values discovered from the API
 - ✅ **Smart categorization** with taxonomic classification and anatomical matching
 - ✅ **3-level Assay hierarchy** (Measurement → Technology → Platform)
@@ -62,9 +63,14 @@ This script:
 
 ### 🎯 Smart Categorization
 - **Taxonomic classification** for organisms (bacteria, plants, fungi, wasps)
-- **Anatomical matching** for material types (laterality, tissue specificity)
+- **Comprehensive anatomical matching** for material types with 95+ keywords
+- **Organ systems**: liver, kidney, spleen, lung, heart, thymus, reproductive organs
+- **Skeletal system**: femur, tibia, vertebrae, calvariae, bone marrow
+- **Digestive system**: intestine, colon, stomach, esophagus
+- **Body fluids**: plasma, serum, saliva, urine, feces
+- **Plant tissues**: root, shoot, leaf, cotyledon, hypocotyl, seed
 - **3-level Assay hierarchy** with proper measurement → technology → platform structure
-- **Hierarchical Factors** with parent|child relationships
+- **Hierarchical Factors** with parent|child relationships including "altered gravity"
 - **3-tier muscle categorization** with laterality support (left/right)
 
 ### 🔄 Dual Format Support
@@ -79,9 +85,10 @@ This script:
 ### ✨ Production Ready
 - **1,462 total values** properly categorized
 - **372 Assay categories** with 3-level hierarchy
-- **198 Material categories** with smart tissue/muscle/cell matching
+- **198 Material categories** with comprehensive anatomical matching
+- **95+ anatomical keywords** for organ systems, bones, fluids, and plant tissues
 - **190 Organism categories** with taxonomic classification
-- **153 Factor categories** with parent|child structure
+- **153 Factor categories** with parent|child structure + "altered gravity" handling
 - **10 Mission categories** with pattern-based grouping
 - **38 cell type keywords** for automatic cell categorization
 
@@ -116,16 +123,37 @@ curl -LO https://raw.githubusercontent.com/asaravia-butler/OSDR_Filter_Categoriz
 
 ### Run the Script
 
+**Default (downloads from OSDR):**
 ```bash
 python3 osdr_filter_options_generator.py
 ```
 
-That's it! No arguments, no input files needed.
+**With custom input file:**
+```bash
+python3 osdr_filter_options_generator.py your-filter-options.json
+```
+
+**Get help:**
+```bash
+python3 osdr_filter_options_generator.py --help
+```
+
+### Command-Line Arguments
+
+- **No arguments**: Downloads filter-options from `https://osdr.nasa.gov/geode-py/ws/repo/filter-options`
+- **One argument**: Uses the specified JSON file as input
+  - Example: `python3 osdr_filter_options_generator.py filter-options-custom.json`
+
+This allows you to use either:
+1. The live OSDR filter-options (default)
+2. A manually curated or previous version of the JSON file
 
 ### What Happens
 
 The script automatically:
-1. Downloads current filter-options from `https://osdr.nasa.gov/geode-py/ws/repo/filter-options`
+1. **Loads input data**:
+   - If no arguments: Downloads current filter-options from `https://osdr.nasa.gov/geode-py/ws/repo/filter-options`
+   - If JSON file provided: Reads from the specified file
 2. Detects input format (OLD nested or NEW flat)
 3. Fetches latest metadata from 5 OSDR API endpoints
 4. Applies smart categorization with normalization
@@ -214,10 +242,15 @@ Creates parent|child relationships for related factors:
 
 **Hierarchical groupings:**
 - `age` → age at sample collection, age at start of experiment, donor age
+- `altered gravity` → altered gravity duration, altered gravity simulator, and any factor containing "altered gravity"
 - `duration` → exposure duration, hindlimb unloading duration, treatment duration
 - `ionizing radiation` → absorbed radiation dose, particle charge, radiation distance
 - `time` → dissection timeline, sample storage time, collection times
 - And 5 more parent categories
+
+**Special handling:**
+- Any factor containing "altered gravity" automatically creates a sub-category under the "altered gravity" parent
+- Example: New factor "altered gravity experiment X" → `altered gravity|altered gravity experiment X`
 
 ### Material Type (3-Tier Muscle Hierarchy)
 
@@ -279,14 +312,33 @@ Automatic categorization for cells using 38 keywords:
 - ✅ Cell lines: Human Fibroblasts AG01522
 - ✅ Abbreviations: PBMC, RBC automatically recognized
 
-**Anatomical keyword matching:**
-- Recognizes brain regions (hippocampus, cerebellum, cortex, forebrain)
-- Matches muscle types automatically
-- **Categorizes cell types** (T cells, myoblasts, fibroblasts, cardiomyocytes, etc.)
-- **Recognizes blood cells** (RBCs, PBMCs, peripheral blood)
-- **Identifies cell lines and cultures** (3D cells, HARV culture, cell lines)
+**Comprehensive anatomical keyword matching:**
+- **Brain regions**: hippocampus, cerebellum, cortex, forebrain, subdural space
+- **Muscles**: gastrocnemius, soleus, tibialis anterior, quadriceps (with laterality)
+- **Major organs**: liver, kidney, spleen, lung, heart, thymus, pancreas, thyroid, pituitary
+- **Reproductive organs**: testis, ovary, uterus, prostate, mammary gland
+- **Digestive system**: intestine, colon, stomach, esophagus, duodenum, jejunum, ileum
+- **Skeletal system**: femur, tibia, humerus, vertebrae, calvariae, skull, bone marrow
+- **Body fluids**: plasma, serum, saliva, urine, feces
+- **Adipose tissue**: brown, white, gonadal, mesenteric, subcutaneous adipose tissue
+- **Skin**: epidermis, dermis, hair follicle
+- **Eye**: retina, lens, cornea (with laterality)
+- **Plant tissues**: root, shoot, leaf, cotyledon, hypocotyl, seed, callus
+- **Microbiology**: biofilms, bioaerosol, swabs
+- **Cell types**: T cells, myoblasts, fibroblasts, cardiomyocytes, etc.
+- **Cell cultures**: 3D cells, HARV culture, cell lines
 - Handles laterality patterns (left, right, both)
 - Case-insensitive throughout
+- **95+ total anatomical keywords**
+
+**Material categorization logic (order of operations):**
+1. **Exact match** - Case-insensitive match to existing values
+2. **Laterality patterns** - Detects "left/right/both" + tissue name
+3. **Anatomical keyword matching** - Checks 95+ keywords for organs, tissues, cells
+4. **Substring matching** - Falls back to partial string matches
+5. **Other Materials** - Uncategorized items go here
+
+This order ensures specific keyword mappings (like "gonadal adipose tissue" → "adipose tissue|gonadal adipose tissue") are applied before generic substring matches.
 
 ### Organism (Taxonomic Classification)
 
@@ -624,10 +676,20 @@ Check the `unmapped-report.txt` file to see which values need manual categorizat
 
 ## Version
 
-**Version:** 2.0  
+**Version:** 2.1  
 **Last Updated:** February 2026  
 **API Documentation:** https://visualization.osdr.nasa.gov/biodata/api/  
 **Filter Options:** https://osdr.nasa.gov/geode-py/ws/repo/filter-options
+
+### Version 2.1 Features (February 2026)
+- ✅ **95+ anatomical keywords** for comprehensive organ system categorization
+- ✅ **Major organs**: liver, kidney, spleen, lung, heart, thymus, reproductive organs
+- ✅ **Skeletal system**: femur, tibia, vertebrae, calvariae, bone marrow  
+- ✅ **Digestive system**: intestine, colon, stomach, esophagus
+- ✅ **Body fluids**: plasma, serum, saliva, urine, feces
+- ✅ **Plant tissues**: root, shoot, leaf, cotyledon, hypocotyl, seed
+- ✅ **"Altered gravity" factor handling**: Auto-categorizes all variants
+- ✅ Significantly reduced "Other Materials" category
 
 ### Version 2.0 Features
 - ✅ 3-level Assay hierarchy (Measurement → Technology → Platform)
