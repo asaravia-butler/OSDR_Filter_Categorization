@@ -104,13 +104,16 @@ class SmartCategorizer:
                 if SmartCategorizer.normalize(existing_val) == norm_val:
                     return category
         
-        # Second: Laterality patterns (left/right/both + term)
+        # Second: Laterality patterns (left/right/both + term, including "both sides")
+        # Matches: "left X", "right X", "both X", "X - both sides", "X- both sides", "X both sides"
         laterality_match = re.match(r'^(left|right|both)\s+(.+)$', norm_val)
+        both_sides_match = re.match(r'^(.+?)[\s\-]*both\s*sides$', norm_val)
+        
         if laterality_match:
             laterality = laterality_match.group(1)
             base_term = laterality_match.group(2).strip()
             
-            # Check if this is a muscle (3-tier hierarchy)
+            # Check if this is a muscle
             matched_muscle = None
             for muscle in muscle_types:
                 if muscle in base_term:
@@ -118,8 +121,9 @@ class SmartCategorizer:
                     break
             
             if matched_muscle:
-                # Create 3-tier: muscle|muscle_name|laterality muscle_name
-                return f"muscle|{matched_muscle}|{laterality} {matched_muscle}"
+                # Muscles use 2-tier, not 3-tier: muscle|muscle_name
+                # The lateralized value goes INTO this category as a value
+                return f"muscle|{matched_muscle}"
             
             # For non-muscles, create 2-tier hierarchy
             # Look for parent category with base term
@@ -137,12 +141,118 @@ class SmartCategorizer:
                     if base_term == cat_norm or base_term in cat_norm or cat_norm in base_term:
                         return f"{category}|{laterality} {base_term}"
         
-        # Third: Anatomical keyword mapping (CHECK BEFORE substring matching!)
+        elif both_sides_match:
+            # Handle "X - both sides", "X- both sides", "X both sides"
+            base_term = both_sides_match.group(1).strip().rstrip('-').strip()
+            
+            # Normalize base term for singular/plural
+            # "adrenal glands" → "adrenal gland"
+            base_term_singular = base_term.rstrip('s') if base_term.endswith('s') else base_term
+            
+            # Check if this is a muscle
+            matched_muscle = None
+            for muscle in muscle_types:
+                if muscle in base_term:
+                    matched_muscle = muscle
+                    break
+            
+            if matched_muscle:
+                # Muscles use 2-tier: muscle|muscle_name
+                return f"muscle|{matched_muscle}"
+            
+            # Check if base_term (or singular) matches a keyword
+            # This handles "adrenal glands- both sides" → check "adrenal gland" keyword
+            for check_term in [base_term, base_term_singular]:
+                for category in existing_categories:
+                    cat_norm = SmartCategorizer.normalize(category)
+                    
+                    # Don't match if category has "both sides" in it (legacy category)
+                    if 'both sides' in cat_norm:
+                        continue
+                    
+                    if '|' in category:
+                        cat_parts = [SmartCategorizer.normalize(p) for p in category.split('|')]
+                        if check_term in cat_parts or any(check_term in p or p in check_term for p in cat_parts):
+                            parent = category.split('|')[0]
+                            return f"{parent}|both {check_term}"
+                    else:
+                        if check_term == cat_norm or check_term in cat_norm or cat_norm in check_term:
+                            return f"{category}|both {check_term}"
+            
+            # No match found, return as-is
+            return f"both {base_term}"
+        
+        # Third: Suffix-based categorization (BEFORE general keyword matching)
+        # Check for common suffixes that determine categorization
+        
+        # Rule: ends with "swab" → swab parent category
+        if norm_val.endswith(' swab') or norm_val == 'swab':
+            # Check if swab category exists
+            swab_exists = False
+            for cat in existing_categories:
+                if SmartCategorizer.normalize(cat) == 'swab':
+                    swab_exists = True
+                    break
+            
+            if swab_exists and norm_val != 'swab':
+                # Create sub-category under swab
+                return f"swab|{value}"
+            else:
+                return 'swab'
+        
+        # Rule: ends with "cells" or "cell" → cells parent category (except blood cells and specific types)
+        if norm_val.endswith(' cells') or norm_val.endswith(' cell'):
+            # Exception 1: blood cells go to blood parent
+            if 'blood' in norm_val:
+                blood_exists = False
+                for cat in existing_categories:
+                    if SmartCategorizer.normalize(cat) == 'blood':
+                        blood_exists = True
+                        break
+                
+                if blood_exists:
+                    # Create sub-category under blood
+                    return f"blood|{value}"
+                else:
+                    return 'blood'
+            
+            # Exception 2: T cells should match keyword first (use word boundaries)
+            elif re.search(r'\bt\s+cell', norm_val):
+                # Let keyword matching handle this
+                pass  # Fall through to keyword matching
+            else:
+                # Regular cells - go to cells parent
+                cells_exists = False
+                for cat in existing_categories:
+                    if SmartCategorizer.normalize(cat) == 'cells':
+                        cells_exists = True
+                        break
+                
+                if cells_exists and norm_val not in ['cell', 'cells']:
+                    return f"cells|{value}"
+                else:
+                    return 'cells'
+        
+        # Rule: ends with "tumor" → tumor parent category
+        if norm_val.endswith(' tumor'):
+            tumor_exists = False
+            for cat in existing_categories:
+                if SmartCategorizer.normalize(cat) == 'tumor':
+                    tumor_exists = True
+                    break
+            
+            if tumor_exists and norm_val != 'tumor':
+                return f"tumor|{value}"
+            else:
+                return 'tumor'
+        
+        # Fourth: Anatomical keyword mapping (CHECK BEFORE substring matching!)
         anatomical_keywords = {
             # Brain regions
             'cerebellum': 'brain|cerebellum',
             'cerebrum': 'brain|cerebrum',
             'cerebral cortex': 'brain|cerebrum',
+            'cerebral hemisphere': 'brain|cerebrum',
             'hippocampus': 'brain|hippocampus',
             'frontal cortex': 'brain|frontal cortex',
             'parietal cortex': 'brain|parietal cortex',
@@ -153,8 +263,12 @@ class SmartCategorizer:
             
             # Heart and cardiovascular
             'ventricle': 'heart',
+            'ventricles': 'heart',
             'aorta': 'heart|aorta',
             'left ventricle': 'heart|left ventricle',
+            'right ventricle': 'heart|right ventricle',
+            'atria': 'heart',
+            'atrium': 'heart',
             
             # Muscles
             'gastrocnemius': 'muscle|gastrocnemius',
@@ -162,6 +276,8 @@ class SmartCategorizer:
             'tibialis anterior': 'muscle|tibialis anterior',
             'quadriceps': 'muscle|quadriceps femoris',
             'extensor digitorum longus': 'muscle|extensor digitorum longus',
+            'extensor digitorum longus- both sides': 'muscle|extensor digitorum longus',
+            'extensor digitorum longus - both sides': 'muscle|extensor digitorum longus',
             'vastus lateralis': 'muscle|vastus lateralis',
             'calf muscle': 'muscle|calf muscle',
             'cardiac muscle': 'cardiac muscle tissue',
@@ -172,11 +288,16 @@ class SmartCategorizer:
             'spleen': 'spleen',
             'lung': 'lung',
             'adrenal gland': 'adrenal gland',
+            'adrenal glands- both sides': 'adrenal gland',
+            'adrenal glands - both sides': 'adrenal gland',
             'thymus': 'thymus',
             'thyroid': 'thyroid gland',
             'pituitary': 'pituitary gland',
             'pancreas': 'pancreas',
             'hypothalamus': 'hypothalamus',
+            
+            # Nervous system
+            'optic nerve': 'optic nerve',
             
             # Reproductive organs
             'testis': 'testis',
@@ -185,18 +306,24 @@ class SmartCategorizer:
             'prostate': 'prostate',
             'mammary gland': 'mammary gland',
             'mammary': 'mammary gland',
+            'placenta': 'placenta',
+            'vaginal specimen': 'vaginal specimen',
+            'vagina': 'vaginal specimen',
+            'zygote': 'zygote',
             
             # Digestive system
             'intestine': 'intestine',
             'small intestine': 'intestine',
+            'large intestine': 'intestine|large intestine',
             'duodenum': 'duodenum',
             'jejunum': 'jejunum',
             'ileum': 'ileum',
             'colon': 'colon',
             'descending colon': 'descending colon',
-            'large intestine': 'intestines|large intestine',
+            'intestines': 'intestine',
             'stomach': 'stomach',
             'esophagus': 'esophagus',
+            'cecum': 'cecum',
             
             # Diaphragm
             'diaphragm': 'diaphragm',
@@ -251,19 +378,25 @@ class SmartCategorizer:
             
             # Extremities
             'forelimb': 'forelimb',
+            'fore limb': 'forelimb',
             'hindlimb': 'hindlimb',
+            'hind limb': 'hindlimb',
             'tail': 'tail',
             'paw': 'paw',
             
             # Cell types - General
+            't cells': 'cells|T cells',
             't cell': 'cells|T cells',
+            'primary t cells': 'cells|T cells',
             'primary t cell': 'cells|T cells',
             'myoblast': 'cells|myoblasts',
+            'myoblasts': 'cells|myoblasts',
             'microglia': 'cells|microglia',
             'vegetative cell': 'cells|vegetative cells',
             'cell pellet': 'cells|cell pellets',
             'primary cell': 'cells|primary cell',
             'skeletal stem cell': 'cells|skeletal stem cells',
+            'skeletal stem cells': 'cells|skeletal stem cells',
             
             # Cell types - Epithelial
             'bronchial epithelial cell': 'cells|bronchial epithelial cell',
@@ -305,8 +438,10 @@ class SmartCategorizer:
             
             # Microbiology
             'biofilm': 'biofilms',
+            'biofilms': 'biofilms',
             'bioaerosol': 'bioaerosol',
             'swab': 'swab',
+            'swabs': 'swab',
             'skin swab': 'swab|skin swab',
             'surface swab': 'swab|surface swab',
             'oral swab specimen': 'swab|oral swab specimen',
@@ -322,6 +457,11 @@ class SmartCategorizer:
             'plant callus': 'plant callus',
             'callus cell culture': 'plant callus|callus cell culture',
             'hypocotyl cell culture': 'hypocotyl|hypocotyl cell culture',
+            'plant stem': 'plant stem',
+            'stem': 'plant stem|stem',
+            'inflorescence': 'plant stem',
+            'rosette': 'plant leaves|rosette',
+            'plants': 'plants',
             
             # Fungal structures
             'spore': 'spore',
@@ -339,7 +479,10 @@ class SmartCategorizer:
         }
         
         for keyword, target_cat in anatomical_keywords.items():
-            if keyword in norm_val:
+            # Use word boundary matching to avoid partial matches
+            # e.g., "ear" shouldn't match "heart"
+            keyword_pattern = r'\b' + re.escape(keyword) + r'\b'
+            if re.search(keyword_pattern, norm_val):
                 # First check: is this an EXACT match to the keyword?
                 if norm_val == SmartCategorizer.normalize(keyword):
                     # Exact keyword match - check if target category exists
@@ -391,6 +534,21 @@ class SmartCategorizer:
                 
                 # Check if either contains the other
                 if existing_norm in norm_val or norm_val in existing_norm:
+                    # Prevent short values from matching long existing values
+                    # e.g., "DNA" shouldn't match "Extracted DNA"
+                    # e.g., "Tissue" shouldn't match "adipose tissue"
+                    if norm_val in existing_norm:
+                        # norm_val is substring of existing_val
+                        # Only match if lengths are similar (within 20% or less than 5 char difference)
+                        len_diff = len(existing_norm) - len(norm_val)
+                        len_ratio = len(norm_val) / len(existing_norm) if existing_norm else 0
+                        
+                        # Skip match if:
+                        # - value is much shorter (< 80% of existing length)
+                        # - AND difference is more than 5 characters
+                        if len_ratio < 0.8 and len_diff > 5:
+                            continue
+                    
                     return category
         
         return None
@@ -807,37 +965,10 @@ class OSDRFilterGenerator:
             matched_cat = self.categorizer.match_material_to_existing(material, self.existing_structure.get('Material type', {}))
             
             if matched_cat:
-                # Check if this is a 3-tier muscle category
-                if matched_cat.count('|') == 2 and matched_cat.startswith('muscle|'):
-                    # This is muscle|muscle_name|laterality
-                    # Add to tier 3
-                    if material not in self.new_json['Material type'][matched_cat]:
-                        self.new_json['Material type'][matched_cat].add(material)
-                        self.additions.append(('Material type', matched_cat, material))
-                    
-                    # Extract muscle name and ensure tier 2 exists with base name only
-                    parts = matched_cat.split('|')
-                    muscle_name = parts[1]
-                    tier2_cat = f"muscle|{muscle_name}"
-                    
-                    # Add base muscle name to tier 2 (lowercase version)
-                    if muscle_name not in self.new_json['Material type'][tier2_cat]:
-                        self.new_json['Material type'][tier2_cat].add(muscle_name)
-                    
-                    # Add capitalized version if present in existing data
-                    capitalized = muscle_name.title()
-                    if capitalized != muscle_name:
-                        # Check if capitalized version exists in original
-                        for cat_vals in self.existing_structure.get('Material type', {}).values():
-                            if capitalized in cat_vals:
-                                if capitalized not in self.new_json['Material type'][tier2_cat]:
-                                    self.new_json['Material type'][tier2_cat].add(capitalized)
-                                break
-                else:
-                    # Regular category
-                    if material not in self.new_json['Material type'][matched_cat]:
-                        self.new_json['Material type'][matched_cat].add(material)
-                        self.additions.append(('Material type', matched_cat, material))
+                # Add material to matched category
+                if material not in self.new_json['Material type'][matched_cat]:
+                    self.new_json['Material type'][matched_cat].add(material)
+                    self.additions.append(('Material type', matched_cat, material))
             else:
                 if material not in self.new_json['Material type']['Other Materials']:
                     self.new_json['Material type']['Other Materials'].add(material)
