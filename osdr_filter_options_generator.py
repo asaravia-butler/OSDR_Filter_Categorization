@@ -97,26 +97,108 @@ class SmartCategorizer:
             'extensor digitorum longus', 'quadriceps', 'vastus lateralis', 'calf muscle'
         ]
         
-        # First: Try exact match (case-insensitive)
+        # Helper function for plurality handling
+        def get_plural_singular_variants(word):
+            """
+            Generate both singular and plural variants of a word.
+            Returns a list of variants to try matching.
+            """
+            variants = [word]  # Always include the original
+            
+            # If word ends with 's', try removing it (plural -> singular)
+            if word.endswith('s') and len(word) > 2:
+                # Handle special cases
+                if word.endswith('ies'):
+                    # e.g., "studies" -> "study"
+                    variants.append(word[:-3] + 'y')
+                elif word.endswith('ves'):
+                    # e.g., "leaves" -> "leaf", "knives" -> "knife"
+                    variants.append(word[:-3] + 'f')
+                    variants.append(word[:-3] + 'fe')
+                elif word.endswith('ses'):
+                    # e.g., "masses" -> "mass"
+                    variants.append(word[:-2])
+                elif word.endswith('xes') or word.endswith('ches') or word.endswith('shes'):
+                    # e.g., "boxes" -> "box", "churches" -> "church"
+                    variants.append(word[:-2])
+                elif not word.endswith('ss'):  # Don't strip 's' from "mass", "glass", etc.
+                    # Simple plural: just remove 's'
+                    variants.append(word[:-1])
+            else:
+                # If word doesn't end with 's', try adding it (singular -> plural)
+                if word.endswith('y'):
+                    # e.g., "study" -> "studies"
+                    variants.append(word[:-1] + 'ies')
+                elif word.endswith('f'):
+                    # e.g., "leaf" -> "leaves"
+                    variants.append(word[:-1] + 'ves')
+                elif word.endswith('fe'):
+                    # e.g., "knife" -> "knives"
+                    variants.append(word[:-2] + 'ves')
+                elif word.endswith(('x', 'ch', 'sh', 'ss')):
+                    # e.g., "box" -> "boxes"
+                    variants.append(word + 'es')
+                else:
+                    # Simple: just add 's'
+                    variants.append(word + 's')
+            
+            return variants
+        
+        # First: Try exact match with plurality handling (case-insensitive)
+        # This checks both existing values AND category names
+        value_variants = get_plural_singular_variants(norm_val)
+        
         for category in existing_categories:
             cat_values = existing_categories[category]
+            
+            # Check if value matches any existing value (with plurality)
             for existing_val in cat_values:
-                if SmartCategorizer.normalize(existing_val) == norm_val:
+                norm_existing = SmartCategorizer.normalize(existing_val)
+                existing_variants = get_plural_singular_variants(norm_existing)
+                
+                # Check if any variant of norm_val matches any variant of existing value
+                if any(v1 == v2 for v1 in value_variants for v2 in existing_variants):
+                    return category
+            
+            # Check if value matches the category name itself (with plurality)
+            # This handles cases like "oral swab specimen" matching category "swab|oral swab specimen"
+            if '|' in category:
+                # For hierarchical categories, check the child part
+                parts = category.split('|')
+                for part in parts:
+                    norm_part = SmartCategorizer.normalize(part)
+                    part_variants = get_plural_singular_variants(norm_part)
+                    
+                    # Check if value matches this part of the category name
+                    if any(v1 == v2 for v1 in value_variants for v2 in part_variants):
+                        return category
+            else:
+                # For simple categories, check the full name
+                norm_cat = SmartCategorizer.normalize(category)
+                cat_variants = get_plural_singular_variants(norm_cat)
+                
+                if any(v1 == v2 for v1 in value_variants for v2 in cat_variants):
                     return category
         
-        # Second: Laterality patterns (left/right/both + term, including "both sides")
-        # Matches: "left X", "right X", "both X", "X - both sides", "X- both sides", "X both sides"
+        # Second: Laterality patterns (left/right/both + term, including suffix patterns)
+        # Matches: "left X", "right X", "both X", "X - left", "X - right", "X - both sides", etc.
+        # Prefix patterns: "left gastrocnemius"
         laterality_match = re.match(r'^(left|right|both)\s+(.+)$', norm_val)
-        both_sides_match = re.match(r'^(.+?)[\s\-]*both\s*sides$', norm_val)
+        # Suffix patterns: "gastrocnemius - left", "gastrocnemius – left" (handles different dash types)
+        left_right_suffix = re.match(r'^(.+?)[\s\-–—]+\s*(left|right)$', norm_val)
+        both_sides_match = re.match(r'^(.+?)[\s\-–—]*both\s*sides$', norm_val)
         
         if laterality_match:
+            # Prefix pattern: "left/right/both X"
             laterality = laterality_match.group(1)
             base_term = laterality_match.group(2).strip()
             
-            # Check if this is a muscle
+            # Check if this is a muscle (with plurality awareness)
             matched_muscle = None
+            base_variants = get_plural_singular_variants(base_term)
             for muscle in muscle_types:
-                if muscle in base_term:
+                muscle_variants = get_plural_singular_variants(muscle)
+                if any(bv == mv for bv in base_variants for mv in muscle_variants):
                     matched_muscle = muscle
                     break
             
@@ -140,6 +222,57 @@ class SmartCategorizer:
                 else:
                     if base_term == cat_norm or base_term in cat_norm or cat_norm in base_term:
                         return f"{category}|{laterality} {base_term}"
+        
+        elif left_right_suffix:
+            # Suffix pattern: "X - left" or "X - right"
+            base_term = left_right_suffix.group(1).strip().rstrip('-–—').strip()
+            laterality = left_right_suffix.group(2)
+            
+            # Normalize base term for singular/plural
+            base_term_singular = base_term.rstrip('s') if base_term.endswith('s') else base_term
+            
+            # Check if this is a muscle (with plurality awareness)
+            matched_muscle = None
+            for check_term in [base_term, base_term_singular]:
+                check_variants = get_plural_singular_variants(check_term)
+                for muscle in muscle_types:
+                    muscle_variants = get_plural_singular_variants(muscle)
+                    if any(cv == mv for cv in check_variants for mv in muscle_variants):
+                        matched_muscle = muscle
+                        break
+                if matched_muscle:
+                    break
+            
+            if matched_muscle:
+                # Muscles use 2-tier: muscle|muscle_name
+                return f"muscle|{matched_muscle}"
+            
+            # Check if base_term (or singular) matches an existing category
+            for check_term in [base_term, base_term_singular]:
+                for category in existing_categories:
+                    cat_norm = SmartCategorizer.normalize(category)
+                    
+                    # Don't match if category has laterality in it (legacy category)
+                    if any(lat in cat_norm for lat in ['left', 'right', 'both']):
+                        continue
+                    
+                    if '|' in category:
+                        cat_parts = [SmartCategorizer.normalize(p) for p in category.split('|')]
+                        # Check with plurality
+                        for part in cat_parts:
+                            part_variants = get_plural_singular_variants(part)
+                            check_variants = get_plural_singular_variants(check_term)
+                            if any(cv == pv for cv in check_variants for pv in part_variants):
+                                parent = category.split('|')[0]
+                                return f"{parent}|{laterality} {check_term}"
+                    else:
+                        cat_variants = get_plural_singular_variants(cat_norm)
+                        check_variants = get_plural_singular_variants(check_term)
+                        if any(cv == ctv for cv in check_variants for ctv in cat_variants):
+                            return f"{category}|{laterality} {check_term}"
+            
+            # No match found, return as-is
+            return f"{laterality} {base_term}"
         
         elif both_sides_match:
             # Handle "X - both sides", "X- both sides", "X both sides"
@@ -275,6 +408,7 @@ class SmartCategorizer:
             'soleus': 'muscle|soleus',
             'tibialis anterior': 'muscle|tibialis anterior',
             'quadriceps': 'muscle|quadriceps femoris',
+            'quadriceps muscle': 'muscle|quadriceps femoris',
             'extensor digitorum longus': 'muscle|extensor digitorum longus',
             'extensor digitorum longus- both sides': 'muscle|extensor digitorum longus',
             'extensor digitorum longus - both sides': 'muscle|extensor digitorum longus',
@@ -479,12 +613,22 @@ class SmartCategorizer:
         }
         
         for keyword, target_cat in anatomical_keywords.items():
-            # Use word boundary matching to avoid partial matches
-            # e.g., "ear" shouldn't match "heart"
-            keyword_pattern = r'\b' + re.escape(keyword) + r'\b'
-            if re.search(keyword_pattern, norm_val):
-                # First check: is this an EXACT match to the keyword?
-                if norm_val == SmartCategorizer.normalize(keyword):
+            # Generate plurality variants of the keyword for matching
+            keyword_variants = get_plural_singular_variants(keyword)
+            
+            # Try to match any variant of the keyword
+            matched = False
+            for variant in keyword_variants:
+                # Use word boundary matching to avoid partial matches
+                # e.g., "ear" shouldn't match "heart"
+                keyword_pattern = r'\b' + re.escape(variant) + r'\b'
+                if re.search(keyword_pattern, norm_val):
+                    matched = True
+                    break
+            
+            if matched:
+                # First check: is this an EXACT match to the keyword or any variant?
+                if norm_val == SmartCategorizer.normalize(keyword) or norm_val in [SmartCategorizer.normalize(v) for v in keyword_variants]:
                     # Exact keyword match - check if target category exists
                     for existing_cat in existing_categories:
                         if SmartCategorizer.normalize(existing_cat) == SmartCategorizer.normalize(target_cat):
